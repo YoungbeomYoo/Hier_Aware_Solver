@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "807",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=dLjOLXmu68M",
+    "videoID": "dLjOLXmu68M",
+    "question_id": "807-1",
+    "task_type": "Action Reasoning",
+    "question": "When the three hosts discuss the ranking of musical competition shows, why do they think \"X Factor\" ranks the highest?",
+    "options": [
+      "A. Because the cast of X Factor is larger.",
+      "B. Because the X factor is original, the program quality is higher.",
+      "C. Because the judges of X Factor will fight for opportunities for the contestants.",
+      "D. Because X Factor was the first music competition program, it opened the curtain on the music competition."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "807",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=dLjOLXmu68M",
+    "videoID": "dLjOLXmu68M",
+    "question_id": "807-3",
+    "task_type": "Object Reasoning",
+    "question": "In the latter part of the video, what is the relationship between the shows \"Flavor of Love\" and \"To Be Her Best Friend\" as discussed by the three hosts?",
+    "options": [
+      "A. Both shows are fantastic performances.",
+      "B. Both shows lay the groundwork for the fun of flavor, and participants will be made fun of.",
+      "C. Both shows are a response to \"The Bachelor.\".",
+      "D. Cannot be determined."
+    ],
+    "answer": "B"
+  }
+]

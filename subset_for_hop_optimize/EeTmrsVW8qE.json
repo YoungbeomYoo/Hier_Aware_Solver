@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "749",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=EeTmrsVW8qE",
+    "videoID": "EeTmrsVW8qE",
+    "question_id": "749-2",
+    "task_type": "Object Reasoning",
+    "question": "Why does the video narrator think Kresimir Cosic's traits sound familiar?",
+    "options": [
+      "A. Jokic also has center size and guard skills.",
+      "B. He is as legendary as Radiovoj Korac.",
+      "C. Because his skill moves are closer to modern basketball.",
+      "D. Because he led the establishment of the golden generation of Yugoslavian basketball."
+    ],
+    "answer": "A"
+  }
+]

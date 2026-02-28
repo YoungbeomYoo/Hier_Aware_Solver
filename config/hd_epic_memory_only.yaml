@@ -1,0 +1,25 @@
+dataset: hd_epic
+pipeline: memory_only
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/HD-EPIC/stage2_v8_sync_30sec_no_window-hd-epic-tuned
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/HD-EPIC/hd-epic-annotations/vqa-benchmark
+  video_root: /scratch2/youngbeom/datasets/HD-EPIC
+  output_dir: ./output/hd_epic_memory_only
+
+components:
+  query_decomposer:
+    prompt: default
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+    max_tokens: 2
+  frame_loader:
+    max_frames: 30

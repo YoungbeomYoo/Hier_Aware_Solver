@@ -1,0 +1,242 @@
+{
+  "3d_perception_object_location_56": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 1068.636 791.85 1155.282 981.99> at <TIME 00:13:28.433 video 1> from before putting it at <TIME 00:13:28.433 video 1>?",
+    "choices": [
+      "counter right from hob",
+      "counter top right from dishwasher",
+      "cupboard right from freezer",
+      "hob",
+      "cupboard right from dishwasher"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_object_location_84": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I put the object identified by <BBOX 868.868 671.508 1006.058 782.222> at <TIME 00:00:30.767 video 1> after taking it at <TIME 00:00:30.767 video 1>?",
+    "choices": [
+      "counter left from hob",
+      "drawer bottom from oven",
+      "microwave",
+      "bin bottom right from oven",
+      "drawer top left from microwave"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_object_location_126": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 938.667 685.949 1030.126 994.0239999999999> at <TIME 00:02:13.0 video 1> from before putting it at <TIME 00:02:13.0 video 1>?",
+    "choices": [
+      "fridge",
+      "hook",
+      "cupboard top left from hob",
+      "counter left from hob",
+      "cupboard right from dishwasher"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_object_location_146": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 753.34 637.812 1037.347 917.005> at <TIME 00:06:15.733 video 1> from before putting it at <TIME 00:06:15.733 video 1>?",
+    "choices": [
+      "drawer bottom from oven",
+      "counter top right from dishwasher",
+      "drawer bottom right from hob",
+      "cupboard left from dishwasher",
+      "freezer"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_object_location_162": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I put the object identified by <BBOX 926.632 779.815 1111.9589999999998 979.5830000000001> at <TIME 00:10:50.4 video 1> after taking it at <TIME 00:10:50.4 video 1>?",
+    "choices": [
+      "drawer top left from microwave",
+      "drawer bottom left from oven",
+      "counter left from hob",
+      "counter right from hob",
+      "floor"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_object_location_178": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 1010.872 1241.928 1174.537 1352.643> at <TIME 00:01:13.1 video 1> from before putting it at <TIME 00:01:13.1 video 1>?",
+    "choices": [
+      "hob",
+      "dishwasher",
+      "bin bottom right from oven",
+      "counter left from hob",
+      "cupboard right from dishwasher"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_object_location_187": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I put the object identified by <BBOX 777.409 568.014 974.769 842.393> at <TIME 00:04:42.1 video 1> after taking it at <TIME 00:04:42.1 video 1>?",
+    "choices": [
+      "cupboard left from oven",
+      "cupboard top left from microwave",
+      "bin bottom right from oven",
+      "counter top right from dishwasher",
+      "counter left from hob"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_object_location_227": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 960.328 917.005 1169.723 1068.636> at <TIME 00:03:34.0 video 1> from before putting it at <TIME 00:03:34.0 video 1>?",
+    "choices": [
+      "cupboard top left from microwave",
+      "drawer bottom right from hob",
+      "hook",
+      "counter right from freezer",
+      "counter right from sink"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_object_location_264": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 1085.48388 623.371 1407.99988 1046.974> at <TIME 00:16:43.767 video 1> from before putting it at <TIME 00:16:43.767 video 1>?",
+    "choices": [
+      "cupboard top left from hob",
+      "counter right from sink",
+      "drawer top left from microwave",
+      "sink",
+      "drawer bottom left from hob"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_object_location_280": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 1128.807 606.523 1323.761 801.4770000000001> at <TIME 00:04:36.433 video 1> from before putting it at <TIME 00:04:36.433 video 1>?",
+    "choices": [
+      "counter right from freezer",
+      "counter right from hob",
+      "counter left from hob",
+      "dishwasher",
+      "oven"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_object_location_395": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 1080.67052 457.29952 1391.1525199999999 734.08552> at <TIME 00:04:46.8 video 1> from before putting it at <TIME 00:04:46.8 video 1>?",
+    "choices": [
+      "freezer",
+      "counter right from freezer",
+      "cupboard right from dishwasher",
+      "drawer top left from microwave",
+      "counter right from hob"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_object_location_422": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I put the object identified by <BBOX 852.021 659.474 1018.092 779.815> at <TIME 00:01:36.7 video 1> after taking it at <TIME 00:01:36.7 video 1>?",
+    "choices": [
+      "freezer",
+      "counter top right from dishwasher",
+      "drawer bottom left from oven",
+      "drawer bottom from oven",
+      "microwave"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_object_location_455": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 957.921 469.333 1020.499 710.017> at <TIME 00:09:28.467 video 1> from before putting it at <TIME 00:09:28.467 video 1>?",
+    "choices": [
+      "hob",
+      "drawer bottom left from hob",
+      "dishwasher",
+      "cupboard top left from hob",
+      "cupboard right from freezer"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_object_location_456": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 936.26 960.328 1302.099 1318.9470000000001> at <TIME 00:01:59.733 video 1> from before putting it at <TIME 00:01:59.733 video 1>?",
+    "choices": [
+      "drawer bottom right from hob",
+      "cupboard right from dishwasher",
+      "counter right from sink",
+      "table",
+      "hob"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_object_location_478": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where did I take the object identified by <BBOX 762.96735 454.89238 1244.33535 883.3093799999999> at <TIME 00:02:44.733 video 1> from before putting it at <TIME 00:02:44.733 video 1>?",
+    "choices": [
+      "freezer",
+      "cupboard left from oven",
+      "drawer bottom left from oven",
+      "drawer bottom from oven",
+      "cupboard top left from microwave"
+    ],
+    "correct_idx": 0
+  }
+}

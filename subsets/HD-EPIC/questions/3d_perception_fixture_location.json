@@ -1,0 +1,1362 @@
+{
+  "3d_perception_fixture_location_2": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:9.667 video 1>, where is the oven located?",
+    "choices": [
+      "11 o'clock",
+      "10 o'clock",
+      "4 o'clock",
+      "12 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_5": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:7.4 video 1>, where is the freezer located?",
+    "choices": [
+      "11 o'clock",
+      "6 o'clock",
+      "10 o'clock",
+      "2 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_10": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:27:11.767 video 1>, where is the top of microwave located?",
+    "choices": [
+      "12 o'clock",
+      "5 o'clock",
+      "3 o'clock",
+      "6 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_16": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:13:27.267 video 1>, where is the oven located?",
+    "choices": [
+      "3 o'clock",
+      "11 o'clock",
+      "1 o'clock",
+      "6 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_31": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:28:27.333 video 1>, where is the table located?",
+    "choices": [
+      "7 o'clock",
+      "9 o'clock",
+      "11 o'clock",
+      "1 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_32": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:09:25.567 video 1>, where is the sink located?",
+    "choices": [
+      "6 o'clock",
+      "1 o'clock",
+      "10 o'clock",
+      "9 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_35": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:14:23.667 video 1>, where is the oven located?",
+    "choices": [
+      "8 o'clock",
+      "12 o'clock",
+      "10 o'clock",
+      "1 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_41": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:09:10.8 video 1>, where is the dishwasher located?",
+    "choices": [
+      "6 o'clock",
+      "9 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_54": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:38:36.533 video 1>, where is the top of storage located?",
+    "choices": [
+      "8 o'clock",
+      "1 o'clock",
+      "5 o'clock",
+      "6 o'clock",
+      "10 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_56": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:47:19.6 video 1>, where is the top of fridge located?",
+    "choices": [
+      "2 o'clock",
+      "7 o'clock",
+      "12 o'clock",
+      "1 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_60": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:24:23.533 video 1>, where is the hob located?",
+    "choices": [
+      "11 o'clock",
+      "5 o'clock",
+      "3 o'clock",
+      "8 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_65": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:42:30.867 video 1>, where is the freezer located?",
+    "choices": [
+      "6 o'clock",
+      "4 o'clock",
+      "7 o'clock",
+      "8 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_66": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:21:4.6 video 1>, where is the table located?",
+    "choices": [
+      "11 o'clock",
+      "9 o'clock",
+      "6 o'clock",
+      "4 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_70": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:09:11.0 video 1>, where is the washing machine located?",
+    "choices": [
+      "3 o'clock",
+      "7 o'clock",
+      "5 o'clock",
+      "11 o'clock",
+      "1 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_73": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:11:26.733 video 1>, where is the freezer located?",
+    "choices": [
+      "9 o'clock",
+      "3 o'clock",
+      "10 o'clock",
+      "4 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_74": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:27:24.867 video 1>, where is the bin located?",
+    "choices": [
+      "9 o'clock",
+      "3 o'clock",
+      "12 o'clock",
+      "8 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_76": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:19:36.733 video 1>, where is the top of microwave located?",
+    "choices": [
+      "10 o'clock",
+      "1 o'clock",
+      "4 o'clock",
+      "8 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_89": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:13:3.067 video 1>, where is the sink located?",
+    "choices": [
+      "6 o'clock",
+      "10 o'clock",
+      "12 o'clock",
+      "2 o'clock",
+      "8 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_90": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:30:30.533 video 1>, where is the top of microwave located?",
+    "choices": [
+      "3 o'clock",
+      "10 o'clock",
+      "7 o'clock",
+      "12 o'clock",
+      "1 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_91": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:15:49.333 video 1>, where is the windowsill located?",
+    "choices": [
+      "11 o'clock",
+      "9 o'clock",
+      "1 o'clock",
+      "3 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_92": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:27:55.3 video 1>, where is the oven located?",
+    "choices": [
+      "12 o'clock",
+      "5 o'clock",
+      "11 o'clock",
+      "8 o'clock",
+      "3 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_93": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:28.067 video 1>, where is the dishwasher located?",
+    "choices": [
+      "5 o'clock",
+      "1 o'clock",
+      "3 o'clock",
+      "6 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_98": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:52:3.933 video 1>, where is the hob located?",
+    "choices": [
+      "7 o'clock",
+      "3 o'clock",
+      "9 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_102": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:41:21.967 video 1>, where is the windowsill located?",
+    "choices": [
+      "8 o'clock",
+      "10 o'clock",
+      "5 o'clock",
+      "11 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_104": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:02:6.233 video 1>, where is the oven located?",
+    "choices": [
+      "10 o'clock",
+      "5 o'clock",
+      "12 o'clock",
+      "2 o'clock",
+      "3 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_123": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:20:55.0 video 1>, where is the windowsill located?",
+    "choices": [
+      "12 o'clock",
+      "4 o'clock",
+      "10 o'clock",
+      "2 o'clock",
+      "1 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_126": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:25:50.733 video 1>, where is the sink located?",
+    "choices": [
+      "6 o'clock",
+      "5 o'clock",
+      "12 o'clock",
+      "3 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_132": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:07:23.033 video 1>, where is the freezer located?",
+    "choices": [
+      "4 o'clock",
+      "7 o'clock",
+      "12 o'clock",
+      "2 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_133": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:27:59.567 video 1>, where is the fridge located?",
+    "choices": [
+      "10 o'clock",
+      "8 o'clock",
+      "12 o'clock",
+      "5 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_135": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:28:45.067 video 1>, where is the shelf located?",
+    "choices": [
+      "2 o'clock",
+      "11 o'clock",
+      "9 o'clock",
+      "4 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_139": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:13:22.867 video 1>, where is the dishwasher located?",
+    "choices": [
+      "11 o'clock",
+      "3 o'clock",
+      "8 o'clock",
+      "12 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_144": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:17:45.933 video 1>, where is the fridge located?",
+    "choices": [
+      "9 o'clock",
+      "2 o'clock",
+      "10 o'clock",
+      "12 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_150": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:01:5.533 video 1>, where is the freezer located?",
+    "choices": [
+      "6 o'clock",
+      "4 o'clock",
+      "9 o'clock",
+      "10 o'clock",
+      "8 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_152": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:26:24.567 video 1>, where is the washing machine located?",
+    "choices": [
+      "2 o'clock",
+      "9 o'clock",
+      "12 o'clock",
+      "3 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_157": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:14:50.167 video 1>, where is the bin located?",
+    "choices": [
+      "10 o'clock",
+      "6 o'clock",
+      "8 o'clock",
+      "1 o'clock",
+      "3 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_172": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:04:12.967 video 1>, where is the bin located?",
+    "choices": [
+      "2 o'clock",
+      "10 o'clock",
+      "8 o'clock",
+      "12 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_174": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:30:14.467 video 1>, where is the washing machine located?",
+    "choices": [
+      "3 o'clock",
+      "12 o'clock",
+      "4 o'clock",
+      "9 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_176": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:50:13.167 video 1>, where is the hob located?",
+    "choices": [
+      "4 o'clock",
+      "6 o'clock",
+      "12 o'clock",
+      "8 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_186": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:42:3.9 video 1>, where is the top of fridge located?",
+    "choices": [
+      "10 o'clock",
+      "11 o'clock",
+      "6 o'clock",
+      "5 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_187": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:15:21.067 video 1>, where is the hob located?",
+    "choices": [
+      "11 o'clock",
+      "4 o'clock",
+      "10 o'clock",
+      "3 o'clock",
+      "7 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_188": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:14:32.067 video 1>, where is the freezer located?",
+    "choices": [
+      "12 o'clock",
+      "5 o'clock",
+      "10 o'clock",
+      "8 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_191": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:24:42.067 video 1>, where is the bin located?",
+    "choices": [
+      "2 o'clock",
+      "12 o'clock",
+      "7 o'clock",
+      "1 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_204": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:18:56.833 video 1>, where is the freezer located?",
+    "choices": [
+      "4 o'clock",
+      "2 o'clock",
+      "11 o'clock",
+      "8 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_214": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:12:18.9 video 1>, where is the top of microwave located?",
+    "choices": [
+      "8 o'clock",
+      "9 o'clock",
+      "5 o'clock",
+      "1 o'clock",
+      "3 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_215": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:42:21.533 video 1>, where is the sink located?",
+    "choices": [
+      "10 o'clock",
+      "1 o'clock",
+      "5 o'clock",
+      "2 o'clock",
+      "7 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_222": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:36.267 video 1>, where is the sink located?",
+    "choices": [
+      "1 o'clock",
+      "10 o'clock",
+      "5 o'clock",
+      "7 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_236": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:01:6.1 video 1>, where is the sink located?",
+    "choices": [
+      "2 o'clock",
+      "7 o'clock",
+      "10 o'clock",
+      "11 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_241": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:50:37.8 video 1>, where is the bin located?",
+    "choices": [
+      "7 o'clock",
+      "8 o'clock",
+      "2 o'clock",
+      "6 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_246": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:02:0.533 video 1>, where is the boiler located?",
+    "choices": [
+      "7 o'clock",
+      "3 o'clock",
+      "11 o'clock",
+      "10 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_249": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:53.133 video 1>, where is the bin located?",
+    "choices": [
+      "12 o'clock",
+      "7 o'clock",
+      "4 o'clock",
+      "9 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_258": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:34:59.067 video 1>, where is the top of storage located?",
+    "choices": [
+      "12 o'clock",
+      "4 o'clock",
+      "7 o'clock",
+      "2 o'clock",
+      "10 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_277": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:11:51.567 video 1>, where is the freezer located?",
+    "choices": [
+      "10 o'clock",
+      "7 o'clock",
+      "9 o'clock",
+      "8 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_278": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:29:48.233 video 1>, where is the freezer located?",
+    "choices": [
+      "9 o'clock",
+      "6 o'clock",
+      "5 o'clock",
+      "3 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_280": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:18:14.367 video 1>, where is the top of fridge located?",
+    "choices": [
+      "9 o'clock",
+      "12 o'clock",
+      "2 o'clock",
+      "7 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_294": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:42:9.167 video 1>, where is the top of fridge located?",
+    "choices": [
+      "12 o'clock",
+      "1 o'clock",
+      "4 o'clock",
+      "8 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_296": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:22.2 video 1>, where is the fridge located?",
+    "choices": [
+      "4 o'clock",
+      "9 o'clock",
+      "11 o'clock",
+      "7 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_297": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:43.0 video 1>, where is the fridge located?",
+    "choices": [
+      "3 o'clock",
+      "10 o'clock",
+      "11 o'clock",
+      "9 o'clock",
+      "7 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_302": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:6.5 video 1>, where is the bin located?",
+    "choices": [
+      "10 o'clock",
+      "2 o'clock",
+      "1 o'clock",
+      "6 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_307": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:35:38.267 video 1>, where is the hob located?",
+    "choices": [
+      "12 o'clock",
+      "8 o'clock",
+      "10 o'clock",
+      "4 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_311": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:35.733 video 1>, where is the freezer located?",
+    "choices": [
+      "10 o'clock",
+      "8 o'clock",
+      "1 o'clock",
+      "3 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_340": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:51:13.567 video 1>, where is the table located?",
+    "choices": [
+      "4 o'clock",
+      "3 o'clock",
+      "7 o'clock",
+      "9 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_342": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:11:38.333 video 1>, where is the top of microwave located?",
+    "choices": [
+      "7 o'clock",
+      "11 o'clock",
+      "5 o'clock",
+      "3 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_348": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:27:42.533 video 1>, where is the microwave located?",
+    "choices": [
+      "8 o'clock",
+      "2 o'clock",
+      "4 o'clock",
+      "10 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_351": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:07:8.3 video 1>, where is the table located?",
+    "choices": [
+      "8 o'clock",
+      "3 o'clock",
+      "6 o'clock",
+      "9 o'clock",
+      "4 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_352": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:01:54.467 video 1>, where is the fridge located?",
+    "choices": [
+      "12 o'clock",
+      "11 o'clock",
+      "10 o'clock",
+      "3 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_357": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:09:26.767 video 1>, where is the table located?",
+    "choices": [
+      "4 o'clock",
+      "8 o'clock",
+      "6 o'clock",
+      "1 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_359": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:37.133 video 1>, where is the sink located?",
+    "choices": [
+      "4 o'clock",
+      "9 o'clock",
+      "5 o'clock",
+      "2 o'clock",
+      "7 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_377": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:24:40.333 video 1>, where is the freezer located?",
+    "choices": [
+      "9 o'clock",
+      "6 o'clock",
+      "3 o'clock",
+      "5 o'clock",
+      "1 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_383": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:25:32.267 video 1>, where is the microwave located?",
+    "choices": [
+      "4 o'clock",
+      "8 o'clock",
+      "11 o'clock",
+      "9 o'clock",
+      "1 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_393": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:30:18.633 video 1>, where is the top of fridge located?",
+    "choices": [
+      "8 o'clock",
+      "12 o'clock",
+      "10 o'clock",
+      "3 o'clock",
+      "7 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_396": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:28:59.233 video 1>, where is the dishwasher located?",
+    "choices": [
+      "3 o'clock",
+      "11 o'clock",
+      "8 o'clock",
+      "10 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_423": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:02:36.4 video 1>, where is the hob located?",
+    "choices": [
+      "4 o'clock",
+      "8 o'clock",
+      "12 o'clock",
+      "9 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_434": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:00:15.3 video 1>, where is the windowsill located?",
+    "choices": [
+      "8 o'clock",
+      "6 o'clock",
+      "1 o'clock",
+      "4 o'clock",
+      "10 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_450": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:05:10.067 video 1>, where is the table located?",
+    "choices": [
+      "1 o'clock",
+      "11 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "9 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_451": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:16.133 video 1>, where is the hob located?",
+    "choices": [
+      "8 o'clock",
+      "4 o'clock",
+      "7 o'clock",
+      "2 o'clock",
+      "12 o'clock"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_location_453": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:03:44.733 video 1>, where is the top of microwave located?",
+    "choices": [
+      "2 o'clock",
+      "9 o'clock",
+      "10 o'clock",
+      "11 o'clock",
+      "8 o'clock"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_location_455": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:11:20.5 video 1>, where is the hob located?",
+    "choices": [
+      "9 o'clock",
+      "8 o'clock",
+      "2 o'clock",
+      "10 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_460": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:08:45.467 video 1>, where is the hob located?",
+    "choices": [
+      "2 o'clock",
+      "4 o'clock",
+      "6 o'clock",
+      "8 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_466": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:12:34.467 video 1>, where is the extractorfan located?",
+    "choices": [
+      "8 o'clock",
+      "4 o'clock",
+      "10 o'clock",
+      "5 o'clock",
+      "2 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_470": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:25:35.233 video 1>, where is the bin located?",
+    "choices": [
+      "1 o'clock",
+      "11 o'clock",
+      "8 o'clock",
+      "10 o'clock",
+      "5 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_477": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:47:53.6 video 1>, where is the hob located?",
+    "choices": [
+      "3 o'clock",
+      "2 o'clock",
+      "4 o'clock",
+      "1 o'clock",
+      "6 o'clock"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_location_482": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:10:59.333 video 1>, where is the microwave located?",
+    "choices": [
+      "3 o'clock",
+      "2 o'clock",
+      "9 o'clock",
+      "5 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_487": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:30:38.6 video 1>, where is the microwave located?",
+    "choices": [
+      "9 o'clock",
+      "8 o'clock",
+      "2 o'clock",
+      "11 o'clock",
+      "10 o'clock"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_location_488": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:51:24.2 video 1>, where is the table located?",
+    "choices": [
+      "5 o'clock",
+      "9 o'clock",
+      "12 o'clock",
+      "7 o'clock",
+      "11 o'clock"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_location_498": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Given the direction I am looking at <TIME 00:16:22.7 video 1>, where is the hob located?",
+    "choices": [
+      "10 o'clock",
+      "5 o'clock",
+      "7 o'clock",
+      "12 o'clock",
+      "3 o'clock"
+    ],
+    "correct_idx": 3
+  }
+}

@@ -1,0 +1,906 @@
+{
+  "recipe_recipe_recognition_0": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Pickled Cucumber Relish",
+      "Tzatziki Dip",
+      "Waldorf Salad",
+      "Crispy Cucumber Salad",
+      "Greek Salad with Cucumbers"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_recipe_recognition_2": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Shakshuka",
+      "Egg Salad",
+      "Scrambled Eggs",
+      "Deviled Eggs",
+      "Spanish Tortilla"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_recipe_recognition_3": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240621-093545"
+      },
+      "video 2": {
+        "id": "P09-20240621-153208"
+      },
+      "video 3": {
+        "id": "P09-20240622-150155"
+      },
+      "video 4": {
+        "id": "P09-20240622-154652"
+      },
+      "video 5": {
+        "id": "P09-20240622-162302"
+      },
+      "video 6": {
+        "id": "P09-20240622-194642"
+      },
+      "video 7": {
+        "id": "P09-20240623-120359"
+      },
+      "video 8": {
+        "id": "P09-20240623-153253"
+      },
+      "video 9": {
+        "id": "P09-20240623-153748"
+      },
+      "video 10": {
+        "id": "P09-20240623-154547"
+      },
+      "video 11": {
+        "id": "P09-20240624-160737"
+      },
+      "video 12": {
+        "id": "P09-20240624-165332"
+      },
+      "video 13": {
+        "id": "P09-20240625-103827"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Jalapeno Poppers",
+      "Mozzarella Sticks",
+      "Stuffed Mushroom Caps",
+      "Chicken Kievs",
+      "Chicken Cheese Balls"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_recipe_recognition_13": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-090328"
+      },
+      "video 2": {
+        "id": "P06-20240510-094438"
+      },
+      "video 3": {
+        "id": "P06-20240510-100047"
+      },
+      "video 4": {
+        "id": "P06-20240510-104642"
+      },
+      "video 5": {
+        "id": "P06-20240510-115307"
+      },
+      "video 6": {
+        "id": "P06-20240510-121619"
+      },
+      "video 7": {
+        "id": "P06-20240510-135423"
+      },
+      "video 8": {
+        "id": "P06-20240510-140459"
+      },
+      "video 9": {
+        "id": "P06-20240511-102207"
+      },
+      "video 10": {
+        "id": "P06-20240511-121048"
+      },
+      "video 11": {
+        "id": "P06-20240511-122221"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Iced Coffee",
+      "Cafe Mocha",
+      "Macchiato",
+      "Cappuccino",
+      "Hot Chocolate"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_recipe_recognition_15": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Salmon Patties with Salad",
+      "Fish Cakes and Vegetables",
+      "Tuna Croquettes with Spinach",
+      "Cod Fish Tacos",
+      "Crab Cakes with Slaw"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_recipe_recognition_18": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240529-102652"
+      },
+      "video 2": {
+        "id": "P07-20240529-131737"
+      },
+      "video 3": {
+        "id": "P07-20240529-134410"
+      },
+      "video 4": {
+        "id": "P07-20240529-191007"
+      },
+      "video 5": {
+        "id": "P07-20240529-194518"
+      },
+      "video 6": {
+        "id": "P07-20240530-102543"
+      },
+      "video 7": {
+        "id": "P07-20240530-111344"
+      },
+      "video 8": {
+        "id": "P07-20240531-101357"
+      },
+      "video 9": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Mediterranean Farro Salad",
+      "Chopped Chickpea Salad",
+      "Chickpea Avocado Salad",
+      "Greek Salad with Chickpeas",
+      "Chickpea and Quinoa Salad"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_recipe_recognition_20": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-090328"
+      },
+      "video 2": {
+        "id": "P06-20240510-094438"
+      },
+      "video 3": {
+        "id": "P06-20240510-100047"
+      },
+      "video 4": {
+        "id": "P06-20240510-104642"
+      },
+      "video 5": {
+        "id": "P06-20240510-115307"
+      },
+      "video 6": {
+        "id": "P06-20240510-121619"
+      },
+      "video 7": {
+        "id": "P06-20240510-135423"
+      },
+      "video 8": {
+        "id": "P06-20240510-140459"
+      },
+      "video 9": {
+        "id": "P06-20240511-102207"
+      },
+      "video 10": {
+        "id": "P06-20240511-121048"
+      },
+      "video 11": {
+        "id": "P06-20240511-122221"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Thai Green Curry",
+      "Chicken Korma",
+      "Dal Makhani with Rice",
+      "Chole (Chickpea Curry) with Rice",
+      "Rajma (Kidney Bean Curry) with Rice"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_recipe_recognition_21": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Spaghetti Bolognese",
+      "Meatball Marinara",
+      "Beef Ragu",
+      "Shepherd's Pie with Pasta",
+      "Lasagna"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_recipe_recognition_24": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Chicken Tabbouleh Salad",
+      "Taco Salad",
+      "Greek Salad with Chicken",
+      "Fattoush with Chicken",
+      "Shawarma Salad"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_recipe_recognition_25": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-090328"
+      },
+      "video 2": {
+        "id": "P06-20240510-094438"
+      },
+      "video 3": {
+        "id": "P06-20240510-100047"
+      },
+      "video 4": {
+        "id": "P06-20240510-104642"
+      },
+      "video 5": {
+        "id": "P06-20240510-115307"
+      },
+      "video 6": {
+        "id": "P06-20240510-121619"
+      },
+      "video 7": {
+        "id": "P06-20240510-135423"
+      },
+      "video 8": {
+        "id": "P06-20240510-140459"
+      },
+      "video 9": {
+        "id": "P06-20240511-102207"
+      },
+      "video 10": {
+        "id": "P06-20240511-121048"
+      },
+      "video 11": {
+        "id": "P06-20240511-122221"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Paneer Paratha",
+      "Aloo Paratha",
+      "Gobi Paratha",
+      "Mooli Paratha",
+      "Spinach Paratha"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_recipe_recognition_28": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240621-093545"
+      },
+      "video 2": {
+        "id": "P09-20240621-153208"
+      },
+      "video 3": {
+        "id": "P09-20240622-150155"
+      },
+      "video 4": {
+        "id": "P09-20240622-154652"
+      },
+      "video 5": {
+        "id": "P09-20240622-162302"
+      },
+      "video 6": {
+        "id": "P09-20240622-194642"
+      },
+      "video 7": {
+        "id": "P09-20240623-120359"
+      },
+      "video 8": {
+        "id": "P09-20240623-153253"
+      },
+      "video 9": {
+        "id": "P09-20240623-153748"
+      },
+      "video 10": {
+        "id": "P09-20240623-154547"
+      },
+      "video 11": {
+        "id": "P09-20240624-160737"
+      },
+      "video 12": {
+        "id": "P09-20240624-165332"
+      },
+      "video 13": {
+        "id": "P09-20240625-103827"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Chicken Korma",
+      "Mutton Vindaloo",
+      "Keema Matar",
+      "Mangsho Bhuna",
+      "Katsu Chicken"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_recipe_recognition_32": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240529-102652"
+      },
+      "video 2": {
+        "id": "P07-20240529-131737"
+      },
+      "video 3": {
+        "id": "P07-20240529-134410"
+      },
+      "video 4": {
+        "id": "P07-20240529-191007"
+      },
+      "video 5": {
+        "id": "P07-20240529-194518"
+      },
+      "video 6": {
+        "id": "P07-20240530-102543"
+      },
+      "video 7": {
+        "id": "P07-20240530-111344"
+      },
+      "video 8": {
+        "id": "P07-20240531-101357"
+      },
+      "video 9": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Peanut Butter Banana Cookies",
+      "Chocolate Chip Muffins",
+      "Banana Nut Bread",
+      "Banana Bread Chocolate Chip Cookies",
+      "Banana Oat Cookies"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_recipe_recognition_36": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240529-102652"
+      },
+      "video 2": {
+        "id": "P07-20240529-131737"
+      },
+      "video 3": {
+        "id": "P07-20240529-134410"
+      },
+      "video 4": {
+        "id": "P07-20240529-191007"
+      },
+      "video 5": {
+        "id": "P07-20240529-194518"
+      },
+      "video 6": {
+        "id": "P07-20240530-102543"
+      },
+      "video 7": {
+        "id": "P07-20240530-111344"
+      },
+      "video 8": {
+        "id": "P07-20240531-101357"
+      },
+      "video 9": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Quinoa and Avocado Salad",
+      "Taco Salad",
+      "Black Bean and Corn Salad",
+      "Southwestern Salad",
+      "Fajita Salad"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_recipe_recognition_37": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240613-122900"
+      },
+      "video 2": {
+        "id": "P08-20240613-123547"
+      },
+      "video 3": {
+        "id": "P08-20240614-085000"
+      },
+      "video 4": {
+        "id": "P08-20240614-125650"
+      },
+      "video 5": {
+        "id": "P08-20240614-132938"
+      },
+      "video 6": {
+        "id": "P08-20240614-184945"
+      },
+      "video 7": {
+        "id": "P08-20240617-130401"
+      },
+      "video 8": {
+        "id": "P08-20240617-184909"
+      },
+      "video 9": {
+        "id": "P08-20240618-163547"
+      },
+      "video 10": {
+        "id": "P08-20240618-171546"
+      },
+      "video 11": {
+        "id": "P08-20240620-180825"
+      },
+      "video 12": {
+        "id": "P08-20240622-141902"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Greek Orzo Salad",
+      "Chicken Caesar Pasta Salad",
+      "Tuna Pasta Salad",
+      "Shrimp and Avocado Pasta Salad",
+      "Italian Pasta Salad"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_recipe_recognition_40": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-090328"
+      },
+      "video 2": {
+        "id": "P06-20240510-094438"
+      },
+      "video 3": {
+        "id": "P06-20240510-100047"
+      },
+      "video 4": {
+        "id": "P06-20240510-104642"
+      },
+      "video 5": {
+        "id": "P06-20240510-115307"
+      },
+      "video 6": {
+        "id": "P06-20240510-121619"
+      },
+      "video 7": {
+        "id": "P06-20240510-135423"
+      },
+      "video 8": {
+        "id": "P06-20240510-140459"
+      },
+      "video 9": {
+        "id": "P06-20240511-102207"
+      },
+      "video 10": {
+        "id": "P06-20240511-121048"
+      },
+      "video 11": {
+        "id": "P06-20240511-122221"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Palak Paneer",
+      "Matar Paneer",
+      "Kadhai Paneer",
+      "Paneer Bhurji",
+      "Halloumi Bake"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_recipe_recognition_41": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-090328"
+      },
+      "video 2": {
+        "id": "P06-20240510-094438"
+      },
+      "video 3": {
+        "id": "P06-20240510-100047"
+      },
+      "video 4": {
+        "id": "P06-20240510-104642"
+      },
+      "video 5": {
+        "id": "P06-20240510-115307"
+      },
+      "video 6": {
+        "id": "P06-20240510-121619"
+      },
+      "video 7": {
+        "id": "P06-20240510-135423"
+      },
+      "video 8": {
+        "id": "P06-20240510-140459"
+      },
+      "video 9": {
+        "id": "P06-20240511-102207"
+      },
+      "video 10": {
+        "id": "P06-20240511-121048"
+      },
+      "video 11": {
+        "id": "P06-20240511-122221"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Cheese and Herb Frittata with Toast",
+      "French Toast",
+      "Egg-in-a-Hole Toast",
+      "Breakfast Quesadilla with Eggs",
+      "Bread Omelette"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_recipe_recognition_44": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240621-093545"
+      },
+      "video 2": {
+        "id": "P09-20240621-153208"
+      },
+      "video 3": {
+        "id": "P09-20240622-150155"
+      },
+      "video 4": {
+        "id": "P09-20240622-154652"
+      },
+      "video 5": {
+        "id": "P09-20240622-162302"
+      },
+      "video 6": {
+        "id": "P09-20240622-194642"
+      },
+      "video 7": {
+        "id": "P09-20240623-120359"
+      },
+      "video 8": {
+        "id": "P09-20240623-153253"
+      },
+      "video 9": {
+        "id": "P09-20240623-153748"
+      },
+      "video 10": {
+        "id": "P09-20240623-154547"
+      },
+      "video 11": {
+        "id": "P09-20240624-160737"
+      },
+      "video 12": {
+        "id": "P09-20240624-165332"
+      },
+      "video 13": {
+        "id": "P09-20240625-103827"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Loaded Fries with Ground Beef",
+      "French Fries and Beef Skewers",
+      "Steak Frites",
+      "Corndogs",
+      "Beef Satay with Rice"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_recipe_recognition_48": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240621-093545"
+      },
+      "video 2": {
+        "id": "P09-20240621-153208"
+      },
+      "video 3": {
+        "id": "P09-20240622-150155"
+      },
+      "video 4": {
+        "id": "P09-20240622-154652"
+      },
+      "video 5": {
+        "id": "P09-20240622-162302"
+      },
+      "video 6": {
+        "id": "P09-20240622-194642"
+      },
+      "video 7": {
+        "id": "P09-20240623-120359"
+      },
+      "video 8": {
+        "id": "P09-20240623-153253"
+      },
+      "video 9": {
+        "id": "P09-20240623-153748"
+      },
+      "video 10": {
+        "id": "P09-20240623-154547"
+      },
+      "video 11": {
+        "id": "P09-20240624-160737"
+      },
+      "video 12": {
+        "id": "P09-20240624-165332"
+      },
+      "video 13": {
+        "id": "P09-20240625-103827"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Strawberry Lassi",
+      "Horchata",
+      "Mango Lassi",
+      "Rose Lassi",
+      "Mint Lassi"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_recipe_recognition_49": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240621-093545"
+      },
+      "video 2": {
+        "id": "P09-20240621-153208"
+      },
+      "video 3": {
+        "id": "P09-20240622-150155"
+      },
+      "video 4": {
+        "id": "P09-20240622-154652"
+      },
+      "video 5": {
+        "id": "P09-20240622-162302"
+      },
+      "video 6": {
+        "id": "P09-20240622-194642"
+      },
+      "video 7": {
+        "id": "P09-20240623-120359"
+      },
+      "video 8": {
+        "id": "P09-20240623-153253"
+      },
+      "video 9": {
+        "id": "P09-20240623-153748"
+      },
+      "video 10": {
+        "id": "P09-20240623-154547"
+      },
+      "video 11": {
+        "id": "P09-20240624-160737"
+      },
+      "video 12": {
+        "id": "P09-20240624-165332"
+      },
+      "video 13": {
+        "id": "P09-20240625-103827"
+      }
+    },
+    "question": "Which of these recipes were carried out by the participant?",
+    "choices": [
+      "Shrimp Pad Thai",
+      "Green Curry",
+      "Pho",
+      "Thai Red Curry",
+      "Tom Kha Gai (Coconut Soup)"
+    ],
+    "correct_idx": 3
+  }
+}

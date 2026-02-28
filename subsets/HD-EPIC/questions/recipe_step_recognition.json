@@ -1,0 +1,306 @@
+{
+  "recipe_step_recognition_1": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:31:11.288 video 1> and <TIME 00:34:04.703 video 1> in this video?",
+    "choices": [
+      "Put in the oven and bake for 10 to 11 minutes or until the edges are set and the cookies have puffed up, but the middles are still underbaked",
+      "Last, fold in the chocolate chips. Set aside to let the flour hydrate in the dough",
+      "Add the banana to the melted butter and sugar. Mix to combine",
+      "Add vanilla extract. Mix well",
+      "Use a cookie scoop or a spoon to scoop out about 1 inch dough balls. Place 2 inches apart on the prepared cookie sheet"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_recognition_6": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:07:46.078 video 1> and <TIME 00:08:23.328 video 1> in this video?",
+    "choices": [
+      "In a large bowl, combine the melted butter and sugar. Mix to combine",
+      "Turn the kettle on to boil",
+      "Separate an egg yolk and add",
+      "Dose your ground coffee into the portafilter",
+      "Put in the oven and bake for 10 to 11 minutes or until the edges are set and the cookies have puffed up, but the middles are still underbaked"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_step_recognition_7": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:32:10.968 video 1> and <TIME 00:32:38.380 video 1> in this video?",
+    "choices": [
+      "Add the tomato puree to the mixture in the pan and mix it thoroughly. Cook the puree for about 5 minutes on a low flame or until the butter separates out from the mixture",
+      "Add the chopped onion and saute for 3 minutes until softened. Then add the sliced green chili and ginger garlic paste and saute for another 1 to 2 minutes",
+      "Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree",
+      "In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. Cook in the pressure cooker on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles",
+      "Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_step_recognition_8": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:10:53.475 video 1> and <TIME 00:11:03.540 video 1> in this video?",
+    "choices": [
+      "Preheat the oven to 180 degrees C/gas mark 4",
+      "Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy!",
+      "Pre-heat air fryer to 180 degrees C",
+      "Add pre-made Chickpea, Spinach & Quinoa salad to plate",
+      "Place broccoli in air fryer and roast for 15 minutes. Season with oil, salt, pepper, oregano, and garlic granules half-way through"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_recognition_20": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:00:17.605 video 1> and <TIME 00:00:23.241 video 1> in this video?",
+    "choices": [
+      "Place salmon teriyaki skewers on a baking sheet. Roast for 11 to 15 minutes, until just cooked. Set aside until cool enough to handle",
+      "Pre-heat air fryer to 180 degrees C",
+      "Preheat the oven to 180 degrees C/gas mark 4",
+      "Place broccoli in air fryer and roast for 15 minutes. Season with oil, salt, pepper, oregano, and garlic granules half-way through",
+      "Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy!"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_23": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:14:49.773 video 1> and <TIME 00:15:03.723 video 1> in this video?",
+    "choices": [
+      "Stir the salad and add the dressing. Stir again",
+      "Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add",
+      "Pulse all the dressing ingredients in a food processor until mostly smooth",
+      "Check the sweet potatoes and roast for another 10-15 minutes",
+      "Add the sweet potatoes"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_26": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:20:50.477 video 1> and <TIME 00:21:04.382 video 1> in this video?",
+    "choices": [
+      "Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add",
+      "Add the sweet potatoes",
+      "Remove the sweet potatoes from the oven",
+      "Pulse all the dressing ingredients in a food processor until mostly smooth",
+      "Check the sweet potatoes and roast for another 10-15 minutes"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_48": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:22:15.296 video 1> and <TIME 00:23:15.399 video 1> in this video?",
+    "choices": [
+      "Drizzle skewers with oil",
+      "Heat the oil in a pan, season it with salt, and add the potatoes in batches",
+      "Peel the potatoes and cut them onto strips",
+      "Slice the onion, tomato and peppers into preferred size",
+      "Once fried, transfer to a plate and season with peri-peri seasoning"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_50": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:16:27.689 video 1> and <TIME 00:17:10.590 video 1> in this video?",
+    "choices": [
+      "Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add",
+      "Wash and then chop and tear the lettuce into a bowl",
+      "Pulse all the dressing ingredients in a food processor until mostly smooth",
+      "Add the sweet potatoes",
+      "Check the sweet potatoes and roast for another 10-15 minutes"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_step_recognition_62": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:08:58.802 video 1> and <TIME 00:09:19.685 video 1> in this video?",
+    "choices": [
+      "Last, fold in the chocolate chips. Set aside to let the flour hydrate in the dough",
+      "Turn the kettle on to boil",
+      "Add the banana to the melted butter and sugar. Mix to combine",
+      "Line a cookie sheet with parchment paper",
+      "Place the banana into a microwavable container, and heat it in the microwave. Stir"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_recognition_65": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:10:43.341 video 1> and <TIME 00:10:58.078 video 1> in this video?",
+    "choices": [
+      "Peel the potatoes and cut them onto strips",
+      "Slice the onion, tomato and peppers into preferred size",
+      "Drizzle skewers with oil",
+      "Thread the beef and sliced vegetables (onion, tomato and scotch bonnet chilli) onto skewers and arrange them on a baking tray",
+      "Heat the oil in a pan, season it with salt, and add the potatoes in batches"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_66": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:37:23.810 video 1> and <TIME 00:38:14.869 video 1> in this video?",
+    "choices": [
+      "Add the chopped onion and saute for 3 minutes until softened. Then add the sliced green chili and ginger garlic paste and saute for another 1 to 2 minutes",
+      "Add the tomato puree to the mixture in the pan and mix it thoroughly. Cook the puree for about 5 minutes on a low flame or until the butter separates out from the mixture",
+      "Add the pieces of cottage cheese in the mixture and cook it for 5-10 minutes on a low flame. Cover the pan or kadai with a lid and cook for 5 to 6 minutes on medium heat",
+      "Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree",
+      "Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_68": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:19:28.011 video 1> and <TIME 00:19:33.570 video 1> in this video?",
+    "choices": [
+      "Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise",
+      "In a large kadai or any other pan, now melt butter with oil on medium heat. Add cumin seeds to the melted butter",
+      "In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. Cook in the pressure cooker on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles",
+      "Add the tomato puree to the mixture in the pan and mix it thoroughly. Cook the puree for about 5 minutes on a low flame or until the butter separates out from the mixture",
+      "Add the chopped onion and saute for 3 minutes until softened. Then add the sliced green chili and ginger garlic paste and saute for another 1 to 2 minutes"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_step_recognition_71": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:04:25.488 video 1> and <TIME 00:04:27.024 video 1> in this video?",
+    "choices": [
+      "Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy!",
+      "Place salmon teriyaki skewers on a baking sheet. Roast for 11 to 15 minutes, until just cooked. Set aside until cool enough to handle",
+      "Pre-heat air fryer to 180 degrees C",
+      "Add pre-made Chickpea, Spinach & Quinoa salad to plate",
+      "Preheat the oven to 180 degrees C/gas mark 4"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_72": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:23:31.243 video 1> and <TIME 00:24:01.465 video 1> in this video?",
+    "choices": [
+      "Add the tomato puree to the mixture in the pan and mix it thoroughly. Cook the puree for about 5 minutes on a low flame or until the butter separates out from the mixture",
+      "In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. Cook in the pressure cooker on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles",
+      "Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise",
+      "Add the pieces of cottage cheese in the mixture and cook it for 5-10 minutes on a low flame. Cover the pan or kadai with a lid and cook for 5 to 6 minutes on medium heat",
+      "Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_73": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:20:10.052 video 1> and <TIME 00:20:27.173 video 1> in this video?",
+    "choices": [
+      "Remove the sweet potatoes from the oven",
+      "Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add",
+      "Pulse all the dressing ingredients in a food processor until mostly smooth",
+      "Wash and peel the sweet potatoes and chop into bite-sized pieces. Put the sweet potatoes in a bowl and add the olive oil, cumin, and chili powder. Mix well and pour the mixture onto a baking tray. Roast for 10 minutes",
+      "Preheat the oven to 400 degrees"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_step_recognition_80": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:13:08.402 video 1> and <TIME 00:13:39.953 video 1> in this video?",
+    "choices": [
+      "Last, fold in the chocolate chips. Set aside to let the flour hydrate in the dough",
+      "Measure the butter into a microwavable container, and heat it in the microwave. Stir",
+      "Add vanilla extract. Mix well",
+      "Separate an egg yolk and add",
+      "Measure and add the flour, salt, baking soda, and cinnamon. Stir until combined and no streaks of flour remain"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_recognition_92": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:01:38.050 video 1> and <TIME 00:02:15.182 video 1> in this video?",
+    "choices": [
+      "Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy!",
+      "Place broccoli in air fryer and roast for 15 minutes. Season with oil, salt, pepper, oregano, and garlic granules half-way through",
+      "Preheat the oven to 180 degrees C/gas mark 4",
+      "Pre-heat air fryer to 180 degrees C",
+      "Place salmon teriyaki skewers on a baking sheet. Roast for 11 to 15 minutes, until just cooked. Set aside until cool enough to handle"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_recognition_94": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "What step did the participant do between <TIME 00:21:41.990 video 1> and <TIME 00:22:53.417 video 1> in this video?",
+    "choices": [
+      "Wash and peel the sweet potatoes and chop into bite-sized pieces. Put the sweet potatoes in a bowl and add the olive oil, cumin, and chili powder. Mix well and pour the mixture onto a baking tray. Roast for 10 minutes",
+      "Stir the salad and add the dressing. Stir again",
+      "Check the sweet potatoes and roast for another 10-15 minutes",
+      "Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add",
+      "Wash and then chop and tear the lettuce into a bowl"
+    ],
+    "correct_idx": 1
+  }
+}

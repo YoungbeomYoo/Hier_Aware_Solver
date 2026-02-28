@@ -1,0 +1,44 @@
+# R7: C2+D1+F0 + VisualJudge에 videolucy prompt 적용
+# 기존 D1은 VisualJudge가 hardcoded strict prompt 사용 → 이번엔 relaxed rejudge
+# C축이 D축(visual)에도 영향을 주는지 검증
+dataset: video_mme
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/ablation_visual_relaxed_rejudge
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge:
+    prompt: videolucy
+  judge_visual:
+    prompt: videolucy
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history:
+    mode: accumulate
+    max_total_tokens: 50000
+    history_budget: 20000
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000

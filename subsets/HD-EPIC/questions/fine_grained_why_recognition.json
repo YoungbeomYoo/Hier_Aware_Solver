@@ -1,0 +1,325 @@
+{
+  "fine_grained_why_recognition_0": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:36.289",
+        "end_time": "00:14:36.840"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <pick up tea towel> in video 1?",
+    "choices": [
+      "to put the tea towel away.",
+      "so I can fill the kettle.",
+      "to wipe down the kitchen surface.",
+      "to clean.",
+      "to dry hands."
+    ],
+    "correct_idx": 4,
+    "stat": "2 make up"
+  },
+  "fine_grained_why_recognition_5": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:30:32.130",
+        "end_time": "00:30:32.680"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <transfer saucepan> in video 1?",
+    "choices": [
+      "to make it easier to close the cupboard.",
+      "so that I can place the saucepan on the hob.",
+      "so that I can easily place the saucepan on the hob to cool down.",
+      "so that I can scrub the saucepan.",
+      "so that I may scrub the saucepan."
+    ],
+    "correct_idx": 0,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_19": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:33.950",
+        "end_time": "00:14:35.000"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <walk across kitchen> in video 1?",
+    "choices": [
+      "to place the spices and ghee in the chop board.",
+      "to retrieve a bottle of oil from the cupboard.",
+      "to retrieve a knife.",
+      "to scoop some honey.",
+      "to peel and slice the potatoes."
+    ],
+    "correct_idx": 4,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_71": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:09:09.350",
+        "end_time": "00:09:10.870"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <open drawer> in video 1?",
+    "choices": [
+      "so I could pick out a baking tray.",
+      "to put the plate away.",
+      "so I can retrieve a knife.",
+      "so I wedge hands in to try and find out what's wrong.",
+      "so I can search for a slotted spoon."
+    ],
+    "correct_idx": 0,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_72": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:06.590",
+        "end_time": "00:12:06.990"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <transfer chop board> in video 1?",
+    "choices": [
+      "so I can easily turn on the tap.",
+      "so that I can scrub the saucepan.",
+      "in order to use the right hand to make some space on the lower shelf.",
+      "so that I can pick up the sponge from the counter surface.",
+      "so that I can pick up the sponge."
+    ],
+    "correct_idx": 0,
+    "stat": "2 make up"
+  },
+  "fine_grained_why_recognition_75": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:55.970",
+        "end_time": "00:33:56.869"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <transfer teaspoon> in video 1?",
+    "choices": [
+      "so that I can pick up the pyrex bowl with both hands.",
+      "to make the stirring easier.",
+      "so that I can pick up and drain the pyrex bowl in the sink.",
+      "in order to shape the cookie dough into a round ball.",
+      "so that I can begin washing them."
+    ],
+    "correct_idx": 4,
+    "stat": "1 make up"
+  },
+  "fine_grained_why_recognition_115": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642",
+        "start_time": "00:23:22.730",
+        "end_time": "00:23:24.119"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <shake bowl> in video 1?",
+    "choices": [
+      "to drop any excess water on the sink.",
+      "so that all of the spices can mix altogether.",
+      "to make sure all the mushrooms are in the jug.",
+      "to make sure that all mushrooms dropped on the frying pan.",
+      "to rinse the bowl inner surface."
+    ],
+    "correct_idx": 1,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_125": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:07:41.170",
+        "end_time": "00:07:42.379"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <tip bowl> in video 1?",
+    "choices": [
+      "so that the sweet potatoes fall out and go onto the baking tray.",
+      "to remove any excess water droplets in the bowl to fall into the kitchen sink.",
+      "to pour out the water in the kitchen sink.",
+      "to pour out the water into the kitchen sink.",
+      "to pour out the water collected in the bowl."
+    ],
+    "correct_idx": 0,
+    "stat": "1 make up"
+  },
+  "fine_grained_why_recognition_182": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:00.210",
+        "end_time": "00:26:01.809"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <move glass> in video 1?",
+    "choices": [
+      "so I don't burn myself on pan handle.",
+      "to access what's behind a glass.",
+      "to make space.",
+      "to put the other white piece in right place.",
+      "to clear the way to pick up the stack of large bowls."
+    ],
+    "correct_idx": 2,
+    "stat": "2 make up"
+  },
+  "fine_grained_why_recognition_201": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:54.640",
+        "end_time": "00:33:54.970"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <transfer sponge> in video 1?",
+    "choices": [
+      "so that I can wet the sponge and begin washing plates.",
+      "so that I can wash the beaker held in left hand.",
+      "so I can scrub the utensil.",
+      "so that I can soak the sponge in a bit of water.",
+      "so that I can reach for the bottle of washing up liquid on the counter surface."
+    ],
+    "correct_idx": 2,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_251": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:01:01.060",
+        "end_time": "00:01:03.859"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <move items> in video 1?",
+    "choices": [
+      "so that the right hand holding the cloth can clean underneath items.",
+      "to reach the utensils underneath.",
+      "to make space to begin clearing up.",
+      "to make space to put down the pot top.",
+      "to look for the tool that is needed, the vegetable peeler."
+    ],
+    "correct_idx": 4,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_288": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:49.159",
+        "end_time": "00:08:49.740"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <pick up paper towel> in video 1?",
+    "choices": [
+      "to move.",
+      "to dry hand.",
+      "to clean up the kitchen counter.",
+      "to wipe both hands.",
+      "to dry."
+    ],
+    "correct_idx": 0,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_299": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:39.940",
+        "end_time": "00:08:40.789"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <pick up food scraps> in video 1?",
+    "choices": [
+      "to add to the frying pan.",
+      "to clean.",
+      "so that I can cover the saucepan.",
+      "to clean up.",
+      "to throw out."
+    ],
+    "correct_idx": 4,
+    "stat": "2 make up"
+  },
+  "fine_grained_why_recognition_406": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:10:42.090",
+        "end_time": "00:10:42.960"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <tap spoon> in video 1?",
+    "choices": [
+      "to remove any remaining pieces of cucumber.",
+      "to get rid of excess porridge.",
+      "to get rid of excess mixture from the pan.",
+      "to get any excess coconut milk off the pan.",
+      "so that all of the avocado falls into the canister."
+    ],
+    "correct_idx": 4,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_450": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:08:19.300",
+        "end_time": "00:08:23.040"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <stir butter> in video 1?",
+    "choices": [
+      "to mix the ingredients together.",
+      "to melt the butter using the large plastic spoon in the right hand.",
+      "to try and melt the butter quicker, using the large plastic spoon in the right hand whilst holding the large mixing bowl in the left hand to steady the large mixing bowl.",
+      "so that the contents of the frying pan're cooking evenly and are not stuck to the bottom of the frying pan.",
+      "to begin the melting process using the large plastic spoon in the right hand whilst holding onto the large mixing bowl using the left hand."
+    ],
+    "correct_idx": 0,
+    "stat": "1 make up"
+  },
+  "fine_grained_why_recognition_462": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:27.419",
+        "end_time": "00:13:29.049"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <open cupboard> in video 1?",
+    "choices": [
+      "to look for a bottle of water.",
+      "to grab something to put the zested lemon down onto.",
+      "so that I can return to bottle of water.",
+      "to look for a pan for the potatoes to fry in.",
+      "so that I can shelve items in the cupboard."
+    ],
+    "correct_idx": 2,
+    "stat": "true narrations"
+  },
+  "fine_grained_why_recognition_473": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:06:10.050",
+        "end_time": "00:06:11.310"
+      }
+    },
+    "question": "What is the best description for why the person performed the action <tap kitchen scale> in video 1?",
+    "choices": [
+      "to zero out measurements with container.",
+      "to turn on.",
+      "to adjust the measurements.",
+      "to zero out measurements.",
+      "to adjust the measurements while picking up the bag of broccoli with the right hand."
+    ],
+    "correct_idx": 1,
+    "stat": "true narrations"
+  }
+}

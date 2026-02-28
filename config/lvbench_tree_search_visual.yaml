@@ -1,0 +1,50 @@
+# LVBench Subset — Tree Search + Visual Judge Pipeline
+# 5 videos, 78 questions
+# Judge가 visual 필요 여부 판단 → query-aware frame captioning → rejudge
+#
+# Flow:
+#   1. Query decompose → cues, time info
+#   2. Filtered tree build (top-down key_elements matching)
+#   3. Hop loop:
+#      a. Budget context assembly
+#      b. VisualJudge: text 판단 + needs_visual? → frame captioning → rejudge
+#      c. High confidence → 종료
+#      d. Not answerable → history compact → navigate next
+dataset: lvbench
+pipeline: tree_search
+cached: false
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/find_solver_please/subsets/LVBench/memory
+  question_path: /lustre/youngbeom/find_solver_please/subsets/LVBench/questions/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/lvbench_subset_tree_search_visual2
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge: {}
+  judge_visual: {}
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 20000
+  history_compactor:
+    max_observation_tokens: 8000
+    max_state_tokens: 800
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 20000

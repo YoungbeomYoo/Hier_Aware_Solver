@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "620",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Literature & Art",
+    "url": "https://www.youtube.com/watch?v=mOiEOs3ZlT8",
+    "videoID": "mOiEOs3ZlT8",
+    "question_id": "620-3",
+    "task_type": "Action Reasoning",
+    "question": "As depicted in the video, what does the cocked elbow in Copley's work reveal?",
+    "options": [
+      "A. Abnormal aesthetics of the time.",
+      "B. He was not good at depicting elbow.",
+      "C. Its style can be traced back to ancient Rome.",
+      "D. Swagger and confidence."
+    ],
+    "answer": "D"
+  }
+]

@@ -1,0 +1,44 @@
+# ⑩ no_query — A0+B1+C2+D0+E0+F0+G1
+# query_analyzer에서 LLM 분류 스킵. rule-based cue만 사용.
+# A축 효과 확인: LLM query analysis가 cue 품질에 미치는 영향
+dataset: video_mme
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/ablation_no_query
+
+components:
+  query_analyzer:
+    skip_llm: true
+    # prompt 없음 → rule-based only (A0)
+  judge:
+    prompt: videolucy
+  # judge_visual 없음 → text-only mode
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history:
+    mode: accumulate
+    max_total_tokens: 50000
+    history_budget: 20000
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000

@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "647",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=0w4OTD4L0GQ",
+    "videoID": "0w4OTD4L0GQ",
+    "question_id": "647-1",
+    "task_type": "Temporal Reasoning",
+    "question": "What is the order in which the following is introduced in the video?\n① Our Local Universe\n② The Zone of Avoidance\n③ Dark Flow\n④ The Vela Supercluster",
+    "options": [
+      "A. ③①②④.",
+      "B. ①③②④.",
+      "C. ②①④③.",
+      "D. ①②③④."
+    ],
+    "answer": "D"
+  },
+  {
+    "video_id": "647",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=0w4OTD4L0GQ",
+    "videoID": "0w4OTD4L0GQ",
+    "question_id": "647-2",
+    "task_type": "Object Reasoning",
+    "question": "What is the \"Great Attractor\" according to the video?",
+    "options": [
+      "A. An immense region of dark matter influencing the motion of galaxies across billions of light-years.",
+      "B. A phenomenon to the outskirts of the Milky Way, attracting the contents of the cluster towards it.",
+      "C. The central supermassive black hole of the Milky Way, Sagittarius A*.",
+      "D. A celestial object akin to a quasar, emitting immense amounts of energy and affecting local space."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "647",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=0w4OTD4L0GQ",
+    "videoID": "0w4OTD4L0GQ",
+    "question_id": "647-3",
+    "task_type": "Object Reasoning",
+    "question": "What aspect is NOT described in the video?",
+    "options": [
+      "A. The role of dark matter in the formation of the Great Attractor.",
+      "B. Its gravitational influence on the local galaxy supercluster, Laniakea.",
+      "C. The challenges posed by the Zone of Avoidance in studying the Great Attractor.",
+      "D. Observational history and methods used to investigate the Great Attractor region."
+    ],
+    "answer": "A"
+  }
+]

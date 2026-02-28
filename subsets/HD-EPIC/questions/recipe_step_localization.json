@@ -1,0 +1,132 @@
+{
+  "recipe_step_localization_1": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "When did the participant perform step Pulse all the dressing ingredients in a food processor until mostly smooth from recipe Southwestern Salad?",
+    "choices": [
+      "<TIME 00:17:50.268 video 1> to <TIME 00:17:51.706 video 1> (video 1), <TIME 00:19:35.057 video 1> to <TIME 00:19:35.841 video 1> (video 1), <TIME 00:20:10.052 video 1> to <TIME 00:20:27.173 video 1> (video 1)",
+      "<TIME 00:23:11.811 video 1> to <TIME 00:23:17.489 video 1> (video 1)",
+      "<TIME 00:00:31.373 video 1> to <TIME 00:00:41.923 video 1> (video 1), <TIME 00:01:29.740 video 1> to <TIME 00:04:19.690 video 1> (video 1), <TIME 00:04:44.882 video 1> to <TIME 00:04:54.173 video 1> (video 1), <TIME 00:06:05.887 video 1> to <TIME 00:06:12.167 video 1> (video 1), <TIME 00:07:12.940 video 1> to <TIME 00:07:15.042 video 1> (video 1), <TIME 00:07:20.623 video 1> to <TIME 00:07:29.489 video 1> (video 1), <TIME 00:07:34.953 video 1> to <TIME 00:08:26.453 video 1> (video 1)",
+      "<TIME 00:14:24.882 video 1> to <TIME 00:14:27.078 video 1> (video 1)",
+      "<TIME 00:14:49.773 video 1> to <TIME 00:15:03.723 video 1> (video 1)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_localization_6": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform step Measure and add the flour, salt, baking soda, and cinnamon. Stir until combined and no streaks of flour remain from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:14:04.956 video 1> to <TIME 00:14:27.614 video 1> (video 1), <TIME 00:14:47.792 video 1> to <TIME 00:14:48.185 video 1> (video 1), <TIME 00:15:09.596 video 1> to <TIME 00:15:18.453 video 1> (video 1), <TIME 00:15:22.600 video 1> to <TIME 00:16:37.792 video 1> (video 1), <TIME 00:17:04.661 video 1> to <TIME 00:17:24.989 video 1> (video 1)",
+      "<TIME 00:00:08.453 video 2> to <TIME 00:00:28.703 video 2> (video 2)",
+      "<TIME 00:09:20.864 video 1> to <TIME 00:10:28.524 video 1> (video 1)",
+      "<TIME 00:28:05.036 video 1> to <TIME 00:30:38.846 video 1> (video 1), <TIME 00:31:11.288 video 1> to <TIME 00:34:04.703 video 1> (video 1)",
+      "<TIME 00:34:10.649 video 1> to <TIME 00:34:19.239 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_step_localization_8": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "When did the participant perform step Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy! from recipe Salmon Teriyaki Skewers with Vegetables?",
+    "choices": [
+      "<TIME 00:00:17.605 video 1> to <TIME 00:00:23.241 video 1> (video 1), <TIME 00:09:29.763 video 1> to <TIME 00:09:30.763 video 1> (video 1)",
+      "<TIME 00:06:41.949 video 1> to <TIME 00:06:53.488 video 1> (video 1)",
+      "<TIME 00:04:19.404 video 1> to <TIME 00:04:25.449 video 1> (video 1), <TIME 00:07:40.951 video 1> to <TIME 00:07:41.947 video 1> (video 1), <TIME 00:07:43.947 video 1> to <TIME 00:07:45.889 video 1> (video 1), <TIME 00:07:47.858 video 1> to <TIME 00:07:52.805 video 1> (video 1), <TIME 00:08:01.715 video 1> to <TIME 00:08:02.992 video 1> (video 1), <TIME 00:08:12.818 video 1> to <TIME 00:08:18.098 video 1> (video 1), <TIME 00:09:35.271 video 1> to <TIME 00:09:37.228 video 1> (video 1), <TIME 00:09:39.656 video 1> to <TIME 00:09:40.817 video 1> (video 1), <TIME 00:10:53.475 video 1> to <TIME 00:11:03.540 video 1> (video 1), <TIME 00:11:42.556 video 1> to <TIME 00:11:43.780 video 1> (video 1), <TIME 00:12:09.134 video 1> to <TIME 00:12:12.639 video 1> (video 1), <TIME 00:12:16.157 video 1> to <TIME 00:12:22.245 video 1> (video 1)",
+      "<TIME 00:04:25.488 video 1> to <TIME 00:04:27.024 video 1> (video 1)",
+      "<TIME 00:13:36.094 video 1> to <TIME 00:13:39.430 video 1> (video 1), <TIME 00:14:58.286 video 1> to <TIME 00:15:02.074 video 1> (video 1), <TIME 00:15:06.670 video 1> to <TIME 00:15:48.413 video 1> (video 1), <TIME 00:16:47.571 video 1> to <TIME 00:16:48.567 video 1> (video 1)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_step_localization_13": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      },
+      "video 2": {
+        "id": "P06-20240510-115307"
+      },
+      "video 3": {
+        "id": "P06-20240510-121619"
+      },
+      "video 4": {
+        "id": "P06-20240510-135423"
+      }
+    },
+    "question": "When did the participant perform step In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. Cook in the pressure cooker on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles from recipe Dal Makhani with Rice?",
+    "choices": [
+      "<TIME 00:00:26.262 video 2> to <TIME 00:00:29.713 video 2> (video 2), <TIME 00:11:27.004 video 2> to <TIME 00:11:38.610 video 2> (video 2), <TIME 00:00:54.445 video 3> to <TIME 00:01:41.377 video 3> (video 3), <TIME 00:01:49.366 video 3> to <TIME 00:01:55.799 video 3> (video 3)",
+      "<TIME 00:31:58.450 video 1> to <TIME 00:32:05.038 video 1> (video 1), <TIME 00:32:10.968 video 1> to <TIME 00:32:38.380 video 1> (video 1)",
+      "<TIME 00:06:22.005 video 4> to <TIME 00:06:24.811 video 4> (video 4), <TIME 00:06:54.779 video 4> to <TIME 00:06:56.263 video 4> (video 4), <TIME 00:06:58.426 video 4> to <TIME 00:07:12.779 video 4> (video 4)",
+      "<TIME 00:03:40.295 video 4> to <TIME 00:03:47.908 video 4> (video 4)",
+      "<TIME 00:10:08.627 video 2> to <TIME 00:10:26.827 video 2> (video 2), <TIME 00:10:33.615 video 2> to <TIME 00:10:45.907 video 2> (video 2), <TIME 00:12:03.125 video 2> to <TIME 00:12:23.125 video 2> (video 2), <TIME 00:13:28.552 video 2> to <TIME 00:13:49.862 video 2> (video 2), <TIME 00:14:14.809 video 2> to <TIME 00:14:55.398 video 2> (video 2), <TIME 00:00:21.445 video 3> to <TIME 00:00:25.009 video 3> (video 3)"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_step_localization_22": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "When did the participant perform step Pre-heat air fryer to 180 degrees C from recipe Salmon Teriyaki Skewers with Vegetables?",
+    "choices": [
+      "<TIME 00:01:38.050 video 1> to <TIME 00:02:15.182 video 1> (video 1), <TIME 00:09:24.068 video 1> to <TIME 00:09:28.478 video 1> (video 1), <TIME 00:13:28.089 video 1> to <TIME 00:13:29.633 video 1> (video 1)",
+      "<TIME 00:04:25.488 video 1> to <TIME 00:04:27.024 video 1> (video 1)",
+      "<TIME 00:06:41.949 video 1> to <TIME 00:06:53.488 video 1> (video 1)",
+      "<TIME 00:04:19.404 video 1> to <TIME 00:04:25.449 video 1> (video 1), <TIME 00:07:40.951 video 1> to <TIME 00:07:41.947 video 1> (video 1), <TIME 00:07:43.947 video 1> to <TIME 00:07:45.889 video 1> (video 1), <TIME 00:07:47.858 video 1> to <TIME 00:07:52.805 video 1> (video 1), <TIME 00:08:01.715 video 1> to <TIME 00:08:02.992 video 1> (video 1), <TIME 00:08:12.818 video 1> to <TIME 00:08:18.098 video 1> (video 1), <TIME 00:09:35.271 video 1> to <TIME 00:09:37.228 video 1> (video 1), <TIME 00:09:39.656 video 1> to <TIME 00:09:40.817 video 1> (video 1), <TIME 00:10:53.475 video 1> to <TIME 00:11:03.540 video 1> (video 1), <TIME 00:11:42.556 video 1> to <TIME 00:11:43.780 video 1> (video 1), <TIME 00:12:09.134 video 1> to <TIME 00:12:12.639 video 1> (video 1), <TIME 00:12:16.157 video 1> to <TIME 00:12:22.245 video 1> (video 1)",
+      "<TIME 00:00:17.605 video 1> to <TIME 00:00:23.241 video 1> (video 1), <TIME 00:09:29.763 video 1> to <TIME 00:09:30.763 video 1> (video 1)"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_step_localization_34": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform step Add the banana to the melted butter and sugar. Mix to combine from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:28:05.036 video 1> to <TIME 00:30:38.846 video 1> (video 1), <TIME 00:31:11.288 video 1> to <TIME 00:34:04.703 video 1> (video 1)",
+      "<TIME 00:12:39.721 video 1> to <TIME 00:12:57.828 video 1> (video 1), <TIME 00:13:08.402 video 1> to <TIME 00:13:39.953 video 1> (video 1)",
+      "<TIME 00:09:20.864 video 1> to <TIME 00:10:28.524 video 1> (video 1)",
+      "<TIME 00:34:10.649 video 1> to <TIME 00:34:19.239 video 1> (video 1)",
+      "<TIME 00:10:53.203 video 1> to <TIME 00:11:27.417 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_step_localization_42": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform step Slice the onion, tomato and peppers into preferred size from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:05:03.969 video 1> to <TIME 00:05:37.667 video 1> (video 1), <TIME 00:05:48.472 video 1> to <TIME 00:06:55.453 video 1> (video 1), <TIME 00:07:10.841 video 1> to <TIME 00:07:29.399 video 1> (video 1), <TIME 00:07:46.684 video 1> to <TIME 00:08:44.971 video 1> (video 1), <TIME 00:08:52.132 video 1> to <TIME 00:08:53.346 video 1> (video 1), <TIME 00:09:59.596 video 1> to <TIME 00:10:10.078 video 1> (video 1)",
+      "<TIME 00:02:21.471 video 1> to <TIME 00:02:39.203 video 1> (video 1), <TIME 00:02:59.517 video 1> to <TIME 00:03:03.953 video 1> (video 1), <TIME 00:04:54.427 video 1> to <TIME 00:05:00.489 video 1> (video 1), <TIME 00:07:39.652 video 1> to <TIME 00:07:46.445 video 1> (video 1)",
+      "<TIME 00:14:38.828 video 1> to <TIME 00:15:07.167 video 1> (video 1), <TIME 00:17:56.062 video 1> to <TIME 00:17:58.971 video 1> (video 1), <TIME 00:18:05.612 video 1> to <TIME 00:18:55.114 video 1> (video 1), <TIME 00:19:11.828 video 1> to <TIME 00:19:29.430 video 1> (video 1), <TIME 00:20:13.055 video 1> to <TIME 00:20:59.453 video 1> (video 1), <TIME 00:21:21.471 video 1> to <TIME 00:21:27.328 video 1> (video 1), <TIME 00:21:31.326 video 1> to <TIME 00:21:56.600 video 1> (video 1), <TIME 00:21:56.033 video 1> to <TIME 00:21:56.139 video 1> (video 1), <TIME 00:22:15.296 video 1> to <TIME 00:23:15.399 video 1> (video 1), <TIME 00:03:58.592 video 2> to <TIME 00:04:00.239 video 2> (video 2)",
+      "<TIME 00:03:34.580 video 1> to <TIME 00:03:35.060 video 1> (video 1), <TIME 00:03:53.659 video 1> to <TIME 00:04:04.632 video 1> (video 1)",
+      "<TIME 00:10:14.989 video 1> to <TIME 00:10:17.971 video 1> (video 1), <TIME 00:11:27.252 video 1> to <TIME 00:11:34.310 video 1> (video 1), <TIME 00:32:44.991 video 1> to <TIME 00:32:59.378 video 1> (video 1), <TIME 00:35:17.991 video 1> to <TIME 00:35:32.378 video 1> (video 1), <TIME 00:00:42.033 video 2> to <TIME 00:00:43.824 video 2> (video 2), <TIME 00:00:42.351 video 2> to <TIME 00:00:43.467 video 2> (video 2)"
+    ],
+    "correct_idx": 1
+  }
+}

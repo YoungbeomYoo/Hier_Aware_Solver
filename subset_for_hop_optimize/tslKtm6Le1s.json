@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "894",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=tslKtm6Le1s",
+    "videoID": "tslKtm6Le1s",
+    "question_id": "894-1",
+    "task_type": "Information Synopsis",
+    "question": "What is the plot of the opera in the video?",
+    "options": [
+      "A. A tale of young lovers from rival families ends with their tragic double suicide.",
+      "B. A love story between a courtesan and a young man ends tragically when she sacrifices herself for his family's sake.",
+      "C. A tragic romance where a ghost seeks to reunite with her lover.",
+      "D. A love story between a courtesan and a young man ends tragically when she sacrifices herself for his family's sake."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "894",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=tslKtm6Le1s",
+    "videoID": "tslKtm6Le1s",
+    "question_id": "894-2",
+    "task_type": "Object Reasoning",
+    "question": "What is the relationship between the two characters in the video?",
+    "options": [
+      "A. Strangers who met by chance.",
+      "B. Friends.",
+      "C. Family.",
+      "D. Lovers."
+    ],
+    "answer": "D"
+  }
+]

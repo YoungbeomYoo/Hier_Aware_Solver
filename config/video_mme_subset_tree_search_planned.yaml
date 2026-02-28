@@ -1,0 +1,53 @@
+# Video-MME Subset — Planned Tree Search + Visual Judge Pipeline
+# TreePlanner가 상위 레벨 overview → LLM이 탐색 영역 선정 → pruned tree로 tree search
+#
+# Flow:
+#   0. TreePlanner: 상위 level summary → LLM이 유망 Level_1 영역 선택 → tree pruning
+#   1. Query decompose → cues, time info
+#   2. Filtered tree build (top-down key_elements matching)
+#   3. Hop loop:
+#      a. Budget context assembly
+#      b. VisualJudge: text 판단 + needs_visual? → frame captioning → rejudge
+#      c. High confidence → 종료
+#      d. Not answerable → history compact → navigate next
+dataset: video_mme
+pipeline: tree_search
+cached: false
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/find_solver_please/subsets/Video-MME/memory
+  question_path: /lustre/youngbeom/find_solver_please/subsets/Video-MME/questions
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/video_mme_subset_tree_search_planned
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge: {}
+  judge_visual: {}
+  tree_planner:
+    max_overview_tokens: 15000
+    max_regions: 10
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 20000
+  history_compactor:
+    max_observation_tokens: 8000
+    max_state_tokens: 800
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 20000

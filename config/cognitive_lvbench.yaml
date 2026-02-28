@@ -1,0 +1,36 @@
+dataset: lvbench
+pipeline: cognitive
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/LVBench/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/cognitive_lvbench
+
+components:
+  query_analyzer:
+    prompt: detailed
+  uncertainty_checker:
+    prompt: conservative           # LVBench는 long video → 보수적 판단
+  elimination_reasoner:
+    prompt: strict                 # 근거 없는 소거 방지
+  leaf_selector:
+    prompt: budget
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+  frame_loader:
+    max_frames: 32
+
+pipeline_params:
+  max_frames: 32
+  max_visual_retries: 2
+  include_siblings: true           # Long video에서는 sibling context 유용
+  leaf_budget: 20

@@ -1,0 +1,146 @@
+{
+  "fine_grained_how_recognition_69": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:12.000",
+        "end_time": "00:05:13.399"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <close drawer> in this video segment?",
+    "choices": [
+      "by pushing the drawer in using the left hand.",
+      "by pushing the drawer with the leg.",
+      "by sliding the drawer in.",
+      "by pushing the drawer using the torso.",
+      "by pushing the drawer with the knee."
+    ],
+    "correct_idx": 4
+  },
+  "fine_grained_how_recognition_162": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:07.559",
+        "end_time": "00:33:19.529"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <stir fries> in this video segment?",
+    "choices": [
+      "using the spatula, just moving things around.",
+      "using the large plastic spoon in the right hand, holding the handle in the left hand",
+      "using the fork in right hand while holding the saucepan in place using left hand",
+      "by moving the spatula gently in a rotating motion.",
+      "using the spatula that I'm holding in right hand."
+    ],
+    "correct_idx": 2
+  },
+  "fine_grained_how_recognition_214": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:18:37.750",
+        "end_time": "00:18:51.950"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <open can> in this video segment?",
+    "choices": [
+      "using the ring pull with right hand.",
+      "by twisting the can lid anti-clockwise with left hand.",
+      "by twisting the handle.",
+      "by holding the can with the left hand, holding and pinching the lid with the right hand and pulling the lid up.",
+      "by moving the handles away from one another"
+    ],
+    "correct_idx": 2
+  },
+  "fine_grained_how_recognition_247": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:18:36.230",
+        "end_time": "00:18:37.650"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <open can> in this video segment?",
+    "choices": [
+      "using the ring pull with right hand.",
+      "by turning the black handle of the can opener.",
+      "by moving the handles away from one another",
+      "by twisting the lid anti-clockwise.",
+      "by holding the can with the left hand, holding and pinching the lid with the right hand and pulling the lid up."
+    ],
+    "correct_idx": 1
+  },
+  "fine_grained_how_recognition_293": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:32:35.660",
+        "end_time": "00:32:36.509"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <wipe counter surface> in this video segment?",
+    "choices": [
+      "using the sponge in the right hand, holding the food bin at the edge of the counter surface to push any food in.",
+      "using the wet kitchen roll in the right hand, pushing the food and sugar into the food bin that's been held next to the counter surface using the left hand.",
+      "Use the cloth flat on the work surface with the right hand on top of the cloth",
+      "Using right hand to push the plate of chips towards the knife rack while I use the napkin in left hand to wipe the counter surface.",
+      "by applying pressure."
+    ],
+    "correct_idx": 3
+  },
+  "fine_grained_how_recognition_357": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:31.470",
+        "end_time": "00:25:32.309"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <close bin> in this video segment?",
+    "choices": [
+      "by pressing on the lid.",
+      "by letting go of the soft plastic recycling bin lid.",
+      "by pushing down the lid with left thumb.",
+      "by lifting the lid upwards, then pushing the lid down with both hands.",
+      "by pulling the lid towards me."
+    ],
+    "correct_idx": 0
+  },
+  "fine_grained_how_recognition_413": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:46.029",
+        "end_time": "00:24:46.500"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <close lid> in this video segment?",
+    "choices": [
+      "using the right hand, flipping the lid back to place.",
+      "by pressing down on the lid.",
+      "use the thumb and the edge of the index finger of the right hand",
+      "Place the lid on top of the bottle using both hands",
+      "by holding the thermo flask with the left hand, putting the lid with the right hand and rotating the lid clockwise to seal the thermo flask, preserving the temperature of the tea inside."
+    ],
+    "correct_idx": 1
+  },
+  "fine_grained_how_recognition_432": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:20:03.799",
+        "end_time": "00:20:04.849"
+      }
+    },
+    "question": "What is the best description for how the person carried out the action <close lid> in this video segment?",
+    "choices": [
+      "by releasing the lid using the thumb of the right hand.",
+      "using the left hand, flipping the lid of the kettle back to place.",
+      "by pressing the lid.",
+      "by pulling the lid back, allowing the lid to drop in place",
+      "by putting the lid with the left hand and rotating the lid clockwise."
+    ],
+    "correct_idx": 2
+  }
+}

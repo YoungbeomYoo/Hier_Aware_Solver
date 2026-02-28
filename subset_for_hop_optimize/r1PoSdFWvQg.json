@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "806",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=r1PoSdFWvQg",
+    "videoID": "r1PoSdFWvQg",
+    "question_id": "806-2",
+    "task_type": "Action Recognition",
+    "question": "In the latter part of the video, which method did the contestant with the shortest time used to send inflatable ducks into the lake?",
+    "options": [
+      "A. Dragging the duck by its tail.",
+      "B. Dragging the duck by its head.",
+      "C. Rolling the duck.",
+      "D. Pushing the duck."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "806",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=r1PoSdFWvQg",
+    "videoID": "r1PoSdFWvQg",
+    "question_id": "806-3",
+    "task_type": "Object Recognition",
+    "question": "In the latter part of the video, which prize can Sam Campbell not obtain?",
+    "options": [
+      "A. A wooden table.",
+      "B. A wooden Pinocchio.",
+      "C. A stick.",
+      "D. A wooden painting."
+    ],
+    "answer": "C"
+  }
+]

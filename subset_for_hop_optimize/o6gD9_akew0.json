@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "809",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=o6gD9_akew0",
+    "videoID": "o6gD9_akew0",
+    "question_id": "809-1",
+    "task_type": "Information Synopsis",
+    "question": "Which of the following is NOT a reason why 100 women think Steve Harvey is a good kisser?",
+    "options": [
+      "A. He is handsome.",
+      "B. He is kind.",
+      "C. His lips.",
+      "D. He has charisma."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "809",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=o6gD9_akew0",
+    "videoID": "o6gD9_akew0",
+    "question_id": "809-2",
+    "task_type": "Action Reasoning",
+    "question": "In the middle part of the video, when Kim Kardashian and Khloé Kardashian come on stage, Khloé Kardashian shakes her head and says \"No\" to Kim Kardashian. What does this indicate?",
+    "options": [
+      "A. Khloé refuses to shake hands with Kim.",
+      "B. There is a feud between Khloé and Kim.",
+      "C. Khloé refuses to compete with Kim.",
+      "D. Khloé dislikes Kim."
+    ],
+    "answer": "A"
+  }
+]

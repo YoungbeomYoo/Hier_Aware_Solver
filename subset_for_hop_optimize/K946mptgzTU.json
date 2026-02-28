@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "659",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Geography",
+    "url": "https://www.youtube.com/watch?v=K946mptgzTU",
+    "videoID": "K946mptgzTU",
+    "question_id": "659-2",
+    "task_type": "Object Reasoning",
+    "question": "According to the video, what is the primary reason for the appearance of giraffe images on the rocks in the deep desert?",
+    "options": [
+      "A. Migration.",
+      "B. The creativity of the ancients in the desert.",
+      "C. Climate change.",
+      "D. The imagination of the ancients in the desert."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "659",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Geography",
+    "url": "https://www.youtube.com/watch?v=K946mptgzTU",
+    "videoID": "K946mptgzTU",
+    "question_id": "659-3",
+    "task_type": "Action Reasoning",
+    "question": "According to the video, why does the caravan drop off hay along the way?",
+    "options": [
+      "A. Because it can prevent the caravan from getting lost.",
+      "B. Because they can find it when coming back.",
+      "C. Because the camels hate eating hay.",
+      "D. Because it is cheap."
+    ],
+    "answer": "B"
+  }
+]

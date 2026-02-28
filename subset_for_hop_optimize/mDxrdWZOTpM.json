@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "748",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=mDxrdWZOTpM",
+    "videoID": "mDxrdWZOTpM",
+    "question_id": "748-3",
+    "task_type": "Object Reasoning",
+    "question": "Why did Pau Gasol say he was willing to break his leg?",
+    "options": [
+      "A. He is physically and mentally exhausted as the Spanish talisman.",
+      "B. Because in doing so, opponents will slack off because he's unavailable.",
+      "C. Because the whole Spanish team will go all out for it and win the title.",
+      "D. Because his teammates can then take the field in name only."
+    ],
+    "answer": "C"
+  }
+]

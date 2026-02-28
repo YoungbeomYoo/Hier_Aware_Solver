@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "745",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=mRgstQ4X5d4",
+    "videoID": "mRgstQ4X5d4",
+    "question_id": "745-1",
+    "task_type": "Action Recognition",
+    "question": "What does Cameron achieve in his debut practice game in Las Vegas?",
+    "options": [
+      "A. Breaking the three-point record.",
+      "B. Hit the shutout ball.",
+      "C. Pull down a lot of rebounds.",
+      "D. Giving away a fatal cap to the opponent."
+    ],
+    "answer": "B"
+  }
+]

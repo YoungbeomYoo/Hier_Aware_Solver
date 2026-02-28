@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "634",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=0ncLRRLvdfk",
+    "videoID": "0ncLRRLvdfk",
+    "question_id": "634-1",
+    "task_type": "Information Synopsis",
+    "question": "How does a thorough comprehension of the first method introduced in the video aid in navigating economic downturns?",
+    "options": [
+      "A. It allows individuals to predict the exact timing and severity of economic downturns, enabling them to liquidate assets before losses occur.",
+      "B. It fosters a \"doom and gloom\" mentality, encouraging individuals to hoard cash and avoid all investments during economic hardship.",
+      "C. It equips individuals with knowledge of macroeconomics and the cyclical nature of the economy, allowing them to adapt their financial strategies and identify potential opportunities amidst turmoil.",
+      "D. It guarantees financial success during economic downturns by providing a foolproof formula for picking winning investments."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "634",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=0ncLRRLvdfk",
+    "videoID": "0ncLRRLvdfk",
+    "question_id": "634-2",
+    "task_type": "Temporal Reasoning",
+    "question": "Which of the following options is NOT introduced between the way \"learn to read financial news critically\" and \"utilize gamified learning apps\" in the video?",
+    "options": [
+      "A. Challenge yourself with financial experiments.",
+      "B. Experiment with dollar-cost averaging.",
+      "C. Analyze your favourite brands' financials.",
+      "D. Read influential personal finance books."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "634",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=0ncLRRLvdfk",
+    "videoID": "0ncLRRLvdfk",
+    "question_id": "634-3",
+    "task_type": "Information Synopsis",
+    "question": "What makes influential financial podcasts a valuable tool for financial education in the video?",
+    "options": [
+      "A. All podcasts offer unbiased, expert advice with guaranteed accuracy and relevance.",
+      "B. Podcasts offer convenient and accessible information on various financial topics.",
+      "C. They consistently feature interviews with financial advisors, guaranteeing personalized investment recommendations.",
+      "D. They provide access to market-moving news before traditional media outlets, enabling listeners to capitalize on short-term opportunities."
+    ],
+    "answer": "B"
+  }
+]

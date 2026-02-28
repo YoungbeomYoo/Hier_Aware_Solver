@@ -1,0 +1,1964 @@
+{
+  "gaze_gaze_estimation_29": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:00:18.533",
+        "end_time": "00:00:19.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the hob.",
+      "At the cupboard to the left of and below the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_30": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:27:20.533",
+        "end_time": "00:27:21.233"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the counter to the left of the hob.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_32": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:00:26.733",
+        "end_time": "00:00:27.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard directly above the microwave.",
+      "At the counter to the right of the windowsill.",
+      "At the microwave.",
+      "At the counter in front of the microwave.",
+      "At the windowsill."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_50": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:06.066",
+        "end_time": "00:19:06.600"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the oven to the left of and above the hob.",
+      "At the oven to the left of the hob.",
+      "At the counter to the left of the hob.",
+      "At the drawer directly below the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_65": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:29.966",
+        "end_time": "00:14:30.466"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the hob.",
+      "At the drawer to the right of the hob.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_67": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:46.533",
+        "end_time": "00:08:47.133"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the counter to the right of the hob.",
+      "At the counter to the left of the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_77": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:14:31.566",
+        "end_time": "00:14:34.366"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the oven to the left of the hob.",
+      "At the counter to the left of the hob.",
+      "At the oven to the left of and above the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_89": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:44.633",
+        "end_time": "00:03:45.933"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the windowsill.",
+      "At the counter to the right of the microwave.",
+      "At the counter to the left of the windowsill.",
+      "At the cupboard to the right of and above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_99": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:00:38.633",
+        "end_time": "00:00:39.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the counter to the right of the hob.",
+      "At the counter in front of the microwave.",
+      "At the counter beside the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_101": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:27:07.300",
+        "end_time": "00:27:08.100"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard directly below the sink.",
+      "At the counter directly above the dishwasher.",
+      "At the counter to the left of the sink.",
+      "At the dishwasher.",
+      "At the sink."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_103": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:26.866",
+        "end_time": "00:33:39.033"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the cupboard directly below the sink.",
+      "At the cupboard to the left of and above the hob.",
+      "At the hob.",
+      "At the sink."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_105": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:43.233",
+        "end_time": "00:27:44.833"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the cupboard to the right of and below the hob.",
+      "At the microwave.",
+      "At the counter beside the microwave.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_113": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:05:55.600",
+        "end_time": "00:05:56.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the cupboard to the left of and above the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard to the left of and below the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_129": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:34.433",
+        "end_time": "00:27:34.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the counter in front of the microwave.",
+      "At the microwave.",
+      "At the windowsill."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_149": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:33:21.733",
+        "end_time": "00:34:07.466"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hook.",
+      "At the counter to the right of the windowsill.",
+      "At the table.",
+      "At the cupboard to the right of and below the windowsill.",
+      "At the drawer beside the hook."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_152": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:26:58.600",
+        "end_time": "00:26:59.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter in front of the microwave.",
+      "At the microwave.",
+      "At the counter beside the microwave.",
+      "At the counter to the right of the windowsill.",
+      "At the windowsill."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_165": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:54.833",
+        "end_time": "00:25:55.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the windowsill.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the microwave.",
+      "At the counter to the left of the windowsill."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_166": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:30:14.700",
+        "end_time": "00:30:16.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the hob.",
+      "At the oven to the left of the hob.",
+      "At the counter to the left of the hob.",
+      "At the oven to the left of and above the hob.",
+      "At the cupboard to the left of and below the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_169": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:25:22.766",
+        "end_time": "00:25:34.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the drawer beside the microwave.",
+      "At the drawer to the left of the microwave.",
+      "At the counter beside the microwave.",
+      "At the microwave.",
+      "At the cupboard to the left of and below the microwave."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_178": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:40.000",
+        "end_time": "00:33:40.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the sink.",
+      "At the counter to the right of the sink.",
+      "At the cupboard to the right of and above the sink.",
+      "At the cupboard directly below the sink.",
+      "At the counter directly above the dishwasher."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_180": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:23:18.600",
+        "end_time": "00:23:19.366"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the sink.",
+      "At the sink.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the right of the sink."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_198": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:40.900",
+        "end_time": "00:33:42.033"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter directly above the dishwasher.",
+      "At the counter to the right of the sink.",
+      "At the sink.",
+      "At the dishwasher.",
+      "At the cupboard directly below the sink."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_203": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:34.166",
+        "end_time": "00:26:37.600"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the sink.",
+      "At the counter in front of the microwave.",
+      "At the windowsill.",
+      "At the microwave.",
+      "At the counter beside the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_210": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:28:08.933",
+        "end_time": "00:28:09.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the cupboard to the right of and above the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_217": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:21:10.966",
+        "end_time": "00:21:12.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_221": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:30:32.766",
+        "end_time": "00:30:37.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the drawer to the right of and below the hook.",
+      "At the table.",
+      "At the hook.",
+      "At the counter to the left of the hook.",
+      "At the drawer behind the hook."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_238": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:13:41.666",
+        "end_time": "00:13:42.500"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the oven to the left of and above the hob.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of the extractorfan.",
+      "At the oven to the left of the hob."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_259": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:08:29.433",
+        "end_time": "00:08:30.100"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the windowsill.",
+      "At the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_295": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:16:46.533",
+        "end_time": "00:16:47.366"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the drawer beside the hob.",
+      "At the counter to the left of the hob.",
+      "At the counter to the right of the hob.",
+      "At the hob.",
+      "At the cupboard to the right of and below the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_308": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:13:56.033",
+        "end_time": "00:13:56.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the counter to the left of the oven.",
+      "At the drawer beside the microwave.",
+      "At the microwave.",
+      "At the oven."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_312": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:25:37.300",
+        "end_time": "00:25:37.866"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the dishwasher.",
+      "At the sink.",
+      "At the counter directly above the dishwasher.",
+      "At the counter to the left of the sink.",
+      "At the cupboard directly below the sink."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_314": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:20.066",
+        "end_time": "00:11:26.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the oven.",
+      "At the cupboard to the left of the oven.",
+      "At the hob.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_317": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:23.933",
+        "end_time": "00:14:28.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the freezer.",
+      "At the drawer to the left of the microwave.",
+      "At the drawer beside the microwave.",
+      "At the cupboard directly below the microwave."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_332": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:51.133",
+        "end_time": "00:08:55.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard directly above the microwave.",
+      "At the microwave.",
+      "At the counter to the left of the oven.",
+      "At the oven.",
+      "At the cupboard to the left of and above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_333": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:00:38.100",
+        "end_time": "00:00:39.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter beside the microwave."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_341": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:25:15.566",
+        "end_time": "00:25:16.133"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the windowsill.",
+      "At the counter to the left of the windowsill.",
+      "At the cupboard to the right of and above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_349": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:01:05.000",
+        "end_time": "00:01:09.366"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the freezer.",
+      "At the counter to the left of the microwave.",
+      "At the fridge.",
+      "At the cupboard directly above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_350": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:04.333",
+        "end_time": "00:19:04.933"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and below the hob.",
+      "At the cupboard to the right of the extractorfan.",
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the left of and above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_364": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:00:13.233",
+        "end_time": "00:00:13.933"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the sink.",
+      "At the hob.",
+      "At the counter to the right of the sink.",
+      "At the cupboard to the right of and below the sink."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_368": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:11:09.333",
+        "end_time": "00:11:11.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the microwave.",
+      "At the counter to the right of the hob.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard to the right of and above the microwave."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_374": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:00.066",
+        "end_time": "00:27:00.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter in front of the microwave.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the counter beside the microwave.",
+      "At the counter to the left of the windowsill."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_376": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:42.200",
+        "end_time": "00:03:43.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the drawer beside the hook.",
+      "At the hook.",
+      "At the oven to the right of the hook.",
+      "At the cupboard to the right of the hook.",
+      "At the table."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_386": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:19:53.266",
+        "end_time": "00:19:53.833"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the hob.",
+      "At the cupboard directly below the sink.",
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the counter to the left of the hob."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_392": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:32:41.033",
+        "end_time": "00:32:46.900"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the oven.",
+      "At the counter to the left of the hob.",
+      "At the counter to the right of the hob.",
+      "At the hob.",
+      "At the cupboard to the left of the oven."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_396": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:32:46.966",
+        "end_time": "00:32:47.633"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the oven.",
+      "At the sink.",
+      "At the cupboard directly below the sink.",
+      "At the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_401": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:00.533",
+        "end_time": "00:19:02.766"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard directly above the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_407": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:50.366",
+        "end_time": "00:14:50.933"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the oven.",
+      "At the hob.",
+      "At the microwave.",
+      "At the counter to the left of the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_413": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:30:38.566",
+        "end_time": "00:30:41.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of the extractorfan.",
+      "At the extractorfan.",
+      "At the oven to the left of and above the hob.",
+      "At the cupboard to the left of the extractorfan.",
+      "At the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_426": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:10:23.500",
+        "end_time": "00:10:24.133"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the cupboard directly below the microwave.",
+      "At the counter beside the microwave.",
+      "At the cupboard to the right of and above the hob.",
+      "At the cupboard to the left of and below the microwave."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_429": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:34.466",
+        "end_time": "00:19:34.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the counter in front of the windowsill.",
+      "At the counter to the right of the microwave.",
+      "At the windowsill.",
+      "At the cupboard to the right of and above the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_434": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:21:15.100",
+        "end_time": "00:21:15.866"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter beside the microwave.",
+      "At the cupboard to the left of and above the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_436": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:26:28.133",
+        "end_time": "00:26:36.266"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of the oven.",
+      "At the oven."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_440": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:19:53.866",
+        "end_time": "00:19:54.633"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard directly below the sink."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_441": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:21:02.300",
+        "end_time": "00:21:04.700"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the oven to the left of the hob.",
+      "At the counter to the left of the hob.",
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the oven to the left of and above the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_454": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:09:40.400",
+        "end_time": "00:09:41.066"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the sink.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and below the hob.",
+      "At the hob.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_456": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:35.500",
+        "end_time": "00:25:36.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the windowsill.",
+      "At the cupboard to the left of and above the windowsill.",
+      "At the counter to the left of the windowsill.",
+      "At the windowsill.",
+      "At the counter to the right of the windowsill."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_466": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:47.933",
+        "end_time": "00:12:48.500"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the microwave.",
+      "At the hob.",
+      "At the counter beside the microwave.",
+      "At the cupboard to the left of the freezer.",
+      "At the counter behind the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_467": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:01.166",
+        "end_time": "00:24:01.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the hob.",
+      "At the counter to the left of the hob.",
+      "At the oven to the left of the hob.",
+      "At the hob.",
+      "At the oven to the right of the fridge."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_496": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:06:30.666",
+        "end_time": "00:06:34.933"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of the extractorfan.",
+      "At the hob.",
+      "At the cupboard to the right of and below the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_500": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:23:23.100",
+        "end_time": "00:23:24.100"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the cupboard to the left of and above the microwave.",
+      "At the microwave.",
+      "At the cupboard to the right of and below the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_512": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:53.400",
+        "end_time": "00:27:54.100"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the microwave.",
+      "At the cupboard directly above the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_518": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:15:51.833",
+        "end_time": "00:15:53.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the microwave.",
+      "At the cupboard to the left of and below the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_524": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:09:00.666",
+        "end_time": "00:09:10.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the counter to the right of the hob.",
+      "At the counter to the left of the hob.",
+      "At the hob.",
+      "At the oven."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_534": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:00:26.733",
+        "end_time": "00:00:27.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and above the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_557": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:14:40.700",
+        "end_time": "00:14:46.133"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the hob.",
+      "At the oven to the left of the hob.",
+      "At the oven to the left of and above the hob.",
+      "At the counter to the left of the hob.",
+      "At the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_558": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:34:15.600",
+        "end_time": "00:34:19.833"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the oven to the left of the hob.",
+      "At the microwave.",
+      "At the hob.",
+      "At the cupboard to the right of and above the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_573": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:07:30.766",
+        "end_time": "00:07:31.366"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the cupboard directly below the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_584": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:00:03.633",
+        "end_time": "00:00:05.000"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the sink.",
+      "At the cupboard directly below the sink.",
+      "At the cupboard to the right of and above the sink.",
+      "At the counter to the left of the sink.",
+      "At the sink."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_587": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:52.200",
+        "end_time": "00:12:55.000"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the drawer to the right of and above the oven.",
+      "At the hob.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of the oven.",
+      "At the oven."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_589": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:05:50.400",
+        "end_time": "00:05:51.500"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the drawer beside the hook.",
+      "At the counter to the left of the hob.",
+      "At the hook.",
+      "At the oven to the left of and above the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_593": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:01:10.666",
+        "end_time": "00:01:12.400"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the extractorfan.",
+      "At the oven to the left of and below the extractorfan.",
+      "At the counter to the left of and below the extractorfan.",
+      "At the cupboard to the left of the extractorfan.",
+      "At the cupboard to the right of the extractorfan."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_625": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:21:23.633",
+        "end_time": "00:21:24.233"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter in front of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_634": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:02:19.000",
+        "end_time": "00:02:22.800"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the counter to the right of the sink.",
+      "At the hob.",
+      "At the cupboard to the right of and above the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_646": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:01.000",
+        "end_time": "00:03:01.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter in front of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_649": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:10:30.800",
+        "end_time": "00:10:31.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the drawer to the right of the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_705": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:36.800",
+        "end_time": "00:03:38.200"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the freezer.",
+      "At the fridge.",
+      "At the cupboard directly above the microwave.",
+      "At the counter beside the microwave."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_729": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:16:42.300",
+        "end_time": "00:16:43.033"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the right of and below the hob.",
+      "At the drawer directly below the hob.",
+      "At the counter to the right of the hob.",
+      "At the counter to the left of the hob."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_732": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:10:47.966",
+        "end_time": "00:10:50.566"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the oven to the left of the hob.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the counter to the left of the microwave."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_736": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:00:15.900",
+        "end_time": "00:00:18.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the windowsill.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the microwave.",
+      "At the cupboard to the right of and above the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_754": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:02:19.533",
+        "end_time": "00:02:24.166"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of and below the extractorfan.",
+      "At the oven to the left of and below the extractorfan.",
+      "At the extractorfan.",
+      "At the cupboard to the left of the extractorfan.",
+      "At the cupboard to the right of the extractorfan."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_755": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:27:24.200",
+        "end_time": "00:27:24.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the dishwasher.",
+      "At the counter directly above the dishwasher.",
+      "At the counter to the right of and above the dishwasher.",
+      "At the bin.",
+      "At the storage behind the bin."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_767": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:27:50.266",
+        "end_time": "00:27:50.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter beside the microwave.",
+      "At the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the counter in front of the microwave.",
+      "At the windowsill."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_769": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:12:48.033",
+        "end_time": "00:12:49.200"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the counter to the left of the hob.",
+      "At the oven.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_785": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:08.300",
+        "end_time": "00:26:08.833"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter beside the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the dishwasher.",
+      "At the microwave."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_787": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:25:36.533",
+        "end_time": "00:25:37.266"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the sink.",
+      "At the counter directly above the dishwasher.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the cupboard directly below the sink."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_795": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:20.766",
+        "end_time": "00:19:21.400"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of and above the hob.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and above the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_805": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:04:25.700",
+        "end_time": "00:04:26.966"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the hob.",
+      "At the counter to the right of the microwave.",
+      "At the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_813": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:12:01.433",
+        "end_time": "00:12:16.766"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of the extractorfan.",
+      "At the cupboard to the right of the extractorfan.",
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the extractorfan."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_838": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:26:34.466",
+        "end_time": "00:26:35.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter beside the microwave.",
+      "At the windowsill.",
+      "At the microwave.",
+      "At the counter in front of the microwave.",
+      "At the counter to the right of the windowsill."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_841": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:12:17.033",
+        "end_time": "00:12:17.700"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the oven to the right of and above the hook.",
+      "At the hook.",
+      "At the table.",
+      "At the drawer directly below the hook.",
+      "At the oven to the right of the table."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_gaze_estimation_861": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:01.300",
+        "end_time": "00:27:02.133"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the windowsill.",
+      "At the microwave.",
+      "At the counter beside the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the counter in front of the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_862": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:22.966",
+        "end_time": "00:26:23.900"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the cupboard to the right of and above the microwave.",
+      "At the counter to the right of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the dishwasher."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_876": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:28:45.333",
+        "end_time": "00:28:46.333"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the windowsill.",
+      "At the counter to the right of the sink.",
+      "At the windowsill.",
+      "At the counter in front of the microwave.",
+      "At the sink."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_881": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:38.666",
+        "end_time": "00:03:40.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the left of and above the fridge.",
+      "At the counter to the left of and below the fridge.",
+      "At the freezer.",
+      "At the microwave.",
+      "At the fridge."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_884": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:01:03.766",
+        "end_time": "00:01:04.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the right of the microwave.",
+      "At the dishwasher.",
+      "At the windowsill.",
+      "At the counter to the right of the windowsill.",
+      "At the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_892": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:12:28.900",
+        "end_time": "00:12:29.866"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the counter in front of the microwave.",
+      "At the sink.",
+      "At the windowsill."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_908": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:06:59.166",
+        "end_time": "00:07:01.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the microwave.",
+      "At the hob.",
+      "At the cupboard directly below the microwave.",
+      "At the cupboard to the left of and above the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_909": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:30:26.533",
+        "end_time": "00:30:30.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of the oven.",
+      "At the counter to the right of the hob.",
+      "At the oven.",
+      "At the hob.",
+      "At the drawer to the right of the hob."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_gaze_estimation_917": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:11:33.900",
+        "end_time": "00:11:34.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter to the left of the hook.",
+      "At the table.",
+      "At the drawer to the right of the hook.",
+      "At the hook.",
+      "At the drawer to the right of and below the hook."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_918": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:08.700",
+        "end_time": "00:25:09.200"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter in front of the microwave.",
+      "At the counter to the left of the windowsill.",
+      "At the cupboard to the left of and below the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the counter beside the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_921": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:16:39.800",
+        "end_time": "00:16:40.300"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the counter to the left of the hob.",
+      "At the cupboard to the left of and above the hob.",
+      "At the oven to the left of the hob.",
+      "At the oven to the left of and above the hob."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_928": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:09:33.533",
+        "end_time": "00:09:35.466"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the hob.",
+      "At the cupboard to the left of the oven.",
+      "At the counter to the left of the hob.",
+      "At the drawer to the left of the hob.",
+      "At the oven."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_945": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:24:04.133",
+        "end_time": "00:24:05.666"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the sink.",
+      "At the windowsill.",
+      "At the microwave.",
+      "At the counter in front of the microwave.",
+      "At the cupboard directly above the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_964": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:04:48.933",
+        "end_time": "00:04:52.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and above the hob.",
+      "At the counter to the left of the microwave.",
+      "At the cupboard directly above the microwave.",
+      "At the counter to the right of the hob.",
+      "At the hob."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_985": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:29:35.600",
+        "end_time": "00:29:37.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard directly below the sink.",
+      "At the sink.",
+      "At the hob.",
+      "At the counter to the right of the sink.",
+      "At the cupboard to the right of and above the sink."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_gaze_estimation_989": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:19:46.500",
+        "end_time": "00:19:48.733"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the fridge.",
+      "At the cupboard to the left of and above the microwave.",
+      "At the counter to the left of the microwave.",
+      "At the counter beside the microwave.",
+      "At the microwave."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_991": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:27:41.966",
+        "end_time": "00:27:42.766"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the cupboard to the right of and below the hob.",
+      "At the microwave.",
+      "At the counter in front of the microwave.",
+      "At the counter beside the microwave.",
+      "At the counter to the right of the hob."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_gaze_estimation_992": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:02:12.933",
+        "end_time": "00:02:13.433"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the counter beside the microwave.",
+      "At the counter to the right of the hob.",
+      "At the cupboard to the right of the extractorfan.",
+      "At the cupboard to the right of and below the hob.",
+      "At the cupboard directly above the microwave."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_gaze_estimation_999": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:45.200",
+        "end_time": "00:19:49.866"
+      }
+    },
+    "question": "What is the person looking at in this video segment?",
+    "choices": [
+      "At the oven to the left of and above the hob.",
+      "At the hob.",
+      "At the oven to the left of the hob.",
+      "At the counter to the right of the hob.",
+      "At the counter to the left of the hob."
+    ],
+    "correct_idx": 3
+  }
+}

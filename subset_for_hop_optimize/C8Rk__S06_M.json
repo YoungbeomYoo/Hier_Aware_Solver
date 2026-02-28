@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "805",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=C8Rk__S06_M",
+    "videoID": "C8Rk__S06_M",
+    "question_id": "805-3",
+    "task_type": "Object Reasoning",
+    "question": "In the latter part of the video, during the \"Who'd you rather\" segment, what is the relationship between the man wearing a black jacket and Rihanna?",
+    "options": [
+      "A. Sibling relationship.",
+      "B. Strangers.",
+      "C. Romantic relationship.",
+      "D. Idol and fan relationship."
+    ],
+    "answer": "B"
+  }
+]

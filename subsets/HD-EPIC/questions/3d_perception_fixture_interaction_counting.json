@@ -1,0 +1,258 @@
+{
+  "3d_perception_fixture_interaction_counting_72": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 496.9331875305703 551.4182608507992 758.7997212180102 754.0694968278626> in <TIME 00:52:39.333 video 1>?",
+    "choices": [
+      "0",
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_interaction_counting_73": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 452.0377633891354 159.8140725207095 1408.0 980.3372070252137> in <TIME 00:00:28.7 video 1>?",
+    "choices": [
+      "0",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_interaction_counting_74": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 330.50794412888894 64.64948809938664 1363.063911718928 994.5922614533438> in <TIME 00:18:6.767 video 1>?",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_interaction_counting_109": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 571.690506038006 599.0435258884094 749.3934207940738 926.9059391131183> in <TIME 00:30:28.967 video 1>?",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_interaction_counting_110": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 367.07755230988784 446.7236502102276 1072.5336970893582 1287.5729563919954> in <TIME 00:01:8.433 video 1>?",
+    "choices": [
+      "0",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_interaction_counting_111": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 557.0626353688209 650.7964323102889 1166.65114709708 1408.0> in <TIME 00:25:27.533 video 1>?",
+    "choices": [
+      "1",
+      "4",
+      "3",
+      "0",
+      "2"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_interaction_counting_112": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 427.7069307422927 320.8428779127994 758.3581676018953 1275.5933102067975> in <TIME 00:11:31.1 video 1>?",
+    "choices": [
+      "4",
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_interaction_counting_174": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 901.7202434148497 455.11778184169805 984.2263001368765 929.3877156632266> in <TIME 00:34:39.767 video 1>?",
+    "choices": [
+      "0",
+      "3",
+      "6",
+      "8",
+      "4"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_interaction_counting_175": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 484.07678359748866 564.3942501563156 1228.4257725825728 1258.9954961803624> in <TIME 00:34:52.067 video 1>?",
+    "choices": [
+      "2",
+      "1",
+      "4",
+      "3",
+      "0"
+    ],
+    "correct_idx": 1
+  },
+  "3d_perception_fixture_interaction_counting_176": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 499.17260625919084 588.1829613905782 802.4409513764198 639.3283843987588> in <TIME 00:34:47.5 video 1>?",
+    "choices": [
+      "4",
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_interaction_counting_177": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 353.8680232745638 802.9282460001161 572.3972966370235 958.8809293662289> in <TIME 00:28:1.5 video 1>?",
+    "choices": [
+      "1",
+      "4",
+      "3",
+      "0",
+      "2"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_interaction_counting_178": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 487.0685108096634 570.5984637542889 1408.0 1359.0086404182907> in <TIME 00:18:49.967 video 1>?",
+    "choices": [
+      "3",
+      "1",
+      "4",
+      "2",
+      "0"
+    ],
+    "correct_idx": 3
+  },
+  "3d_perception_fixture_interaction_counting_179": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "How many times did I open the item indicated by bounding box <BBOX 530.8828127960708 929.9255175154888 703.5497456868086 1114.8630329235045> in <TIME 00:28:1.267 video 1>?",
+    "choices": [
+      "0",
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct_idx": 0
+  },
+  "3d_perception_fixture_interaction_counting_191": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 440.92883115310775 692.6682572010575 882.7545962587834 1408.0> in <TIME 00:02:13.6 video 1>?",
+    "choices": [
+      "4",
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct_idx": 4
+  },
+  "3d_perception_fixture_interaction_counting_294": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 696.26160681451 726.0604709862101 1068.5523756187022 1203.838674113414> in <TIME 00:00:6.5 video 1>?",
+    "choices": [
+      "2",
+      "4",
+      "0",
+      "3",
+      "1"
+    ],
+    "correct_idx": 2
+  },
+  "3d_perception_fixture_interaction_counting_296": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "How many times did I close the item indicated by bounding box <BBOX 101.37396377725622 475.2739951105925 1363.883615301493 912.5854268698937> in <TIME 00:10:58.2 video 1>?",
+    "choices": [
+      "1",
+      "4",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct_idx": 0
+  }
+}

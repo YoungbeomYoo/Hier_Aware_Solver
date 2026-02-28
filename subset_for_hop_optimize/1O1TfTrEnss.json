@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "895",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=1O1TfTrEnss",
+    "videoID": "1O1TfTrEnss",
+    "question_id": "895-1",
+    "task_type": "Object Recognition",
+    "question": "As can be seen in the video, which of the following is excluded from the power value on the red or blue small card?",
+    "options": [
+      "A. Value 3.",
+      "B. Value 4.",
+      "C. Value 5.",
+      "D. Value 1."
+    ],
+    "answer": "B"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "604",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Humanity & History",
+    "url": "https://www.youtube.com/watch?v=0RxMZBLeqRI",
+    "videoID": "0RxMZBLeqRI",
+    "question_id": "604-1",
+    "task_type": "Information Synopsis",
+    "question": "What is the video mainly about?",
+    "options": [
+      "A. The rise and fall of Gypsies.",
+      "B. How the Gypsies developed into the Roma.",
+      "C. The history of the Gypsies.",
+      "D. How the Roma became so prosperous."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "604",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Humanity & History",
+    "url": "https://www.youtube.com/watch?v=0RxMZBLeqRI",
+    "videoID": "0RxMZBLeqRI",
+    "question_id": "604-2",
+    "task_type": "Temporal Reasoning",
+    "question": "As depicted in the video, what happened when the Gypsies migrated to Europe?",
+    "options": [
+      "A. Slavery was abolished.",
+      "B. They became increasingly enslaved in the Balkans as the Ottomans expanded their territory.",
+      "C. They fought with Selic.",
+      "D. They separated from the Turks."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "604",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Humanity & History",
+    "url": "https://www.youtube.com/watch?v=0RxMZBLeqRI",
+    "videoID": "0RxMZBLeqRI",
+    "question_id": "604-3",
+    "task_type": "Object Reasoning",
+    "question": "Which of the following statements is not correct according to what is shown in the video?",
+    "options": [
+      "A. The Gypsies didn't know their origin because of the lack of written language.",
+      "B. In England, the character 'V' on the skin of a Roma meant that he/she had tried to escape.",
+      "C. The Gypsies escaped from enslavement by living in the countryside.",
+      "D. Several massacres and programs of gypsies took place in Germany during WW2."
+    ],
+    "answer": "B"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "ingredient_ingredient_weight_2": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:59.064",
+        "end_time": "00:06:17.065"
+      }
+    },
+    "question": "How much did the participant weigh of olive oil in this video?",
+    "choices": [
+      "2 tbsp",
+      "4 tbsp",
+      "3 tbsp",
+      "1 tbsp",
+      "0 tbsp"
+    ],
+    "correct_idx": 3
+  },
+  "ingredient_ingredient_weight_21": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:06:58.000",
+        "end_time": "00:07:35.060"
+      }
+    },
+    "question": "How much did the participant weigh of sugar in this video?",
+    "choices": [
+      "200 g",
+      "196 g",
+      "202 g",
+      "193 g",
+      "201 g"
+    ],
+    "correct_idx": 4
+  },
+  "ingredient_ingredient_weight_39": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642",
+        "start_time": "00:15:15.932",
+        "end_time": "00:15:27.928"
+      }
+    },
+    "question": "How much did the participant weigh of cottage cheese in this video?",
+    "choices": [
+      "192.77 g",
+      "172.39 g",
+      "230.12 g",
+      "169.77 g",
+      "153.92 g"
+    ],
+    "correct_idx": 0
+  }
+}

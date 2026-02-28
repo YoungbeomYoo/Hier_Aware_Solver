@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "666",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Law",
+    "url": "https://www.youtube.com/watch?v=mzvHYBgD-tI",
+    "videoID": "mzvHYBgD-tI",
+    "question_id": "666-3",
+    "task_type": "Object Reasoning",
+    "question": "What efforts were made by the defence lawyers in the last trial in the video?",
+    "options": [
+      "A. She pointed out that the police had leading questions during the interrogation process, which may have affected the authenticity of the defendant's confession.",
+      "B. She reveals that a key witness had an alibi at the time of the crime, questioning the integrity of his statement.",
+      "C. She proved that the key witness's vital evidence was not credible, citing new evidence to lead the suspect to another person.",
+      "D. She cited details from the forensic medical report and questioned possible contamination issues in the handling of physical evidence, which would affect the validity of the evidence."
+    ],
+    "answer": "C"
+  }
+]

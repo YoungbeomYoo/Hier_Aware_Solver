@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "660",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Geography",
+    "url": "https://www.youtube.com/watch?v=7MFKy7DJsCY",
+    "videoID": "7MFKy7DJsCY",
+    "question_id": "660-2",
+    "task_type": "Object Reasoning",
+    "question": "What evidence suggests that the Maya at \"Stairway to Heaven\" were wealthy plantation owners?",
+    "options": [
+      "A. The elaborate architecture of their homes.",
+      "B. The presence of gold and silver artifacts in their tombs.",
+      "C. The presence of sophisticated agricultural tools found at the site.",
+      "D. The analysis of food particles in dental plaque reveals a diverse diet."
+    ],
+    "answer": "D"
+  }
+]

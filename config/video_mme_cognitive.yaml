@@ -1,0 +1,36 @@
+dataset: video_mme
+pipeline: cognitive
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME
+  output_dir: ./output/video_mme_cognitive
+
+components:
+  query_analyzer:
+    prompt: detailed
+  uncertainty_checker:
+    prompt: default
+  elimination_reasoner:
+    prompt: default
+  leaf_selector:
+    prompt: budget
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_frames: 30
+  max_visual_retries: 1
+  include_siblings: false
+  leaf_budget: 15

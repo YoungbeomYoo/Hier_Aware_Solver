@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "730",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "News Report",
+    "url": "https://www.youtube.com/watch?v=1NH5dJ9VRvU",
+    "videoID": "1NH5dJ9VRvU",
+    "question_id": "730-1",
+    "task_type": "Object Recognition",
+    "question": "Which item is not used in the video where the guest demonstrates making a solar eclipse observing tool?",
+    "options": [
+      "A. White paper.",
+      "B. Ruler.",
+      "C. Small nail.",
+      "D. Shoebox."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "730",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "News Report",
+    "url": "https://www.youtube.com/watch?v=1NH5dJ9VRvU",
+    "videoID": "1NH5dJ9VRvU",
+    "question_id": "730-2",
+    "task_type": "Information Synopsis",
+    "question": "Which of the following events was not reported in this news video?",
+    "options": [
+      "A. Boxer lends brain to trauma research.",
+      "B. Russia experienced a terrorist attack.",
+      "C. Gaza's Al-Shifa Hospital in ruins.",
+      "D. Protests over carbon tax increase."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "730",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "News Report",
+    "url": "https://www.youtube.com/watch?v=1NH5dJ9VRvU",
+    "videoID": "1NH5dJ9VRvU",
+    "question_id": "730-3",
+    "task_type": "Temporal Reasoning",
+    "question": "What is the second news item reported in this news video?",
+    "options": [
+      "A. Federal politicians get a 4.4% raise.",
+      "B. Boxer lends brain to trauma research.",
+      "C. Trudeau pledges $1B for school food program.",
+      "D. Protests over carbon tax increase."
+    ],
+    "answer": "A"
+  }
+]

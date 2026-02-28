@@ -1,0 +1,610 @@
+{
+  "object_motion_object_movement_itinerary_9": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 738.899 825.5453 854.427 897.75> seen at <TIME 00:15:34.633 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter bottom right of microwave",
+      "from sink to counter bottom right of microwave, then from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to drawer left of freezer",
+      "from counter bottom left of microwave to counter bottom right of microwave, then from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from drawer left of freezer to counter right of sink, then from counter right of sink to counter bottom right of microwave, then from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to oven"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_30": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 914.817 661.837 1119.245 1004.2539999999999> seen at <TIME 00:22:57.267 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer bottom right of table to counter right of sink, then from counter right of sink to drawer left of hob, then from drawer left of hob to drawer bottom right of table",
+      "from counter right of sink to drawer left of hob, then from drawer left of hob to dishwasher, then from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from dishwasher to counter right of sink, then from counter right of sink to drawer left of hob, then from drawer left of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from counter top left of dishwasher to counter right of sink, then from counter right of sink to drawer left of hob, then from drawer left of hob to dishwasher",
+      "from counter top left of washingmachine to drawer left of hob"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_38": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 926.63248 640.2188 1208.232 883.3094> seen at <TIME 00:39:26.3 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from top of storage to counter left of hob",
+      "from cupboard top left of microwave to counter right of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_93": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where was the object <BBOX 866.462 1015.685 1111.959 1136.027> seen at <TIME 00:06:2.967 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter right of sink to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to sink, then from sink to counter right of sink",
+      "from drawer bottom right of hob to counter left of hob, then from counter left of hob to drawer bottom right of hob",
+      "from drawer bottom right of hob to counter top right of dishwasher, then from counter top right of dishwasher to counter right of sink, then from counter right of sink to counter top right of dishwasher",
+      "from drawer bottom right of hob to counter right of sink, then from counter right of sink to sink, then from sink to counter right of sink, then from counter right of sink to counter left of hob, then from counter left of hob to counter right of sink",
+      "from counter right of hob to counter left of hob"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_101": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 853.488 646.505 909.706 781.938> seen at <TIME 00:30:44.767 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer left of dishwasher to counter left of hob",
+      "from dishwasher to drawer left of shelf, then from drawer left of shelf to drawer left of dishwasher, then from drawer left of dishwasher to counter left of hob, then from counter left of hob to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from counter top right of dishwasher to drawer left of dishwasher, then from drawer left of dishwasher to counter left of hob, then from counter left of hob to dishwasher",
+      "from drawer left of dishwasher to counter left of hob, then from counter left of hob to drawer bottom left of table, then from drawer bottom left of table to another drawer bottom left of table"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_105": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 756.38475 919.927 907.1510000000001 1096.24682> seen at <TIME 00:03:29.867 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher, then from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from counter top right of dishwasher to dishwasher",
+      "from counter top right of dishwasher to dishwasher, then from dishwasher to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from drawer bottom right of table to another drawer bottom right of table",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_132": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 1014.475 710.388 1190.795 789.604> seen at <TIME 00:23:55.067 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer bottom right of table to sink, then from sink to dishwasher, then from dishwasher to drawer bottom right of table",
+      "from sink to dishwasher",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from counter top left of dishwasher to dishwasher",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_158": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Where was the object <BBOX 810.91913 316.592 1219.156 699.8340000000001> seen at <TIME 00:23:6.133 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter right of hob to table, then from table to hob, then from hob to sink",
+      "from drawer right of freezer to counter right of hob, then from counter right of hob to oven right of fridge, then from oven right of fridge to counter left of hob, then from counter left of hob to hob, then from hob to sink, then from sink to counter top left of washingmachine",
+      "from table to fridge, then from fridge to hob, then from hob to sink",
+      "from cupboard left of hob to hob, then from hob to sink, then from sink to table",
+      "from hob to sink, then from sink to drawer left of dishwasher, then from drawer left of dishwasher to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_168": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 1027.252 1075.804 1073.249 1175.4630000000002> seen at <TIME 00:23:0.967 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter top left of dishwasher to dishwasher",
+      "from drawer bottom right of table to another drawer bottom right of table",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to counter right of sink, then from counter right of sink to counter right of hob, then from counter right of hob to dishwasher",
+      "from counter top left of washingmachine to counter right of hob"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_182": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 810.047 725.72051 955.702 879.042> seen at <TIME 00:00:41.133 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter top right of dishwasher to dishwasher",
+      "from drawer bottom left of table to another drawer bottom left of table",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to cupboard left of extractorfan",
+      "from drawer left of dishwasher to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher, then from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to drawer left of dishwasher, then from drawer left of dishwasher to another drawer left of dishwasher",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher, then from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_186": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 1032.53333 428.41709 1205.826 690.762> seen at <TIME 00:44:2.167 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from top of storage to counter left of hob, then from counter left of hob to sink, then from sink to counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from sink to counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from cupboard top left of microwave to sink, then from sink to counter left of hob, then from counter left of hob to counter right of hob"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_196": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where was the object <BBOX 1068.636 332.144 1138.434 404.349> seen at <TIME 00:09:0.467 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter top right of dishwasher to counter right of hob, then from counter right of hob to sink, then from sink to counter top right of dishwasher",
+      "from drawer bottom right of hob to counter top right of dishwasher, then from counter top right of dishwasher to counter right of sink, then from counter right of sink to counter top right of dishwasher",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to counter right of hob, then from counter right of hob to counter left of hob",
+      "from drawer bottom right of hob to counter right of sink, then from counter right of sink to sink, then from sink to counter right of sink",
+      "from counter right of hob to counter right of sink, then from counter right of sink to counter right of hob"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_199": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 1169.72308 868.868 1309.32 1013.27863> seen at <TIME 00:41:31.4 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter top left of washingmachine, then from counter top left of washingmachine to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter top left of washingmachine, then from counter top left of washingmachine to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from cupboard top left of microwave to counter right of hob, then from counter right of hob to counter top left of washingmachine, then from counter top left of washingmachine to counter left of hob",
+      "from counter right of sink to counter left of hob",
+      "from counter top left of washingmachine to counter left of hob, then from counter left of hob to top of storage, then from top of storage to counter left of hob"
+    ],
+    "correct_idx": 3
+  },
+  "object_motion_object_movement_itinerary_213": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 1068.6359 818.32479 1150.46838 897.75> seen at <TIME 00:33:55.933 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer left of freezer to counter right of sink, then from counter right of sink to counter right of hob, then from counter right of hob to sink, then from sink to drawer left of freezer",
+      "from sink to drawer bottom right of microwave",
+      "from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter bottom right of microwave, then from counter bottom right of microwave to sink, then from sink to drawer left of freezer",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to oven"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_226": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Where was the object <BBOX 825.5453 714.83077 1152.875 979.5830000000001> seen at <TIME 00:00:30.967 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer bottom left of hob to counter right of hob, then from counter right of hob to drawer bottom left of hob",
+      "from drawer left of dishwasher to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from table to sink, then from sink to table, then from table to fridge",
+      "from sink to counter top left of washingmachine",
+      "from cupboard left of hob to table"
+    ],
+    "correct_idx": 3
+  },
+  "object_motion_object_movement_itinerary_233": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Where was the object <BBOX 1087.8906 466.9265 1333.388 736.492> seen at <TIME 00:00:11.067 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer left of dishwasher to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from table to fridge",
+      "from table to drawer left of dishwasher, then from drawer left of dishwasher to table",
+      "from drawer bottom right of hob to counter right of hob, then from counter right of hob to drawer bottom right of hob",
+      "from cupboard left of hob to table"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_252": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 645.03248 635.40513 787.036 738.899> seen at <TIME 00:15:36.433 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter bottom right of microwave",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to oven",
+      "from drawer left of freezer to counter right of sink, then from counter right of sink to counter right of hob, then from counter right of hob to counter bottom left of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_263": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 719.64444 765.37436 876.089 835.173> seen at <TIME 00:15:30.167 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to oven",
+      "from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to sink, then from sink to drawer left of freezer",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter bottom right of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_278": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where was the object <BBOX 789.443 832.766 945.887 941.074> seen at <TIME 00:02:43.567 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter left of hob to counter top right of dishwasher, then from counter top right of dishwasher to counter left of hob",
+      "from drawer bottom right of hob to counter right of sink, then from counter right of sink to sink, then from sink to counter right of sink",
+      "from counter right of hob to counter left of hob",
+      "from drawer bottom right of hob to counter top right of dishwasher, then from counter top right of dishwasher to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to counter top right of dishwasher",
+      "from counter right of sink to counter right of hob, then from counter right of hob to sink, then from sink to counter right of sink"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_282": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 848.377 817.71325 1109.024 971.034> seen at <TIME 00:19:37.567 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from cupboard right of extractorfan to counter right of hob, then from counter right of hob to counter bottom left of microwave, then from counter bottom left of microwave to cupboard right of extractorfan",
+      "from drawer bottom left of table to counter bottom left of microwave, then from counter bottom left of microwave to cupboard top left of microwave, then from cupboard top left of microwave to drawer bottom left of table",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from counter top right of dishwasher to dishwasher, then from dishwasher to counter bottom left of microwave, then from counter bottom left of microwave to cupboard top left of microwave",
+      "from dishwasher to drawer left of shelf, then from drawer left of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to cupboard top left of microwave, then from cupboard top left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_302": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Where was the object <BBOX 830.359 644.292 983.101 785.9250000000001> seen at <TIME 00:25:56.233 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to sink, then from sink to counter right of hob, then from counter right of hob to table",
+      "from drawer left of dishwasher to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer bottom left of hob to counter right of hob, then from counter right of hob to drawer bottom left of hob",
+      "from cupboard left of hob to table",
+      "from counter top left of dishwasher to sink"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_322": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 996.43077 1234.708 1063.82222 1309.3200000000002> seen at <TIME 00:06:30.767 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter left of hob to another counter left of hob, then from counter left of hob to cupboard top left of microwave, then from cupboard top left of microwave to counter right of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from top of storage to counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_326": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 1045.14 557.06715 1167.79673 684.8349999999999> seen at <TIME 00:01:7.367 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to drawer bottom right of table",
+      "from counter top right of dishwasher to dishwasher",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to dishwasher, then from dishwasher to drawer right of shelf, then from drawer right of shelf to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to dishwasher, then from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer bottom left of table to another drawer bottom left of table"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_328": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 943.48034 839.98632 1042.161 924.22564> seen at <TIME 00:01:59.0 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter right of sink to counter left of microwave",
+      "from top of storage to counter left of hob",
+      "from cupboard top left of microwave to counter right of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter top left of washingmachine, then from counter top left of washingmachine to counter right of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter top left of washingmachine, then from counter top left of washingmachine to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 0
+  },
+  "object_motion_object_movement_itinerary_335": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 664.39201 697.61162 853.4882 902.03993> seen at <TIME 00:21:17.633 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to cupboard left of extractorfan, then from cupboard left of extractorfan to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from counter top right of dishwasher to dishwasher",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher, then from dishwasher to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from drawer bottom left of table to another drawer bottom left of table"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_339": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 929.03932 1056.60171 1037.347 1174.5369999999998> seen at <TIME 00:00:37.0 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from cupboard top left of microwave to counter right of hob, then from counter right of hob to fridge right of microwave, then from fridge right of microwave to counter right of hob",
+      "from top of storage to counter left of hob, then from counter left of hob to fridge right of microwave, then from fridge right of microwave to counter right of hob, then from counter right of hob to counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from fridge right of microwave to counter left of microwave",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter left of microwave, then from counter left of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 3
+  },
+  "object_motion_object_movement_itinerary_344": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 935.26 710.38838 1086.02541 817.713> seen at <TIME 00:22:58.433 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer bottom right of table to another drawer bottom right of table, then from drawer bottom right of table to counter right of sink, then from counter right of sink to cupboard left of extractorfan",
+      "from counter top left of dishwasher to dishwasher",
+      "from counter top left of washingmachine to cupboard left of extractorfan",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter right of sink, then from counter right of sink to cupboard left of extractorfan, then from cupboard left of extractorfan to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher"
+    ],
+    "correct_idx": 3
+  },
+  "object_motion_object_movement_itinerary_357": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 948.29402 743.713 1022.9060000000001 811.1039999999999> seen at <TIME 00:08:50.167 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from cupboard top left of microwave to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of hob",
+      "from counter left of hob to another counter left of hob",
+      "from top of storage to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_374": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 953.10769 690.762 1227.48718 955.5149999999999> seen at <TIME 00:45:27.6 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from cupboard top left of microwave to counter right of hob",
+      "from top of storage to counter left of hob, then from counter left of hob to sink, then from sink to counter top left of washingmachine, then from counter top left of washingmachine to counter left of hob",
+      "from counter left of hob to sink, then from sink to counter top left of washingmachine, then from counter top left of washingmachine to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from sink to counter right of sink",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob"
+    ],
+    "correct_idx": 3
+  },
+  "object_motion_object_movement_itinerary_410": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 902.04 753.829 986.367 810.0469999999999> seen at <TIME 00:02:36.8 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer bottom left of table to another drawer bottom left of table",
+      "from dishwasher to drawer left of shelf, then from drawer left of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to drawer left of dishwasher, then from drawer left of dishwasher to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from counter top left of dishwasher to drawer left of dishwasher",
+      "from counter top right of dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to drawer left of dishwasher, then from drawer left of dishwasher to dishwasher",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to drawer left of dishwasher, then from drawer left of dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_412": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Where was the object <BBOX 965.142 255.125 1323.761 503.029> seen at <TIME 00:16:4.1 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from drawer bottom right of hob to counter right of sink, then from counter right of sink to sink, then from sink to counter right of sink",
+      "from counter right of sink to counter right of hob, then from counter right of hob to sink, then from sink to counter right of sink",
+      "from oven to counter top right of dishwasher, then from counter top right of dishwasher to another counter top right of dishwasher, then from counter top right of dishwasher to oven",
+      "from counter right of hob to counter left of hob",
+      "from drawer bottom right of hob to counter top right of dishwasher, then from counter top right of dishwasher to counter right of sink, then from counter right of sink to counter top right of dishwasher, then from counter top right of dishwasher to counter right of sink, then from counter right of sink to counter top right of dishwasher"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_414": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Where was the object <BBOX 779.81538 1071.04274 883.309 1157.689> seen at <TIME 00:09:13.867 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from table to counter right of hob, then from counter right of hob to drawer bottom left of hob, then from drawer bottom left of hob to table, then from table to fridge",
+      "from drawer bottom left of hob to counter right of hob, then from counter right of hob to drawer bottom left of hob",
+      "from cupboard left of hob to table, then from table to counter right of hob, then from counter right of hob to drawer bottom left of hob, then from drawer bottom left of hob to table",
+      "from drawer left of dishwasher to counter right of hob, then from counter right of hob to counter top right of dishwasher, then from counter top right of dishwasher to dishwasher",
+      "from counter right of hob to table"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_419": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 1090.297 216.615 1278.031 445.265> seen at <TIME 00:11:14.567 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from sink to counter left of hob, then from counter left of hob to drawer left of freezer",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to oven",
+      "from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to sink, then from sink to counter left of hob, then from counter left of hob to counter bottom right of microwave",
+      "from sink to counter left of hob"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_450": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 1211.238 554.512 1316.007 684.8349999999999> seen at <TIME 00:21:25.867 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from counter top left of dishwasher to dishwasher",
+      "from dishwasher to sink, then from sink to counter right of sink, then from counter right of sink to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer bottom right of table to another drawer bottom right of table",
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to sink, then from sink to counter right of sink, then from counter right of sink to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from sink to counter top left of washingmachine"
+    ],
+    "correct_idx": 4
+  },
+  "object_motion_object_movement_itinerary_453": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Where was the object <BBOX 1138.43419 979.58291 1258.7759999999998 1109.552> seen at <TIME 00:34:13.633 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from sink to drawer left of freezer, then from drawer left of freezer to counter right of hob",
+      "from counter bottom left of microwave to another counter bottom left of microwave, then from counter bottom left of microwave to another counter bottom left of microwave",
+      "from drawer bottom right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to counter right of hob",
+      "from counter right of hob to counter left of hob, then from counter left of hob to counter right of sink, then from counter right of sink to counter right of hob, then from counter right of hob to counter right of sink, then from counter right of sink to oven",
+      "from counter bottom right of microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter bottom right of microwave"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_461": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Where was the object <BBOX 815.15789 638.83848 1175.463 830.49> seen at <TIME 00:20:33.1 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from dishwasher to drawer right of shelf, then from drawer right of shelf to counter right of hob, then from counter right of hob to microwave, then from microwave to counter top left of dishwasher, then from counter top left of dishwasher to microwave, then from microwave to counter bottom left of microwave, then from counter bottom left of microwave to counter right of hob, then from counter right of hob to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from drawer bottom right of table to another drawer bottom right of table",
+      "from counter top left of washingmachine to counter top right of washingmachine",
+      "from dishwasher to counter top left of dishwasher, then from counter top left of dishwasher to dishwasher",
+      "from counter top left of dishwasher to dishwasher"
+    ],
+    "correct_idx": 2
+  },
+  "object_motion_object_movement_itinerary_488": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 868.86838 608.92991 1275.62393 917.00513> seen at <TIME 00:49:29.5 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from top of storage to counter left of hob",
+      "from sink to hob, then from hob to sink, then from sink to counter right of sink",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to sink, then from sink to counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from cupboard top left of microwave to counter right of hob"
+    ],
+    "correct_idx": 1
+  },
+  "object_motion_object_movement_itinerary_491": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Where was the object <BBOX 912.191 839.98632 1155.2820000000002 1059.009> seen at <TIME 00:38:47.3 video 1> moved from/to throughout the video?",
+    "choices": [
+      "from hob to sink",
+      "from top of storage to counter left of hob, then from counter left of hob to hob, then from hob to counter left of hob",
+      "from cupboard top left of microwave to counter right of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to counter right of microwave, then from counter right of microwave to counter right of hob, then from counter right of hob to counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob",
+      "from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to another counter left of hob, then from counter left of hob to hob"
+    ],
+    "correct_idx": 0
+  }
+}

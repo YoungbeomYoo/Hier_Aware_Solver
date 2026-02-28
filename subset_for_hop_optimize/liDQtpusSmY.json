@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "783",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Stage Play",
+    "url": "https://www.youtube.com/watch?v=liDQtpusSmY",
+    "videoID": "liDQtpusSmY",
+    "question_id": "783-1",
+    "task_type": "Action Reasoning",
+    "question": "What is the king endeavoring to accomplish?",
+    "options": [
+      "A. Search for his identity.",
+      "B. Conquer neighboring lands.",
+      "C. Attain immortality.",
+      "D. Win the gods' favor."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "783",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Stage Play",
+    "url": "https://www.youtube.com/watch?v=liDQtpusSmY",
+    "videoID": "liDQtpusSmY",
+    "question_id": "783-2",
+    "task_type": "Action Reasoning",
+    "question": "According to the video, what grave actions does the king unknowingly commit?",
+    "options": [
+      "A. Steal from the temple and deceive the oracle.",
+      "B. Kill his father, and marry his mother.",
+      "C. Betray his country and flee to exile.",
+      "D. Overthrow the government and seize power unlawfully."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "783",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Stage Play",
+    "url": "https://www.youtube.com/watch?v=liDQtpusSmY",
+    "videoID": "liDQtpusSmY",
+    "question_id": "783-3",
+    "task_type": "Action Recognition",
+    "question": "What is the king's response upon discovering the truth about his actions in the video?",
+    "options": [
+      "A. He leaves Thebes to seek forgiveness from the gods.",
+      "B. He ascends to the heavens to join the deities.",
+      "C. He claims the throne and rules with greater wisdom.",
+      "D. He gouges out his own eyes in despair."
+    ],
+    "answer": "D"
+  }
+]

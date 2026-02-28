@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "774",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Other Sports",
+    "url": "https://www.youtube.com/watch?v=GV5CuB4zPTY",
+    "videoID": "GV5CuB4zPTY",
+    "question_id": "774-2",
+    "task_type": "Action Reasoning",
+    "question": "What can be inferred from this video?",
+    "options": [
+      "A. PAGULAYAN gives up this match.",
+      "B. PAGULAYAN wins this match.",
+      "C. The red ball should be shot at last.",
+      "D. They have played 7 complete games in total."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "774",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Other Sports",
+    "url": "https://www.youtube.com/watch?v=GV5CuB4zPTY",
+    "videoID": "GV5CuB4zPTY",
+    "question_id": "774-3",
+    "task_type": "Object Reasoning",
+    "question": "Which is the correct characteristic of Shaw, the player from Britain who is wearing black shirts and pants?",
+    "options": [
+      "A. He is right-handed.",
+      "B. He has a beer belly.",
+      "C. He wins the second round.",
+      "D. He has black hair."
+    ],
+    "answer": "B"
+  }
+]

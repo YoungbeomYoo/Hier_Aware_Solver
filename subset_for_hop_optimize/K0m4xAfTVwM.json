@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "652",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Geography",
+    "url": "https://www.youtube.com/watch?v=K0m4xAfTVwM",
+    "videoID": "K0m4xAfTVwM",
+    "question_id": "652-1",
+    "task_type": "Action Reasoning",
+    "question": "According to the video, why did the scientist mention the way a star explodes?",
+    "options": [
+      "A. Because there are lots of features between star explosion and lightning, for example, they both release light.",
+      "B. Because it is very similar to the principle of lightning generation in many ways.",
+      "C. Because he wants to illustrate the complexity of the lightning's generation.",
+      "D. Because the stars in the galaxy is similar to the shape of lightning."
+    ],
+    "answer": "C"
+  }
+]

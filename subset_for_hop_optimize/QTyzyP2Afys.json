@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "633",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=QTyzyP2Afys",
+    "videoID": "QTyzyP2Afys",
+    "question_id": "633-3",
+    "task_type": "Information Synopsis",
+    "question": "What is the main argument presented by Jordi Visser regarding the volatility of Bitcoin in the video?",
+    "options": [
+      "A. The volatility of Bitcoin is irrelevant as its value will continue to rise in the long term.",
+      "B. The volatility of Bitcoin is declining as it becomes a more established and accepted asset class.",
+      "C. The volatility of Bitcoin is significantly higher than other asset classes like technology stocks.",
+      "D. The volatility of Bitcoin is a major concern that discourages investors and hinders its adoption."
+    ],
+    "answer": "B"
+  }
+]

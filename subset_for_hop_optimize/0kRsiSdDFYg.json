@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "884",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=0kRsiSdDFYg",
+    "videoID": "0kRsiSdDFYg",
+    "question_id": "884-1",
+    "task_type": "Counting Problem",
+    "question": "How many goals did the player interviewed by the male host at the beginning of the video wearing a top with the word QARAR score in his first match?",
+    "options": [
+      "A. 3.",
+      "B. 2.",
+      "C. 1.",
+      "D. 4."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "884",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=0kRsiSdDFYg",
+    "videoID": "0kRsiSdDFYg",
+    "question_id": "884-2",
+    "task_type": "Action Reasoning",
+    "question": "What is the score of the first game of the semi-finals in the video?",
+    "options": [
+      "A. 2:1.",
+      "B. 1:1.",
+      "C. 1:0.",
+      "D. 3:1."
+    ],
+    "answer": "A"
+  }
+]

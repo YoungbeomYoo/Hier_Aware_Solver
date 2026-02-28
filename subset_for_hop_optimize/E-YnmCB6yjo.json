@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "728",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "News Report",
+    "url": "https://www.youtube.com/watch?v=E-YnmCB6yjo",
+    "videoID": "E-YnmCB6yjo",
+    "question_id": "728-1",
+    "task_type": "Action Reasoning",
+    "question": "What does the successful appeal by a group of Swiss women on health and climate as a fundamental human right signify?",
+    "options": [
+      "A. It signifies that climate change will no longer lead to human rights claims.",
+      "B. It signifies that Swiss women will no longer be as vulnerable to the impacts of climate change.",
+      "C. It signifies that the government will take more action to reduce greenhouse gas emissions.",
+      "D. Cannot be determined."
+    ],
+    "answer": "C"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "883",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=2LDriAWltwM",
+    "videoID": "2LDriAWltwM",
+    "question_id": "883-1",
+    "task_type": "Action Reasoning",
+    "question": "Which move in the video was done in both the warm-up phase and the official workout phase of Monday's workout?",
+    "options": [
+      "A. Glute drive.",
+      "B. Barbell rdls.",
+      "C. Single leg dumbbell rdl.",
+      "D. Seated hamstring curl."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "883",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=2LDriAWltwM",
+    "videoID": "2LDriAWltwM",
+    "question_id": "883-2",
+    "task_type": "Object Reasoning",
+    "question": "What is the difference in appearance between the female lead in the video, Friday and Wednesday?",
+    "options": [
+      "A. On Friday her hair was shorter compared to when it was on Wednesday, and on Friday she wore different trousers than she did on Wednesday.",
+      "B. Friday she didn't wear a coat, Wednesday she wore a coat.",
+      "C. On Friday, her hair was longer and straighter and she wore different trousers than on Wednesday.",
+      "D. On Friday, her hair turned curly and she wore different trousers than she did on Wednesday."
+    ],
+    "answer": "D"
+  },
+  {
+    "video_id": "883",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=2LDriAWltwM",
+    "videoID": "2LDriAWltwM",
+    "question_id": "883-3",
+    "task_type": "Temporal Reasoning",
+    "question": "Which of the following describes the heroine's weekly fitness programme correctly?",
+    "options": [
+      "A. Glutes and hamstrings on Monday, pulls on Tuesday, Quads and calves on Wednesday, rest on Thursday when the lady goes to the hairdresser's and gets her hair done, push on Friday and Cardio and Core on Saturday.",
+      "B. Glutes and hamstrings on Monday, push on Tuesday, Quads and calves on Wednesday, rest on Thursday when the lady goes to the hairdresser's and gets her hair done, pulls on Friday and Cardio and Core on Saturday.",
+      "C. Glutes and hamstrings on Monday, pulls on Tuesday, Wednesday off while the lady goes to the hairdresser's and gets her hair done, Quads and calves on Thursday, push on Friday and Cardio and Core on Saturday.",
+      "D. None of the above."
+    ],
+    "answer": "B"
+  }
+]

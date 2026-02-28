@@ -1,0 +1,82 @@
+{
+  "recipe_multi_step_localization_1": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "In this video, when did the participant perform each of the following Southwestern Salad recipe steps: \"Check the sweet potatoes and roast for another 10-15 minutes\", \"Add the sweet potatoes\", \"Remove the sweet potatoes from the oven\"?",
+    "choices": [
+      "<TIME 00:14:24.882 video 1> to <TIME 00:14:27.078 video 1>, <TIME 00:23:11.811 video 1> to <TIME 00:23:17.489 video 1>, <TIME 00:20:50.477 video 1> to <TIME 00:21:04.382 video 1>",
+      "<TIME 00:12:22.000 video 1> to <TIME 00:12:33.990 video 1>, <TIME 00:19:32.974 video 1> to <TIME 00:19:34.757 video 1>, <TIME 00:14:15.000 video 1> to <TIME 00:14:18.990 video 1>",
+      "<TIME 00:15:38.473 video 1> to <TIME 00:16:20.390 video 1>, <TIME 00:05:11.483 video 1> to <TIME 00:05:16.971 video 1>, <TIME 00:07:34.953 video 1> to <TIME 00:08:26.453 video 1>",
+      "<TIME 00:13:11.025 video 1> to <TIME 00:14:08.103 video 1>, <TIME 00:12:05.000 video 1> to <TIME 00:12:09.990 video 1>, <TIME 00:21:32.073 video 1> to <TIME 00:21:41.954 video 1>",
+      "<TIME 00:07:12.940 video 1> to <TIME 00:07:15.042 video 1>, <TIME 00:17:55.535 video 1> to <TIME 00:17:57.399 video 1>, <TIME 00:06:55.643 video 1> to <TIME 00:07:12.973 video 1>"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_multi_step_localization_24": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "In this video, when did the participant perform each of the following Kadhai Paneer recipe steps: \"In a large kadai or any other pan, now melt butter with oil on medium heat. Add cumin seeds to the melted butter\", \"Add the chopped onion and saute for 3 minutes until softened. Then add the sliced green chili and ginger garlic paste and saute for another 1 to 2 minutes\", \"Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise\"?",
+    "choices": [
+      "<TIME 00:32:10.968 video 1> to <TIME 00:32:38.380 video 1>, <TIME 00:03:13.950 video 1> to <TIME 00:03:20.525 video 1>, <TIME 00:17:42.125 video 1> to <TIME 00:17:54.639 video 1>",
+      "<TIME 00:19:28.011 video 1> to <TIME 00:19:33.570 video 1>, <TIME 00:26:38.419 video 1> to <TIME 00:27:00.419 video 1>, <TIME 00:23:31.243 video 1> to <TIME 00:24:01.465 video 1>",
+      "<TIME 00:37:23.810 video 1> to <TIME 00:38:14.869 video 1>, <TIME 00:02:16.060 video 1> to <TIME 00:02:24.024 video 1>, <TIME 00:39:42.919 video 1> to <TIME 00:40:06.269 video 1>",
+      "<TIME 00:10:43.096 video 1> to <TIME 00:10:50.239 video 1>, <TIME 00:28:29.162 video 1> to <TIME 00:28:48.819 video 1>, <TIME 00:12:51.268 video 1> to <TIME 00:12:56.039 video 1>",
+      "<TIME 00:14:16.068 video 1> to <TIME 00:14:18.753 video 1>, <TIME 00:14:07.811 video 1> to <TIME 00:14:16.068 video 1>, <TIME 00:11:21.125 video 1> to <TIME 00:11:36.411 video 1>"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_multi_step_localization_26": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "In this video, when did the participant perform each of the following Salmon Teriyaki Skewers with Vegetables recipe steps: \"Add broccoli and salmon skewers to plate ontop of salad. Serve and enjoy!\", \"Place salmon teriyaki skewers on a baking sheet. Roast for 11 to 15 minutes, until just cooked. Set aside until cool enough to handle\", \"Preheat the oven to 180 degrees C/gas mark 4\"?",
+    "choices": [
+      "<TIME 00:13:33.380 video 1> to <TIME 00:13:36.108 video 1>, <TIME 00:12:51.876 video 1> to <TIME 00:13:03.006 video 1>, <TIME 00:03:28.899 video 1> to <TIME 00:03:52.969 video 1>",
+      "<TIME 00:00:23.275 video 1> to <TIME 00:00:28.917 video 1>, <TIME 00:08:00.363 video 1> to <TIME 00:08:01.725 video 1>, <TIME 00:11:44.924 video 1> to <TIME 00:11:46.549 video 1>",
+      "<TIME 00:08:12.818 video 1> to <TIME 00:08:18.098 video 1>, <TIME 00:11:57.591 video 1> to <TIME 00:12:09.118 video 1>, <TIME 00:10:53.475 video 1> to <TIME 00:11:03.540 video 1>",
+      "<TIME 00:15:06.670 video 1> to <TIME 00:15:48.413 video 1>, <TIME 00:01:38.050 video 1> to <TIME 00:02:15.182 video 1>, <TIME 00:00:17.605 video 1> to <TIME 00:00:23.241 video 1>",
+      "<TIME 00:02:53.800 video 1> to <TIME 00:02:55.270 video 1>, <TIME 00:07:43.063 video 1> to <TIME 00:07:43.947 video 1>, <TIME 00:00:08.917 video 1> to <TIME 00:00:12.476 video 1>"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_multi_step_localization_33": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "In this video, when did the participant perform each of the following French Fries and Beef Skewers recipe steps: \"Slice the onion, tomato and peppers into preferred size\", \"Cook in the oven for 15 minutes or more based on your oven settings, turn them over halfway through\", \"Drizzle skewers with oil\"?",
+    "choices": [
+      "<TIME 00:15:37.632 video 1> to <TIME 00:15:39.399 video 1>, <TIME 00:04:15.596 video 1> to <TIME 00:04:48.453 video 1>, <TIME 00:21:21.471 video 1> to <TIME 00:21:27.328 video 1>",
+      "<TIME 00:28:43.033 video 1> to <TIME 00:28:43.239 video 1>, <TIME 00:19:29.742 video 1> to <TIME 00:19:33.346 video 1>, <TIME 00:16:41.507 video 1> to <TIME 00:16:51.300 video 1>",
+      "<TIME 00:03:30.375 video 1> to <TIME 00:03:34.417 video 1>, <TIME 00:28:17.757 video 1> to <TIME 00:28:30.873 video 1>, <TIME 00:06:41.897 video 1> to <TIME 00:06:44.310 video 1>",
+      "<TIME 00:14:33.129 video 1> to <TIME 00:14:38.739 video 1>, <TIME 00:21:31.326 video 1> to <TIME 00:21:56.600 video 1>, <TIME 00:09:59.596 video 1> to <TIME 00:10:10.078 video 1>",
+      "<TIME 00:02:21.471 video 1> to <TIME 00:02:39.203 video 1>, <TIME 00:35:17.991 video 1> to <TIME 00:35:32.378 video 1>, <TIME 00:10:43.341 video 1> to <TIME 00:10:58.078 video 1>"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_multi_step_localization_36": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "In this video, when did the participant perform each of the following Banana Bread Chocolate Chip Cookies recipe steps: \"Add vanilla extract. Mix well\", \"Measure and add the flour, salt, baking soda, and cinnamon. Stir until combined and no streaks of flour remain\", \"Place the banana into a microwavable container, and heat it in the microwave. Stir\"?",
+    "choices": [
+      "<TIME 00:07:43.435 video 1> to <TIME 00:07:46.078 video 1>, <TIME 00:26:31.622 video 1> to <TIME 00:26:32.167 video 1>, <TIME 00:26:57.275 video 1> to <TIME 00:26:57.775 video 1>",
+      "<TIME 00:17:57.184 video 1> to <TIME 00:17:57.864 video 1>, <TIME 00:24:23.421 video 1> to <TIME 00:25:13.096 video 1>, <TIME 00:08:24.795 video 1> to <TIME 00:08:27.471 video 1>",
+      "<TIME 00:13:08.402 video 1> to <TIME 00:13:39.953 video 1>, <TIME 00:15:22.600 video 1> to <TIME 00:16:37.792 video 1>, <TIME 00:08:58.802 video 1> to <TIME 00:09:19.685 video 1>",
+      "<TIME 00:23:19.995 video 1> to <TIME 00:23:35.739 video 1>, <TIME 00:30:45.006 video 1> to <TIME 00:30:56.542 video 1>, <TIME 00:09:20.864 video 1> to <TIME 00:10:28.524 video 1>",
+      "<TIME 00:25:21.517 video 1> to <TIME 00:25:29.248 video 1>, <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1>, <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1>"
+    ],
+    "correct_idx": 2
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "874",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Pet & Animal",
+    "url": "https://www.youtube.com/watch?v=h1cv8Fsn4eU",
+    "videoID": "h1cv8Fsn4eU",
+    "question_id": "874-1",
+    "task_type": "Action Reasoning",
+    "question": "According to what is shown in the video, why does the cameraman drive a car?",
+    "options": [
+      "A. Taking the cat to play.",
+      "B. Purchasing food for the cat.",
+      "C. Transporting the cat to the hospital.",
+      "D. Searching for the lost cat."
+    ],
+    "answer": "C"
+  }
+]

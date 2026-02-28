@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "651",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Geography",
+    "url": "https://www.youtube.com/watch?v=Pfyx5bEZK80",
+    "videoID": "Pfyx5bEZK80",
+    "question_id": "651-2",
+    "task_type": "Action Reasoning",
+    "question": "What is the main idea of Dr. Sam Ohhugan's words?",
+    "options": [
+      "A. How Hawaiians treat nature in Hawaii.",
+      "B. Why there are so many volcanoes in Hawaii.",
+      "C. Why Hawaiians' ancestors called their gods aumakua.",
+      "D. Traditional Values of Hawaiians."
+    ],
+    "answer": "A"
+  }
+]

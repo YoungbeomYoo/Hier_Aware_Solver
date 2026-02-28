@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "719",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "Documentary",
+    "url": "https://www.youtube.com/watch?v=B7Hh0PY1kks",
+    "videoID": "B7Hh0PY1kks",
+    "question_id": "719-2",
+    "task_type": "Action Reasoning",
+    "question": "What motivated Taylor to make up her mind to change her and Harry's dietary habits?",
+    "options": [
+      "A. Taylor's family and friends hope she can make a change.",
+      "B. Harry's long-term unhealthy eating habits led him to be diagnosed with diabetes.",
+      "C. Harry's long-term unhealthy eating habits have led to tooth decay.",
+      "D. Harry suffered from anemia due to long-term unhealthy dietary habits."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "719",
+    "duration": "long",
+    "domain": "Film & Television",
+    "sub_category": "Documentary",
+    "url": "https://www.youtube.com/watch?v=B7Hh0PY1kks",
+    "videoID": "B7Hh0PY1kks",
+    "question_id": "719-3",
+    "task_type": "Information Synopsis",
+    "question": "Based on the entire video, what kind of transformation occurred with the child named Cuba?",
+    "options": [
+      "A. Healthy eating made Cuba go from being anemic to being healthy.",
+      "B. Healthy eating made Cuba go from having meningitis to being healthy.",
+      "C. Healthy eating made Cuba go from having diabetes to being healthy.",
+      "D. Healthy eating made Cuba go from having cavities to being healthy."
+    ],
+    "answer": "A"
+  }
+]

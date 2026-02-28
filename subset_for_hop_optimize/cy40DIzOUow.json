@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "742",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=cy40DIzOUow",
+    "videoID": "cy40DIzOUow",
+    "question_id": "742-2",
+    "task_type": "Object Reasoning",
+    "question": "Who is the home team's top scorer?",
+    "options": [
+      "A. Player number 34.",
+      "B. Player number 22.",
+      "C. Player number 15.",
+      "D. Player number 10."
+    ],
+    "answer": "C"
+  }
+]

@@ -1,0 +1,42 @@
+# R10c: No Caption — context assembly에서 raw caption 제거, summary만 사용
+# 상세 caption 필요한지, summary만으로 충분한지 검증
+dataset: video_mme
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/full_r10c_no_caption
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge:
+    prompt: videolucy
+    answer_judge: true
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history:
+    mode: compact
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  use_captions: false
+  coarse_first: true
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000

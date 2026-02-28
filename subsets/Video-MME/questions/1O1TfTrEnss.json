@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "895",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=1O1TfTrEnss",
+    "videoID": "1O1TfTrEnss",
+    "question_id": "895-1",
+    "task_type": "Object Recognition",
+    "question": "As can be seen in the video, which of the following is excluded from the power value on the red or blue small card?",
+    "options": [
+      "A. Value 3.",
+      "B. Value 4.",
+      "C. Value 5.",
+      "D. Value 1."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "895",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=1O1TfTrEnss",
+    "videoID": "1O1TfTrEnss",
+    "question_id": "895-2",
+    "task_type": "Object Reasoning",
+    "question": "What is special about the board on the lower right corner of the video that keeps track of the locations controlled by each of the two sides?",
+    "options": [
+      "A. The quantities of locations on both sides always stay identical.",
+      "B. The number of locations on each side must be greater than 6.",
+      "C. The sum of locations of each side is 12.",
+      "D. None of the above."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "895",
+    "duration": "long",
+    "domain": "Multilingual",
+    "sub_category": "Multilingual",
+    "url": "https://www.youtube.com/watch?v=1O1TfTrEnss",
+    "videoID": "1O1TfTrEnss",
+    "question_id": "895-3",
+    "task_type": "Object Recognition",
+    "question": "As can be seen in the video, which of the items is not placed on the table?",
+    "options": [
+      "A. A red card marked with 1937 and 1938.",
+      "B. Several blue dice.",
+      "C. A game map.",
+      "D. A green square card."
+    ],
+    "answer": "A"
+  }
+]

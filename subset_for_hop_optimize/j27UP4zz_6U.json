@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "849",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Fashion",
+    "url": "https://www.youtube.com/watch?v=j27UP4zz_6U",
+    "videoID": "j27UP4zz_6U",
+    "question_id": "849-2",
+    "task_type": "Object Reasoning",
+    "question": "What makes ROSE PRICK different from other perfumes?",
+    "options": [
+      "A. It's not black.",
+      "B. It has a lavender scent.",
+      "C. It is the only perfume that has a pink appearance.",
+      "D. It's very expensive."
+    ],
+    "answer": "C"
+  }
+]

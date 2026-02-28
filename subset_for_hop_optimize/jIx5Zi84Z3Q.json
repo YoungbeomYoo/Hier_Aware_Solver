@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "785",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Stage Play",
+    "url": "https://www.youtube.com/watch?v=jIx5Zi84Z3Q",
+    "videoID": "jIx5Zi84Z3Q",
+    "question_id": "785-1",
+    "task_type": "Action Reasoning",
+    "question": "What is the central conflict involving the woman dressed in a black top and white skirt in the video?",
+    "options": [
+      "A. Her efforts to seek artistic recognition were met with opposition from family and friends.",
+      "B. Her secret financial dealings and the consequent threat of exposure.",
+      "C. Her ambition to take over her husband's business, which creates an irreconcilable conflict with him.",
+      "D. Her efforts to restore the family's lost wealth to no avail."
+    ],
+    "answer": "B"
+  }
+]

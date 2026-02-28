@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "640",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=W-Q9AOp2FW8",
+    "videoID": "W-Q9AOp2FW8",
+    "question_id": "640-1",
+    "task_type": "Object Reasoning",
+    "question": "What was the primary purpose of the gathering in Boca Raton, Florida in 1994, highlighted at the beginning of the video?",
+    "options": [
+      "A. To explore strategic mergers and acquisitions for expanding market share and diversifying investment portfolios.",
+      "B. To brainstorm innovative financial products aimed at reducing risk for financial institutions.",
+      "C. To discuss and implement strategies for exploiting loopholes in existing financial regulations.",
+      "D. To investigate international investment opportunities and optimize tax strategies within the bounds of legal compliance."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "640",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Finance & Commerce",
+    "url": "https://www.youtube.com/watch?v=W-Q9AOp2FW8",
+    "videoID": "W-Q9AOp2FW8",
+    "question_id": "640-2",
+    "task_type": "Object Reasoning",
+    "question": "What concern did Terri Duhon and her team have regarding the expanding credit derivatives market, particularly in the context of mortgages in the video?",
+    "options": [
+      "A. They felt the complexity of synthetic CDOs would make them difficult to sell to investors.",
+      "B. They lacked sufficient historical data on the performance of retail mortgages during economic fluctuations.",
+      "C. They believed the market was becoming oversaturated with similar products, leading to decreased profitability.",
+      "D. They were concerned that increased regulation would hinder the growth and innovation within the derivatives market."
+    ],
+    "answer": "B"
+  }
+]

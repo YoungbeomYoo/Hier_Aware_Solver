@@ -1,0 +1,36 @@
+dataset: lvbench
+pipeline: agentic
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_30sec_no_window
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/LVBench/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/lvbench
+
+components:
+  query_decomposer:
+    prompt: detailed                  # prompts/decompose_detailed.py
+  solvability_checker:
+    prompt: strict                    # prompts/solvability_strict.py
+  leaf_selector:
+    prompt: budget                    # prompts/leaf_select_budget.py
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+    max_tokens: 200
+  frame_loader:
+    max_frames: 32
+
+pipeline_params:
+  max_hops: 5
+  leaf_budget: 10
+  depth_budget: 5
+  max_frames: 32
+  max_memory_chars: 120000

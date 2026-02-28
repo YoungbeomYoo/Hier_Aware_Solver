@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "648",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=4iC9Qi3y9q8",
+    "videoID": "4iC9Qi3y9q8",
+    "question_id": "648-3",
+    "task_type": "OCR Problems",
+    "question": "What does the video state about the total area of the universe?",
+    "options": [
+      "A. It estimates the total diameter at about 100 trillion lightyears.",
+      "B. It calculates the total diameter to be roughly 75 trillion lightyears.",
+      "C. It puts the total diameter at over 25 trillion lightyears.",
+      "D. It suggests the total diameter is approximately 50 trillion lightyears."
+    ],
+    "answer": "C"
+  }
+]

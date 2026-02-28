@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "886",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Exercise",
+    "url": "https://www.youtube.com/watch?v=elprD1hnDyU",
+    "videoID": "elprD1hnDyU",
+    "question_id": "886-1",
+    "task_type": "OCR Problems",
+    "question": "What is the maximum weight that the woman in the video can successfully bench press?",
+    "options": [
+      "A. 50 kilograms.",
+      "B. 55 kilograms.",
+      "C. 60 kilograms.",
+      "D. 57.5 kilograms."
+    ],
+    "answer": "D"
+  }
+]

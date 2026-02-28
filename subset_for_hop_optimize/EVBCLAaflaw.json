@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "644",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=EVBCLAaflaw",
+    "videoID": "EVBCLAaflaw",
+    "question_id": "644-3",
+    "task_type": "Object Reasoning",
+    "question": "When will we likely discover alien life, as anticipated by the white-haired speaker in the video's opening and closing?",
+    "options": [
+      "A. Within 10 years.",
+      "B. Within 20 years.",
+      "C. Within 30 years.",
+      "D. Within 40 years."
+    ],
+    "answer": "B"
+  }
+]

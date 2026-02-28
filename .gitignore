@@ -1,0 +1,8 @@
+output/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+slurm-*.out
+hop_failure_tree_reconstruction.txt

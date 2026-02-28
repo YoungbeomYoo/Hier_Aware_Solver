@@ -1,0 +1,127 @@
+{
+  "nutrition_nutrition_change_5": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:34.007",
+        "end_time": "00:03:36.037"
+      }
+    },
+    "question": "From <TIME 00:03:34.007 video 1> to <TIME 00:03:36.037 video 1>, what changed in the nutrition values of the dish with recipe french fries and beef skewers?",
+    "choices": [
+      "calories changed by 42.8, fat changed by 3.6, carbs changed by 1.2, protein changed by 0.6",
+      "calories changed by 61.0, fat changed by 5.4, carbs changed by 3.2, protein changed by 0.5",
+      "calories changed by 93.4, fat changed by 8.2, carbs changed by 5.3, protein changed by 0.9",
+      "calories changed by 28.7, fat changed by 7.3, carbs changed by 0.5, protein changed by 0.3",
+      "calories changed by 106.1, fat changed by 7.7, carbs changed by 1.6, protein changed by 0.6"
+    ],
+    "correct_idx": 1,
+    "metadata": [
+      "calories: random multiplier=0.7,fat: random multiplier=0.7,carbs: random multiplier=0.4,protein: random multiplier=1.3",
+      "No change (positive), ingredient: garlic and ginger paste",
+      "calories: random multiplier=1.5,fat: random multiplier=1.5,carbs: random multiplier=1.6,protein: random multiplier=1.7",
+      "calories: random multiplier=0.5,fat: random multiplier=1.3,carbs: random multiplier=0.2,protein: random multiplier=0.5",
+      "calories: random multiplier=1.7,fat: random multiplier=1.4,carbs: random multiplier=0.5,protein: random multiplier=1.3"
+    ]
+  },
+  "nutrition_nutrition_change_19": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:07:03.000",
+        "end_time": "00:07:30.060"
+      }
+    },
+    "question": "From <TIME 00:07:03.000 video 1> to <TIME 00:07:30.060 video 1>, what changed in the nutrition values of the dish with recipe banana bread chocolate chip cookies?",
+    "choices": [
+      "calories changed by 326.9, fat changed by 0.0, carbs changed by 49.2, protein changed by 0.1",
+      "calories changed by 1191.6, fat changed by 0.0, carbs changed by 296.9, protein changed by 0.3",
+      "calories changed by 760.0, fat changed by 0.0, carbs changed by 196.2, protein changed by 0.2",
+      "calories changed by 1034.4, fat changed by 0.0, carbs changed by 306.6, protein changed by 0.0",
+      "calories changed by 356.9, fat changed by 0.0, carbs changed by 279.5, protein changed by 0.1"
+    ],
+    "correct_idx": 2,
+    "metadata": [
+      "calories: random multiplier=0.4,fat: random multiplier=0.5,carbs: random multiplier=0.3,protein: random multiplier=0.6",
+      "calories: random multiplier=1.6,fat: random multiplier=0.7,carbs: random multiplier=1.5,protein: random multiplier=1.6",
+      "No change (positive), ingredient: sugar",
+      "calories: random multiplier=1.4,fat: random multiplier=1.5,carbs: random multiplier=1.6,protein: random multiplier=0.2",
+      "calories: random multiplier=0.5,fat: random multiplier=1.4,carbs: random multiplier=1.4,protein: random multiplier=0.3"
+    ]
+  },
+  "nutrition_nutrition_change_23": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:07:47.007",
+        "end_time": "00:07:58.057"
+      }
+    },
+    "question": "From <TIME 00:07:47.007 video 1> to <TIME 00:07:58.057 video 1>, what changed in the nutrition values of the dish with recipe banana bread chocolate chip cookies?",
+    "choices": [
+      "calories changed by 932.0, fat changed by 105.4, carbs changed by 0.1, protein changed by 1.1",
+      "calories changed by 1180.1, fat changed by 183.0, carbs changed by 0.0, protein changed by 1.6",
+      "calories changed by 443.2, fat changed by 28.9, carbs changed by 0.2, protein changed by 0.3",
+      "calories changed by 467.6, fat changed by 17.0, carbs changed by 0.0, protein changed by 0.5",
+      "calories changed by 1320.7, fat changed by 39.4, carbs changed by 0.0, protein changed by 0.2"
+    ],
+    "correct_idx": 0,
+    "metadata": [
+      "No change (positive), ingredient: butter",
+      "calories: random multiplier=1.3,fat: random multiplier=1.7,carbs: random multiplier=0.2,protein: random multiplier=1.4",
+      "calories: random multiplier=0.5,fat: random multiplier=0.3,carbs: random multiplier=1.5,protein: random multiplier=0.3",
+      "calories: random multiplier=0.5,fat: random multiplier=0.2,carbs: random multiplier=0.3,protein: random multiplier=0.5",
+      "calories: random multiplier=1.4,fat: random multiplier=0.4,carbs: random multiplier=0.5,protein: random multiplier=0.2"
+    ]
+  },
+  "nutrition_nutrition_change_25": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:16:30.977",
+        "end_time": "00:16:32.007"
+      }
+    },
+    "question": "From <TIME 00:16:30.977 video 1> to <TIME 00:16:32.007 video 1>, what changed in the nutrition values of the dish with recipe southwestern salad?",
+    "choices": [
+      "calories changed by 35.8, fat changed by 0.1, carbs changed by 7.1, protein changed by 1.5",
+      "calories changed by 24.0, fat changed by 0.2, carbs changed by 5.1, protein changed by 2.0",
+      "calories changed by 39.7, fat changed by 0.1, carbs changed by 2.4, protein changed by 0.5",
+      "calories changed by 41.5, fat changed by 0.3, carbs changed by 7.5, protein changed by 1.4",
+      "calories changed by 30.2, fat changed by 0.1, carbs changed by 7.2, protein changed by 3.0"
+    ],
+    "correct_idx": 1,
+    "metadata": [
+      "calories: random multiplier=1.5,fat: random multiplier=0.7,carbs: random multiplier=1.4,protein: random multiplier=0.7",
+      "No change (positive), ingredient: lettuce",
+      "calories: random multiplier=1.7,fat: random multiplier=0.4,carbs: random multiplier=0.5,protein: random multiplier=0.3",
+      "calories: random multiplier=1.7,fat: random multiplier=1.5,carbs: random multiplier=1.5,protein: random multiplier=0.7",
+      "calories: random multiplier=1.3,fat: random multiplier=0.4,carbs: random multiplier=1.4,protein: random multiplier=1.5"
+    ]
+  },
+  "nutrition_nutrition_change_43": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642",
+        "start_time": "00:20:55.840",
+        "end_time": "00:20:57.912"
+      }
+    },
+    "question": "From <TIME 00:20:55.840 video 1> to <TIME 00:20:57.912 video 1>, what changed in the nutrition values of the dish with recipe kadhai paneer?",
+    "choices": [
+      "calories changed by 16.2, fat changed by 0.0, carbs changed by 12.5, protein changed by 0.4",
+      "calories changed by 54.6, fat changed by 0.1, carbs changed by 7.0, protein changed by 1.3",
+      "calories changed by 41.0, fat changed by 0.1, carbs changed by 9.3, protein changed by 0.9",
+      "calories changed by 4.3, fat changed by 0.0, carbs changed by 13.9, protein changed by 1.3",
+      "calories changed by 60.3, fat changed by 0.1, carbs changed by 2.2, protein changed by 0.4"
+    ],
+    "correct_idx": 2,
+    "metadata": [
+      "calories: random multiplier=0.4,fat: random multiplier=0.1,carbs: random multiplier=1.3,protein: random multiplier=0.4",
+      "calories: random multiplier=1.3,fat: random multiplier=1.3,carbs: random multiplier=0.7,protein: random multiplier=1.4",
+      "No change (positive), ingredient: onions",
+      "calories: random multiplier=0.1,fat: random multiplier=0.2,carbs: random multiplier=1.5,protein: random multiplier=1.4",
+      "calories: random multiplier=1.5,fat: random multiplier=0.5,carbs: random multiplier=0.2,protein: random multiplier=0.4"
+    ]
+  }
+}

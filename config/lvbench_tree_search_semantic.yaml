@@ -1,0 +1,46 @@
+# LVBench — Tree Search + Semantic Matching + Visual Judge
+# Qwen3-Embedding-0.6B로 question key_elements vs Level_1 key_elements 시맨틱 매칭
+# Top-30 L1 노드 선택 → exact match 대신 embedding 기반 필터링
+dataset: lvbench
+pipeline: tree_search
+cached: false
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/find_solver_please/subsets/LVBench/memory
+  question_path: /lustre/youngbeom/find_solver_please/subsets/LVBench/questions/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/lvbench_subset_tree_search_semantic
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge: {}
+  judge_visual: {}
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history_compactor:
+    max_observation_tokens: 20000
+    max_state_tokens: 2000
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+  semantic_matcher:
+    model_path: /scratch2/youngbeom/ckpt/Qwen3-Embedding-0.6B
+    top_k: 30
+    batch_size: 64
+    score_mode: sum
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000

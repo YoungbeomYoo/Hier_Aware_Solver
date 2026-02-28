@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "735",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Esports",
+    "url": "https://www.youtube.com/watch?v=ot4P2G1MRLw",
+    "videoID": "ot4P2G1MRLw",
+    "question_id": "735-2",
+    "task_type": "Action Recognition",
+    "question": "How does team WBG win the battle at the time of 17:10?",
+    "options": [
+      "A. Zdz uses TP and kills Zika with teammates.",
+      "B. Team LNG loses the view of enemies.",
+      "C. Team LNG doesn't use TP.",
+      "D. Team LNG lacks teammates."
+    ],
+    "answer": "A"
+  }
+]

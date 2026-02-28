@@ -1,0 +1,82 @@
+{
+  "recipe_following_activity_recognition_1": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "Which high-level activity did the participant do while completing recipe step Check the sweet potatoes and roast for another 10-15 minutes in this video?",
+    "choices": [
+      "replacing the bag in the food composting bin and throwing away food scraps",
+      "washing up and loading the dishwasher",
+      "clean and clear",
+      "clean and clear - put ingredients and equipment away",
+      "prepare the dressing, add lettuce, sweetcorn and avocado. once ready, add the roasted sweet potato to salad and mix with the dressing"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_following_activity_recognition_5": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Which high-level activity did the participant do while completing recipe step Freshly grind your coffee beans in this video?",
+    "choices": [
+      "freshly grind coffee and start preparing coffee using espresso machine",
+      "line parchment paper on baking trays",
+      "reloading the dishwasher",
+      "unloading the dishwasher - putting dishes away",
+      "preheat the oven"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_following_activity_recognition_9": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Which high-level activity did the participant do while completing recipe step Marinate beef in ginger and garlic paste in this video?",
+    "choices": [
+      "transfer fries to plate, season and taste",
+      "continue stirring fries and slicing potato",
+      "stir fries, taste and transfer to plate",
+      "retrieve materials and gather and prepare ingredients",
+      "place fries on hob and stir"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_following_activity_recognition_35": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Which high-level activity did the participant do while completing recipe step Add vanilla extract. Mix well in this video?",
+    "choices": [
+      "preheat the oven",
+      "unloading the dishwasher - putting dishes away",
+      "prepare the cookies mix with butter, banana, egg yolk and flour. fold the chocolate chips into the mix",
+      "tidy up - load the dishwasher and wash up",
+      "reloading the dishwasher"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_following_activity_recognition_37": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Which high-level activity did the participant do while completing recipe step Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree in this video?",
+    "choices": [
+      "chopping, preparing curry base and cooking it",
+      "washing the utensils",
+      "cleaning the tabletop area",
+      "cleaning the benchtop and sink area",
+      "storing the prepared curry in a box"
+    ],
+    "correct_idx": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "recipe_multi_recipe_recognition_14": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      }
+    },
+    "question": "Which of these recipes were carried out in this video?",
+    "choices": [
+      "Peanut Butter Banana Cookies and Espresso",
+      "Chocolate Chip Muffins and Mocha",
+      "Banana Nut Bread and Cold Brew",
+      "Banana Oat Cookies and Tea",
+      "Banana Bread Chocolate Chip Cookies and Coffee"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_multi_recipe_recognition_35": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "Which of these recipes were carried out in this video?",
+    "choices": [
+      "Miso-Glazed Salmon with Veggies",
+      "Grilled Salmon with Mango Salsa",
+      "Blackened Salmon with Avocado Salad",
+      "Salmon Teriyaki Skewers with Vegetables",
+      "Honey Garlic Salmon Skewers"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_multi_recipe_recognition_41": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "Which of these recipes were carried out in this video?",
+    "choices": [
+      "Kadhai Paneer and Dal Makhani with Rice",
+      "Paneer Bhurji and Thai Green Curry",
+      "Halloumi Bake and Chicken Korma",
+      "Palak Paneer and Rajma (Kidney Bean Curry) with Rice",
+      "Matar Paneer and Chole (Chickpea Curry) with Rice"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_multi_recipe_recognition_48": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      }
+    },
+    "question": "Which of these recipes were carried out in this video?",
+    "choices": [
+      "Loaded Fries with Ground Beef",
+      "Corndogs",
+      "Beef Satay with Rice",
+      "French Fries and Beef Skewers",
+      "Steak Frites"
+    ],
+    "correct_idx": 3
+  }
+}

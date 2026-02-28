@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "750",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=sxrx7oCrb3A",
+    "videoID": "sxrx7oCrb3A",
+    "question_id": "750-2",
+    "task_type": "Action Recognition",
+    "question": "In the Guess Nash matchup, which game has similar rules to the third game in Guess Wiggins?",
+    "options": [
+      "A. Third game.",
+      "B. First game.",
+      "C. Second game.",
+      "D. Fourth game."
+    ],
+    "answer": "A"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "845",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Fashion",
+    "url": "https://www.youtube.com/watch?v=1evyOuQz-jM",
+    "videoID": "1evyOuQz-jM",
+    "question_id": "845-1",
+    "task_type": "Temporal Reasoning",
+    "question": "In what sequence are the following jewelry pieces arranged to be displayed in this video?\n(a) Engagement ring.\n(b) Cartier bracelets.\n(c) Tabayer earrings.\n(d) Missoma hoops.",
+    "options": [
+      "A. (b)(a)(d)(c).",
+      "B. (a)(b)(c)(d).",
+      "C. (c)(d)(b)(a).",
+      "D. (d)(c)(a)(b)."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "845",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Fashion",
+    "url": "https://www.youtube.com/watch?v=1evyOuQz-jM",
+    "videoID": "1evyOuQz-jM",
+    "question_id": "845-2",
+    "task_type": "Object Reasoning",
+    "question": "What makes the dual diamond ring from Leon Diamond unique or special?",
+    "options": [
+      "A. It is worn on two fingers.",
+      "B. It is made from rare and expensive materials.",
+      "C. It can change colors based on the wearer's mood..",
+      "D. It has a hidden compartment for storing small items.."
+    ],
+    "answer": "A"
+  },
+  {
+    "video_id": "845",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Fashion",
+    "url": "https://www.youtube.com/watch?v=1evyOuQz-jM",
+    "videoID": "1evyOuQz-jM",
+    "question_id": "845-3",
+    "task_type": "Temporal Reasoning",
+    "question": "Which jewellery piece is being introduced when she takes off her coat?",
+    "options": [
+      "A. A bracelet.",
+      "B. A ring.",
+      "C. A necklace.",
+      "D. A pair of earrings."
+    ],
+    "answer": "C"
+  }
+]

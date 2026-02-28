@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "669",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Law",
+    "url": "https://www.youtube.com/watch?v=g1VFfVsZt7w",
+    "videoID": "g1VFfVsZt7w",
+    "question_id": "669-2",
+    "task_type": "Object Reasoning",
+    "question": "What character in the courtroom is the man with the gun trying to assassinate the prosecutor in the film clip at the very beginning of the video?",
+    "options": [
+      "A. Member of the jury.",
+      "B. Defence counsel.",
+      "C. Witness.",
+      "D. Judge."
+    ],
+    "answer": "C"
+  },
+  {
+    "video_id": "669",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Law",
+    "url": "https://www.youtube.com/watch?v=g1VFfVsZt7w",
+    "videoID": "g1VFfVsZt7w",
+    "question_id": "669-3",
+    "task_type": "Object Reasoning",
+    "question": "What is the issue that the prosecution and defence sit down to discuss in the episode of the film at the end of the video?",
+    "options": [
+      "A. The issue of the defendant's damages to the plaintiff.",
+      "B. The question of the number of years of imprisonment to which the accused should be sentenced.",
+      "C. The question of whether the defendant is liable to pay compensation.",
+      "D. The question of whether the defendant and the plaintiff were required to settle privately."
+    ],
+    "answer": "A"
+  }
+]

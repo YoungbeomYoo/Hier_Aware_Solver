@@ -1,0 +1,2972 @@
+{
+  "gaze_interaction_anticipation_7": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:00:48.466",
+        "end_time": "00:00:58.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The knife.",
+      "The bowl.",
+      "The small cheese grater.",
+      "The glass.",
+      "The mug."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_13": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:25:13.366",
+        "end_time": "00:25:23.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The saucepan.",
+      "The plate.",
+      "The bottle of oil.",
+      "The towel."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_15": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:06:53.233",
+        "end_time": "00:07:03.233"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The weighing scales.",
+      "The fork.",
+      "The plate.",
+      "The clip.",
+      "The pouch of food."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_16": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:33.033",
+        "end_time": "00:03:43.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pyrex bowl of meat.",
+      "The knife.",
+      "The bottle of garlic.",
+      "The bottle of oil.",
+      "The cap of bottle."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_36": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:11.133",
+        "end_time": "00:19:21.133"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The flour.",
+      "The different bottle of vanilla extract.",
+      "The eggshell halves.",
+      "The bundle of measuring spoons.",
+      "The lid."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_43": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:30.466",
+        "end_time": "00:33:40.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The towel.",
+      "The fork.",
+      "The saucepan.",
+      "The bottle of salt.",
+      "The napkin."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_53": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:12:39.600",
+        "end_time": "00:12:49.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The oven mitt.",
+      "The tongs.",
+      "The baking tray.",
+      "The lid of seasoning.",
+      "The sponge."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_55": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:33.733",
+        "end_time": "00:11:43.733"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The excess parchment.",
+      "The baking tray.",
+      "The bottle of salt.",
+      "The bottle of oil.",
+      "The bowl of onions."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_62": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:02:22.066",
+        "end_time": "00:02:32.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer.",
+      "The baking tray.",
+      "The salmon skewer packaging.",
+      "The piece of foil.",
+      "The phone."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_68": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:08:54.200",
+        "end_time": "00:09:04.200"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The lid of spice jar.",
+      "The pen.",
+      "The spoon.",
+      "The bottle of vegetable oil.",
+      "The phone."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_83": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:00:36.666",
+        "end_time": "00:00:46.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bag of avocados.",
+      "The food waste bin.",
+      "The grater.",
+      "The bag of lettuce.",
+      "The can of food."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_85": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:04:39.300",
+        "end_time": "00:04:49.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The onion.",
+      "The bowl of onions.",
+      "The knife.",
+      "The basket of vegetables.",
+      "The skewer."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_87": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:13:09.666",
+        "end_time": "00:13:19.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The jar of olives.",
+      "The pen.",
+      "The bag of coriander.",
+      "The bag of parsley.",
+      "The garlic bulb."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_88": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:34:18.366",
+        "end_time": "00:34:28.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of soap.",
+      "The sponge.",
+      "The utensil.",
+      "The chopping board.",
+      "The wooden spoon."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_89": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:57.333",
+        "end_time": "00:26:07.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can opener.",
+      "The new spoon.",
+      "The measuring spoon.",
+      "The spoon.",
+      "The plastic box."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_94": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:21:08.933",
+        "end_time": "00:21:18.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The avocado half.",
+      "The tray of avocados.",
+      "The baking tray.",
+      "The spoon."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_108": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:17.466",
+        "end_time": "00:13:27.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The scale.",
+      "The saucepan.",
+      "The cardboard.",
+      "The bottle of salt.",
+      "The bottle of oil."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_117": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:12:31.866",
+        "end_time": "00:12:41.866"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The lid of seasoning.",
+      "The phone.",
+      "The oven mitt.",
+      "The small spoon.",
+      "The sponge."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_131": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:09:32.500",
+        "end_time": "00:09:42.500"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer drum.",
+      "The oil.",
+      "The brush.",
+      "The bottle of washing up liquid.",
+      "The air fryer."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_136": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:01:51.300",
+        "end_time": "00:02:01.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The baking tray.",
+      "The knife.",
+      "The salmon skewer packaging.",
+      "The piece of foil.",
+      "The skewer."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_174": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:22.066",
+        "end_time": "00:26:32.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The plastic box.",
+      "The bowl.",
+      "The white plastic lid.",
+      "The can opener.",
+      "The knife."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_179": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:34:31.333",
+        "end_time": "00:34:41.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The keepcup.",
+      "The utensil.",
+      "The wooden spoon.",
+      "The ceramic mug."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_183": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:34.633",
+        "end_time": "00:05:44.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The packet of cashew nuts.",
+      "The bottle.",
+      "The measuring spoon.",
+      "The bottle of vegetable oil.",
+      "The bowl."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_186": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:24:30.133",
+        "end_time": "00:24:40.133"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The bottle of salt.",
+      "The plate.",
+      "The fork.",
+      "The saucepan."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_188": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:00.733",
+        "end_time": "00:14:10.733"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The basket of vegetables.",
+      "The packet of skewers.",
+      "The steaming rack.",
+      "The basket.",
+      "The potato."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_189": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:40.233",
+        "end_time": "00:12:50.233"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The saucepan.",
+      "The towel.",
+      "The knife.",
+      "The bottle of washing up liquid.",
+      "The sponge."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_196": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:23:36.733",
+        "end_time": "00:23:46.733"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The chopping board.",
+      "The bag of avocados.",
+      "The baking tray.",
+      "The knife.",
+      "The tray of avocados."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_200": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:00:59.866",
+        "end_time": "00:01:09.866"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The pyrex bowl of meat.",
+      "The packet of skewers.",
+      "The bottle of garlic.",
+      "The basket of vegetables."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_203": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:23.366",
+        "end_time": "00:24:33.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can of food.",
+      "The packet of cashew nuts.",
+      "The bag of parsley.",
+      "The plastic lid.",
+      "The bag of lettuce."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_212": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:28:34.666",
+        "end_time": "00:28:44.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spray bottle.",
+      "The food waste bin.",
+      "The plastic tub.",
+      "The tea towel.",
+      "The baking tray."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_219": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:35:07.400",
+        "end_time": "00:35:17.400"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The ceramic mug.",
+      "The keepcup.",
+      "The fork.",
+      "The wooden spoon.",
+      "The mug."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_228": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:01:43.933",
+        "end_time": "00:01:53.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The bottle of garlic.",
+      "The pyrex bowl of meat.",
+      "The packet of skewers.",
+      "The basket of vegetables."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_229": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:03.700",
+        "end_time": "00:25:13.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The carton of milk.",
+      "The food waste bin.",
+      "The can of food.",
+      "The bag of parsley.",
+      "The sheet of kitchen roll."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_241": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:02:50.933",
+        "end_time": "00:03:00.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The dish.",
+      "The cutlery.",
+      "The glass.",
+      "The forks.",
+      "The spoon."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_245": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:21.800",
+        "end_time": "00:14:31.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The seasoning.",
+      "The bowl.",
+      "The fork.",
+      "The air fryer drum.",
+      "The sponge."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_251": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:12:32.100",
+        "end_time": "00:12:42.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The lid of seasoning.",
+      "The small spoon.",
+      "The phone.",
+      "The baking tray.",
+      "The sponge."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_256": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:59.933",
+        "end_time": "00:12:09.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The oven tray.",
+      "The onion.",
+      "The chopping board.",
+      "The bottle of washing up liquid."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_259": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:06:29.900",
+        "end_time": "00:06:39.900"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The pouch of food.",
+      "The bowl.",
+      "The weighing scales.",
+      "The plate."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_260": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:51.466",
+        "end_time": "00:14:01.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The scale.",
+      "The bag of potato.",
+      "The potato.",
+      "The basket.",
+      "The packet of skewers."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_261": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:10:07.000",
+        "end_time": "00:10:17.000"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer.",
+      "The piece of plastic.",
+      "The bottle of washing up liquid.",
+      "The bowl.",
+      "The sponge."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_265": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:48.466",
+        "end_time": "00:11:58.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The onion.",
+      "The oven tray.",
+      "The bowl of onions.",
+      "The bottle of salt.",
+      "The chopping board."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_267": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:04:50.833",
+        "end_time": "00:05:00.833"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The basket of vegetables.",
+      "The skewer.",
+      "The onion.",
+      "The knife."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_271": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:20.833",
+        "end_time": "00:13:30.833"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The saucepan.",
+      "The bag of potato.",
+      "The bottle of oil.",
+      "The cardboard."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_278": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:21:13.100",
+        "end_time": "00:21:23.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The cloth.",
+      "The spoon.",
+      "The pen.",
+      "The lid.",
+      "The colander."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_280": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:18:44.166",
+        "end_time": "00:18:54.166"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The lid.",
+      "The eggshell halves.",
+      "The different bottle of vanilla extract.",
+      "The pen.",
+      "The fork."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_296": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:24:43.033",
+        "end_time": "00:24:53.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of oil.",
+      "The fork.",
+      "The plate.",
+      "The bottle of salt.",
+      "The saucepan."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_303": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:23:07.800",
+        "end_time": "00:23:17.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The small bowl.",
+      "The pair of tongs.",
+      "The wooden spoon.",
+      "The torn off piece of baking paper.",
+      "The baking tray."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_307": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:13:20.533",
+        "end_time": "00:13:30.533"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The baking tray.",
+      "The oven mitt.",
+      "The tongs.",
+      "The seasoning.",
+      "The sponge."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_309": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:11:33.366",
+        "end_time": "00:11:43.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The plate.",
+      "The seasoning.",
+      "The phone.",
+      "The air fryer drum."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_330": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:06:03.966",
+        "end_time": "00:06:13.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The packet of cashew nuts.",
+      "The pen.",
+      "The green airpods case.",
+      "The measuring spoon.",
+      "The bottle of vegetable oil."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_332": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:00:56.033",
+        "end_time": "00:01:06.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The yellow cloth.",
+      "The bottle of garlic.",
+      "The basket of vegetables.",
+      "The bowl of onions.",
+      "The packet of skewers."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_334": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:24.033",
+        "end_time": "00:14:34.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The steaming rack.",
+      "The potato peeler.",
+      "The knife.",
+      "The plate.",
+      "The sieve."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_336": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:04:20.466",
+        "end_time": "00:04:30.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The glass jug.",
+      "The butter pack.",
+      "The digital weighing scale.",
+      "The knife."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_341": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:08:53.133",
+        "end_time": "00:09:03.133"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The pen.",
+      "The piece of paper.",
+      "The glass jug.",
+      "The packet of chocolate chips."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_347": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:35:06.266",
+        "end_time": "00:35:16.266"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The mug.",
+      "The keepcup.",
+      "The wooden spoon.",
+      "The saucepan.",
+      "The ceramic mug."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_350": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:11:24.266",
+        "end_time": "00:11:34.266"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The dishcloth.",
+      "The egg.",
+      "The small bowl.",
+      "The eggshell halves.",
+      "The stool."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_359": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:30.166",
+        "end_time": "00:13:40.166"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bag of potato.",
+      "The basket of vegetables.",
+      "The scale.",
+      "The packet of skewers.",
+      "The potato."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_365": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:09:27.166",
+        "end_time": "00:09:37.166"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The phone.",
+      "The lid of spice jar.",
+      "The bottle of vegetable oil.",
+      "The bag of avocados.",
+      "The spice jar."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_368": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:26:39.900",
+        "end_time": "00:26:49.900"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can opener.",
+      "The knife.",
+      "The bowl.",
+      "The white plastic lid.",
+      "The dish scrubbing brush."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_375": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:10.533",
+        "end_time": "00:19:20.533"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The packet of chocolate chips.",
+      "The lid.",
+      "The bundle of measuring spoons.",
+      "The different bottle of vanilla extract.",
+      "The eggshell halves."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_376": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:01:42.100",
+        "end_time": "00:01:52.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The cardboard sleeve.",
+      "The knife.",
+      "The piece of foil.",
+      "The skewer.",
+      "The salmon skewer packaging."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_377": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:38.800",
+        "end_time": "00:05:48.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pen.",
+      "The packet of cashew nuts.",
+      "The measuring spoon.",
+      "The bottle of vegetable oil.",
+      "The bottle."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_385": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:10.266",
+        "end_time": "00:33:20.266"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The napkin.",
+      "The towel.",
+      "The plate.",
+      "The bowl."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_388": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:26.066",
+        "end_time": "00:05:36.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The bottle.",
+      "The baking tray.",
+      "The notebook.",
+      "The bottle of vegetable oil."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_394": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:35:28.700",
+        "end_time": "00:35:38.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The ceramic mug.",
+      "The fork.",
+      "The saucepan.",
+      "The mug.",
+      "The sponge."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_397": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:04:04.533",
+        "end_time": "00:04:14.533"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The skewer.",
+      "The bottle of salt.",
+      "The bowl of onions.",
+      "The knife.",
+      "The onion."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_398": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:00:29.566",
+        "end_time": "00:00:39.566"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The box of kitchen foil.",
+      "The cardboard sleeve.",
+      "The salmon skewer packaging.",
+      "The phone.",
+      "The baking tray."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_410": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:43.000",
+        "end_time": "00:11:53.000"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The oven tray.",
+      "The bottle of salt.",
+      "The excess parchment.",
+      "The onion."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_412": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:12:23.400",
+        "end_time": "00:12:33.400"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The small spoon.",
+      "The lid of seasoning.",
+      "The phone.",
+      "The seasoning."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_418": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:11:58.433",
+        "end_time": "00:12:08.433"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The onion.",
+      "The sponge.",
+      "The chopping board.",
+      "The bowl of onions.",
+      "The oven tray."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_424": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:16.233",
+        "end_time": "00:19:26.233"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The packet of chocolate chips.",
+      "The flour.",
+      "The teaspoon.",
+      "The lid.",
+      "The self-raising flour."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_437": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:20:21.300",
+        "end_time": "00:20:31.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The baking tray.",
+      "The tea towel.",
+      "The digital weighing scale.",
+      "The stool.",
+      "The colander."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_444": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:34.833",
+        "end_time": "00:14:44.833"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The bowl.",
+      "The baking tray.",
+      "The oven mitt.",
+      "The tea towel."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_448": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:30:33.866",
+        "end_time": "00:30:43.866"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The cloth.",
+      "The bowl.",
+      "The spoon.",
+      "The yellow tray."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_452": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:10:40.166",
+        "end_time": "00:10:50.166"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spoon.",
+      "The knife.",
+      "The tongs.",
+      "The flask.",
+      "The plate."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_455": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:05:23.900",
+        "end_time": "00:05:33.900"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The pen.",
+      "The baking tray.",
+      "The packet of cashew nuts.",
+      "The notebook."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_467": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:34:49.633",
+        "end_time": "00:34:59.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The keepcup.",
+      "The wooden spoon.",
+      "The utensil.",
+      "The mug."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_469": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:23:07.833",
+        "end_time": "00:23:17.833"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pair of tongs.",
+      "The baking tray.",
+      "The wooden spoon.",
+      "The baking paper.",
+      "The small bowl."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_485": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:25:00.600",
+        "end_time": "00:25:10.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The towel.",
+      "The bottle of oil.",
+      "The bottle of salt.",
+      "The saucepan."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_492": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:31.133",
+        "end_time": "00:03:41.133"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The cap of bottle.",
+      "The pyrex bowl of meat.",
+      "The bottle of salt.",
+      "The bottle of garlic.",
+      "The knife."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_494": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:47.333",
+        "end_time": "00:25:57.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spoon.",
+      "The plastic box.",
+      "The new spoon.",
+      "The lid of can of food.",
+      "The measuring spoon."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_498": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:03.466",
+        "end_time": "00:14:13.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The potato.",
+      "The basket.",
+      "The spoon.",
+      "The sieve.",
+      "The packet of skewers."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_499": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:03:11.900",
+        "end_time": "00:03:21.900"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The phone.",
+      "The bag of frozen broccoli.",
+      "The baking tray.",
+      "The weighing scales.",
+      "The salmon skewer packaging."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_506": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:13:41.100",
+        "end_time": "00:13:51.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The self-raising flour.",
+      "The different bottle of vanilla extract.",
+      "The fork.",
+      "The large silver bowl.",
+      "The bowl."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_512": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:01:24.600",
+        "end_time": "00:01:34.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The wooden spoon.",
+      "The glass jug.",
+      "The dish.",
+      "The plate.",
+      "The knife."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_513": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:01:54.766",
+        "end_time": "00:02:04.766"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The mug.",
+      "The plastic box.",
+      "The plate.",
+      "The dish.",
+      "The glass jug."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_514": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:36.866",
+        "end_time": "00:33:46.866"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The chopping board.",
+      "The bottle of soap.",
+      "The saucepan.",
+      "The fork."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_517": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:20.100",
+        "end_time": "00:13:30.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The basket of vegetables.",
+      "The cardboard.",
+      "The bottle of oil.",
+      "The bottle of salt.",
+      "The saucepan."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_520": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:30.533",
+        "end_time": "00:08:40.533"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The salt shaker.",
+      "The pepper grinder.",
+      "The air fryer drum.",
+      "The baking tray.",
+      "The oil."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_526": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:15:55.366",
+        "end_time": "00:16:05.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The oven mitt.",
+      "The tea towel.",
+      "The tongs.",
+      "The fork.",
+      "The cutlery tray."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_535": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:02:26.600",
+        "end_time": "00:02:36.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bag of frozen broccoli.",
+      "The piece of foil.",
+      "The air fryer.",
+      "The salmon skewer packaging.",
+      "The phone."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_539": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:38.700",
+        "end_time": "00:03:48.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The skewer.",
+      "The bottle of salt.",
+      "The bottle of garlic.",
+      "The bottle of oil.",
+      "The cap of bottle."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_541": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:20:21.266",
+        "end_time": "00:20:31.266"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The stool.",
+      "The tea towel.",
+      "The baking tray.",
+      "The saucepan.",
+      "The digital weighing scale."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_542": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:07:05.966",
+        "end_time": "00:07:15.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The plate.",
+      "The pouch of food.",
+      "The box of kitchen foil.",
+      "The fork.",
+      "The clip."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_547": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:59.300",
+        "end_time": "00:15:09.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The potato peeler.",
+      "The towel.",
+      "The potato.",
+      "The knife.",
+      "The plate."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_553": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:03.600",
+        "end_time": "00:24:13.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bag of lettuce.",
+      "The chopping board.",
+      "The can opener.",
+      "The weighing scales.",
+      "The packet of cashew nuts."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_554": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:39.700",
+        "end_time": "00:25:49.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The food waste bin.",
+      "The new spoon.",
+      "The lid of can of food.",
+      "The kitchen roll.",
+      "The sheet of kitchen roll."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_562": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:21:15.300",
+        "end_time": "00:21:25.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pen.",
+      "The orange sponge.",
+      "The spoon.",
+      "The lid.",
+      "The colander."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_575": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:32:22.000",
+        "end_time": "00:32:32.000"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The towel.",
+      "The plate.",
+      "The fork.",
+      "The saucepan.",
+      "The bowl."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_576": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:56.566",
+        "end_time": "00:04:06.566"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The mug.",
+      "The digital weighing scale.",
+      "The glass jug.",
+      "The butter pack."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_600": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:23:39.466",
+        "end_time": "00:23:49.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bag of avocados.",
+      "The notebook.",
+      "The knife.",
+      "The baking tray.",
+      "The tray of avocados."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_601": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:23:52.100",
+        "end_time": "00:24:02.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can opener.",
+      "The notebook.",
+      "The bag of lettuce.",
+      "The weighing scales.",
+      "The chopping board."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_603": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:15:06.433",
+        "end_time": "00:15:16.433"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spice basket.",
+      "The potato peeler.",
+      "The potato.",
+      "The towel.",
+      "The knife."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_606": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:13:22.800",
+        "end_time": "00:13:32.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer drum.",
+      "The fork.",
+      "The baking tray.",
+      "The seasoning.",
+      "The tongs."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_617": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:19:39.333",
+        "end_time": "00:19:49.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The napkin.",
+      "The potato peeler.",
+      "The fork.",
+      "The saucepan.",
+      "The bottle of oil."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_619": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:27.600",
+        "end_time": "00:12:37.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The chopping board.",
+      "The knife.",
+      "The towel.",
+      "The bottle of washing up liquid."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_621": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:16:28.700",
+        "end_time": "00:16:38.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The piece of foil.",
+      "The tea towel.",
+      "The cutlery tray.",
+      "The plate.",
+      "The brush."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_624": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:14.333",
+        "end_time": "00:14:24.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The steaming rack.",
+      "The plate.",
+      "The sieve.",
+      "The fork.",
+      "The spoon."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_628": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:03:18.466",
+        "end_time": "00:03:28.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The phone.",
+      "The bag of frozen broccoli.",
+      "The weighing scales.",
+      "The salmon skewer packaging.",
+      "The piece of plastic."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_629": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:11.200",
+        "end_time": "00:13:21.200"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The saucepan.",
+      "The towel.",
+      "The bottle of salt.",
+      "The bottle of oil.",
+      "The cardboard."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_636": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:17:18.100",
+        "end_time": "00:17:28.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The packet of chocolate chips.",
+      "The stool.",
+      "The large silver bowl.",
+      "The wooden spoon."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_642": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:02:40.600",
+        "end_time": "00:02:50.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spoon.",
+      "The mug.",
+      "The dish.",
+      "The cutlery.",
+      "The forks."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_643": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:10:13.700",
+        "end_time": "00:10:23.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The chopping board.",
+      "The piece of plastic.",
+      "The sponge.",
+      "The bottle of washing up liquid.",
+      "The bowl."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_645": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:08:41.466",
+        "end_time": "00:08:51.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pen.",
+      "The piece of paper.",
+      "The fork.",
+      "The packet of chocolate chips.",
+      "The frozen banana."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_653": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:12:15.633",
+        "end_time": "00:12:25.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The egg.",
+      "The bottle of vanilla extract.",
+      "The dishcloth.",
+      "The measuring spoon.",
+      "The stool."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_656": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:24:30.100",
+        "end_time": "00:24:40.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The saucepan.",
+      "The plate.",
+      "The sponge.",
+      "The fork.",
+      "The bottle of oil."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_672": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:56.266",
+        "end_time": "00:04:06.266"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The digital weighing scale.",
+      "The glass jug.",
+      "The glass.",
+      "The mug.",
+      "The bowl."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_675": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:10.733",
+        "end_time": "00:19:20.733"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The lid.",
+      "The different bottle of vanilla extract.",
+      "The bundle of measuring spoons.",
+      "The self-raising flour.",
+      "The eggshell halves."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_678": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:25.966",
+        "end_time": "00:14:35.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The seasoning.",
+      "The fork.",
+      "The bowl.",
+      "The tea towel."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_683": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:01:24.200",
+        "end_time": "00:01:34.200"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The dish.",
+      "The glass jug.",
+      "The plastic box.",
+      "The wooden spoon.",
+      "The knife."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_684": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:35.400",
+        "end_time": "00:24:45.400"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The plastic lid.",
+      "The packet of cashew nuts.",
+      "The can of food.",
+      "The carton of milk.",
+      "The bag of parsley."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_700": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:20.633",
+        "end_time": "00:25:30.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sheet of kitchen roll.",
+      "The kitchen roll.",
+      "The lid of can of food.",
+      "The carton of milk.",
+      "The food waste bin."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_704": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:07:22.066",
+        "end_time": "00:07:32.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The weighing scales.",
+      "The pouch of food.",
+      "The box of kitchen foil.",
+      "The clip."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_719": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:09:32.533",
+        "end_time": "00:09:42.533"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer drum.",
+      "The bowl.",
+      "The brush.",
+      "The oil.",
+      "The air fryer."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_720": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:06:31.166",
+        "end_time": "00:06:41.166"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The pen.",
+      "The measuring spoon.",
+      "The spice jar.",
+      "The bottle of vegetable oil.",
+      "The green airpods case."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_734": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:19.466",
+        "end_time": "00:14:29.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The steaming rack.",
+      "The potato peeler.",
+      "The plate.",
+      "The fork.",
+      "The sieve."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_742": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:40.766",
+        "end_time": "00:19:50.766"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The teaspoon.",
+      "The tea towel.",
+      "The knife.",
+      "The small bowl.",
+      "The digital weighing scale."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_743": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:13:28.300",
+        "end_time": "00:13:38.300"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The potato.",
+      "The basket of vegetables.",
+      "The scale.",
+      "The bottle of oil."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_746": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:06:58.800",
+        "end_time": "00:07:08.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of vegetable oil.",
+      "The green airpods case.",
+      "The measuring spoon.",
+      "The spice jar.",
+      "The pen."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_758": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:08:49.633",
+        "end_time": "00:08:59.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The air fryer drum.",
+      "The oven mitt.",
+      "The baking tray.",
+      "The oil.",
+      "The brush."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_761": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:08:57.633",
+        "end_time": "00:09:07.633"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of vegetable oil.",
+      "The phone.",
+      "The spoon.",
+      "The spice jar.",
+      "The pen."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_766": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:19.666",
+        "end_time": "00:03:29.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The tomato.",
+      "The pyrex bowl of meat.",
+      "The basket of vegetables.",
+      "The cap of bottle.",
+      "The knife."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_771": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:27:39.833",
+        "end_time": "00:27:49.833"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The dish scrubbing brush.",
+      "The baking tray.",
+      "The food waste bin.",
+      "The chopping board.",
+      "The white plastic lid."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_772": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:07:21.433",
+        "end_time": "00:07:31.433"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The box of kitchen foil.",
+      "The pouch of food.",
+      "The bowl.",
+      "The air fryer drum.",
+      "The clip."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_781": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:07:21.766",
+        "end_time": "00:07:31.766"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The clip.",
+      "The knife.",
+      "The pouch of food.",
+      "The bowl.",
+      "The box of kitchen foil."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_782": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:25:05.033",
+        "end_time": "00:25:15.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The carton of milk.",
+      "The kitchen roll.",
+      "The food waste bin.",
+      "The can of food.",
+      "The bag of parsley."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_785": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:24:43.966",
+        "end_time": "00:24:53.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can of food.",
+      "The food waste bin.",
+      "The bag of parsley.",
+      "The carton of milk.",
+      "The plastic lid."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_801": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:33:11.366",
+        "end_time": "00:33:21.366"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The towel.",
+      "The napkin.",
+      "The saucepan.",
+      "The plate."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_814": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:12:09.800",
+        "end_time": "00:12:19.800"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The sponge.",
+      "The oven tray.",
+      "The bottle of washing up liquid.",
+      "The knife.",
+      "The chopping board."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_828": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:10:26.866",
+        "end_time": "00:10:36.866"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spoon.",
+      "The tongs.",
+      "The knife.",
+      "The flask.",
+      "The chopping board."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_832": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:32.966",
+        "end_time": "00:19:42.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The packet of chocolate chips.",
+      "The teaspoon.",
+      "The self-raising flour.",
+      "The small bowl.",
+      "The knife."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_835": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:01.066",
+        "end_time": "00:14:11.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The spoon.",
+      "The potato.",
+      "The basket of vegetables.",
+      "The basket.",
+      "The packet of skewers."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_840": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:14:45.333",
+        "end_time": "00:14:55.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The oven mitt.",
+      "The baking tray.",
+      "The tongs.",
+      "The tea towel.",
+      "The bowl."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_854": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:04:59.500",
+        "end_time": "00:05:09.500"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The baking tray.",
+      "The pen.",
+      "The bowl.",
+      "The notebook.",
+      "The weighing scales."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_855": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:03:54.766",
+        "end_time": "00:04:04.766"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of oil.",
+      "The bowl of onions.",
+      "The skewer.",
+      "The cap of bottle.",
+      "The bottle of salt."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_859": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:14:01.933",
+        "end_time": "00:14:11.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The basket.",
+      "The fork.",
+      "The basket of vegetables.",
+      "The packet of skewers.",
+      "The potato."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_864": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:13:21.566",
+        "end_time": "00:13:31.566"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The oven mitt.",
+      "The sponge.",
+      "The baking tray.",
+      "The air fryer drum.",
+      "The tongs."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_867": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:07:21.666",
+        "end_time": "00:07:31.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The pouch of food.",
+      "The box of kitchen foil.",
+      "The plate.",
+      "The clip."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_874": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:01:58.000",
+        "end_time": "00:02:08.000"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The tomato.",
+      "The chopping board.",
+      "The skewer.",
+      "The basket of vegetables.",
+      "The packet of skewers."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_888": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:34:20.100",
+        "end_time": "00:34:30.100"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of soap.",
+      "The spoon.",
+      "The keepcup.",
+      "The sponge.",
+      "The utensil."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_900": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945",
+        "start_time": "00:03:20.566",
+        "end_time": "00:03:30.566"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The salmon skewer packaging.",
+      "The weighing scales.",
+      "The phone.",
+      "The scissors.",
+      "The bag of frozen broccoli."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_915": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:17:33.466",
+        "end_time": "00:17:43.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can of food.",
+      "The bag of lettuce.",
+      "The pen.",
+      "The lime.",
+      "The knife."
+    ],
+    "correct_idx": 2
+  },
+  "gaze_interaction_anticipation_918": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:02:08.333",
+        "end_time": "00:02:18.333"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The knife.",
+      "The tomato.",
+      "The skewer.",
+      "The basket of vegetables.",
+      "The chopping board."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_923": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:27:27.700",
+        "end_time": "00:27:37.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The plastic box.",
+      "The food waste bin.",
+      "The white plastic lid.",
+      "The dish scrubbing brush.",
+      "The chopping board."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_933": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:20:54.700",
+        "end_time": "00:21:04.700"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The saucepan.",
+      "The spoon.",
+      "The lid.",
+      "The colander.",
+      "The pen."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_951": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:00:50.466",
+        "end_time": "00:01:00.466"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl.",
+      "The glass jug.",
+      "The glass.",
+      "The mug.",
+      "The wooden spoon."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_965": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:19:43.600",
+        "end_time": "00:19:53.600"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bottle of salt.",
+      "The bottle of oil.",
+      "The napkin.",
+      "The potato peeler.",
+      "The saucepan."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_973": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703",
+        "start_time": "00:00:36.133",
+        "end_time": "00:00:46.133"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The can of food.",
+      "The bag of lettuce.",
+      "The food waste bin.",
+      "The wooden spoons.",
+      "The bag of avocados."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_975": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:10:28.966",
+        "end_time": "00:10:38.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The glass jug.",
+      "The stool.",
+      "The small bowl.",
+      "The fork.",
+      "The eggshell halves."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_978": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:11:53.066",
+        "end_time": "00:12:03.066"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The stool.",
+      "The egg.",
+      "The eggshell halves.",
+      "The dishcloth.",
+      "The bottle of vanilla extract."
+    ],
+    "correct_idx": 4
+  },
+  "gaze_interaction_anticipation_979": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:03:12.666",
+        "end_time": "00:03:22.666"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The glass.",
+      "The bowl.",
+      "The cutlery.",
+      "The spoon.",
+      "The forks."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_988": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:01:43.966",
+        "end_time": "00:01:53.966"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The bowl of onions.",
+      "The tomato.",
+      "The basket of vegetables.",
+      "The pyrex bowl of meat.",
+      "The bottle of garlic."
+    ],
+    "correct_idx": 1
+  },
+  "gaze_interaction_anticipation_989": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543",
+        "start_time": "00:19:10.566",
+        "end_time": "00:19:20.566"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The eggshell halves.",
+      "The bundle of measuring spoons.",
+      "The lid.",
+      "The knife.",
+      "The different bottle of vanilla extract."
+    ],
+    "correct_idx": 3
+  },
+  "gaze_interaction_anticipation_992": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:28:35.033",
+        "end_time": "00:28:45.033"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The fork.",
+      "The towel.",
+      "The plate.",
+      "The bottle of oil.",
+      "The food waste bag."
+    ],
+    "correct_idx": 0
+  },
+  "gaze_interaction_anticipation_999": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737",
+        "start_time": "00:23:51.933",
+        "end_time": "00:24:01.933"
+      }
+    },
+    "question": "What object will the person interact with next, ignoring ongoing interactions?",
+    "choices": [
+      "The knife.",
+      "The potato peeler.",
+      "The plate.",
+      "The saucepan.",
+      "The sponge."
+    ],
+    "correct_idx": 2
+  }
+}

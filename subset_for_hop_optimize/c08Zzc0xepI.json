@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "645",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Astronomy",
+    "url": "https://www.youtube.com/watch?v=c08Zzc0xepI",
+    "videoID": "c08Zzc0xepI",
+    "question_id": "645-2",
+    "task_type": "Object Recognition",
+    "question": "How does the video describe the methods being used by physicists to support the theory of parallel universes?",
+    "options": [
+      "A. Through the utilization of particle accelerators to search for gravitons as proof of other universes.",
+      "B. By employing quantum entanglement to link particles across multiple universes.",
+      "C. Via observation of cosmic microwave background radiation anomalies.",
+      "D. By mapping the distribution of dark matter in our universe to infer the structure of other universes."
+    ],
+    "answer": "A"
+  }
+]

@@ -1,0 +1,398 @@
+{
+  "recipe_prep_localization_0": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for In a large bowl, combine the melted butter and sugar. Mix to combine from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:13:44.167 video 1> to <TIME 00:14:04.596 video 1> (video 1), <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1> (video 1), <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1> (video 1)",
+      "<TIME 00:04:01.645 video 1> to <TIME 00:04:54.471 video 1> (video 1), <TIME 00:05:11.257 video 1> to <TIME 00:05:21.880 video 1> (video 1), <TIME 00:05:57.480 video 1> to <TIME 00:05:58.703 video 1> (video 1)",
+      "<TIME 00:00:03.400 video 2> to <TIME 00:00:08.453 video 2> (video 2)",
+      "<TIME 00:10:35.083 video 1> to <TIME 00:10:53.203 video 1> (video 1)",
+      "<TIME 00:06:26.930 video 1> to <TIME 00:06:31.989 video 1> (video 1), <TIME 00:06:50.825 video 1> to <TIME 00:07:29.774 video 1> (video 1), <TIME 00:07:43.435 video 1> to <TIME 00:07:46.078 video 1> (video 1)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_prep_localization_5": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for Remove the cookies from the oven from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:06:26.930 video 1> to <TIME 00:06:31.989 video 1> (video 1), <TIME 00:06:50.825 video 1> to <TIME 00:07:29.774 video 1> (video 1), <TIME 00:07:43.435 video 1> to <TIME 00:07:46.078 video 1> (video 1)",
+      "<TIME 00:13:44.167 video 1> to <TIME 00:14:04.596 video 1> (video 1), <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1> (video 1), <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1> (video 1)",
+      "<TIME 00:00:03.400 video 2> to <TIME 00:00:08.453 video 2> (video 2)",
+      "<TIME 00:12:12.615 video 1> to <TIME 00:12:39.721 video 1> (video 1)",
+      "<TIME 00:04:01.645 video 1> to <TIME 00:04:54.471 video 1> (video 1), <TIME 00:05:11.257 video 1> to <TIME 00:05:21.880 video 1> (video 1), <TIME 00:05:57.480 video 1> to <TIME 00:05:58.703 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_12": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      },
+      "video 2": {
+        "id": "P06-20240510-115307"
+      },
+      "video 3": {
+        "id": "P06-20240510-121619"
+      },
+      "video 4": {
+        "id": "P06-20240510-135423"
+      }
+    },
+    "question": "When did the participant perform prep for Take a frying pan and place it on gas stove to heat it up. Add some butter in the pan and wait for it to melt. Add 1 tablespoon of cumin seeds to the melted butter from recipe Dal Makhani with Rice?",
+    "choices": [
+      "<TIME 00:11:07.164 video 2> to <TIME 00:11:27.140 video 2> (video 2), <TIME 00:11:40.198 video 2> to <TIME 00:11:54.140 video 2> (video 2), <TIME 00:11:57.103 video 2> to <TIME 00:11:59.335 video 2> (video 2)",
+      "<TIME 00:03:58.444 video 4> to <TIME 00:04:00.424 video 4> (video 4), <TIME 00:04:07.139 video 4> to <TIME 00:04:08.166 video 4> (video 4), <TIME 00:06:15.459 video 4> to <TIME 00:06:20.500 video 4> (video 4), <TIME 00:06:20.033 video 4> to <TIME 00:06:21.655 video 4> (video 4), <TIME 00:06:46.832 video 4> to <TIME 00:06:54.779 video 4> (video 4)",
+      "<TIME 00:01:46.981 video 4> to <TIME 00:01:51.166 video 4> (video 4), <TIME 00:02:42.028 video 4> to <TIME 00:02:45.360 video 4> (video 4)",
+      "<TIME 00:15:34.757 video 2> to <TIME 00:15:36.935 video 2> (video 2), <TIME 00:15:47.230 video 2> to <TIME 00:15:54.020 video 2> (video 2), <TIME 00:16:01.612 video 2> to <TIME 00:16:13.756 video 2> (video 2), <TIME 00:16:18.651 video 2> to <TIME 00:16:24.177 video 2> (video 2), <TIME 00:16:28.388 video 2> to <TIME 00:16:33.651 video 2> (video 2), <TIME 00:03:18.325 video 3> to <TIME 00:03:35.272 video 3> (video 3)",
+      "<TIME 00:09:01.221 video 2> to <TIME 00:09:09.341 video 2> (video 2), <TIME 00:09:17.802 video 2> to <TIME 00:09:19.439 video 2> (video 2), <TIME 00:09:26.927 video 2> to <TIME 00:09:34.367 video 2> (video 2), <TIME 00:09:43.697 video 2> to <TIME 00:09:48.267 video 2> (video 2)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_prep_localization_27": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform prep for Cut the beef into cubes of your choosing from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:01:13.160 video 1> to <TIME 00:01:55.007 video 1> (video 1), <TIME 00:03:06.774 video 1> to <TIME 00:03:22.924 video 1> (video 1)",
+      "<TIME 00:00:55.799 video 1> to <TIME 00:01:03.650 video 1> (video 1), <TIME 00:01:55.007 video 1> to <TIME 00:01:58.346 video 1> (video 1), <TIME 00:05:02.489 video 1> to <TIME 00:05:03.774 video 1> (video 1), <TIME 00:05:47.033 video 1> to <TIME 00:05:48.257 video 1> (video 1), <TIME 00:06:41.897 video 1> to <TIME 00:06:44.310 video 1> (video 1), <TIME 00:07:00.957 video 1> to <TIME 00:07:10.924 video 1> (video 1), <TIME 00:07:45.598 video 1> to <TIME 00:07:46.489 video 1> (video 1), <TIME 00:09:18.838 video 1> to <TIME 00:09:24.810 video 1> (video 1), <TIME 00:09:42.148 video 1> to <TIME 00:09:51.453 video 1> (video 1), <TIME 00:09:54.198 video 1> to <TIME 00:09:59.453 video 1> (video 1)",
+      "<TIME 00:03:43.556 video 1> to <TIME 00:03:47.935 video 1> (video 1), <TIME 00:10:40.855 video 1> to <TIME 00:10:42.739 video 1> (video 1)",
+      "<TIME 00:12:55.305 video 1> to <TIME 00:13:06.632 video 1> (video 1), <TIME 00:13:17.277 video 1> to <TIME 00:13:25.828 video 1> (video 1), <TIME 00:19:29.742 video 1> to <TIME 00:19:33.346 video 1> (video 1), <TIME 00:19:48.973 video 1> to <TIME 00:19:51.399 video 1> (video 1), <TIME 00:24:41.033 video 1> to <TIME 00:24:45.597 video 1> (video 1), <TIME 00:24:41.440 video 1> to <TIME 00:24:41.767 video 1> (video 1), <TIME 00:25:57.816 video 1> to <TIME 00:25:59.167 video 1> (video 1), <TIME 00:30:31.060 video 1> to <TIME 00:30:36.067 video 1> (video 1), <TIME 00:30:35.033 video 1> to <TIME 00:30:39.940 video 1> (video 1), <TIME 00:30:45.976 video 1> to <TIME 00:30:50.007 video 1> (video 1), <TIME 00:31:02.199 video 1> to <TIME 00:31:05.703 video 1> (video 1), <TIME 00:02:03.389 video 2> to <TIME 00:02:07.114 video 2> (video 2)",
+      "<TIME 00:13:36.685 video 1> to <TIME 00:13:44.133 video 1> (video 1), <TIME 00:13:49.033 video 1> to <TIME 00:13:59.070 video 1> (video 1), <TIME 00:14:33.129 video 1> to <TIME 00:14:38.739 video 1> (video 1), <TIME 00:17:54.091 video 1> to <TIME 00:17:55.864 video 1> (video 1), <TIME 00:19:10.295 video 1> to <TIME 00:19:11.828 video 1> (video 1), <TIME 00:20:11.946 video 1> to <TIME 00:20:12.864 video 1> (video 1), <TIME 00:21:16.768 video 1> to <TIME 00:21:21.471 video 1> (video 1), <TIME 00:21:29.775 video 1> to <TIME 00:21:31.132 video 1> (video 1), <TIME 00:03:56.846 video 2> to <TIME 00:03:58.185 video 2> (video 2)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_28": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "When did the participant perform prep for Pre-heat air fryer to 180 degrees C from recipe Salmon Teriyaki Skewers with Vegetables?",
+    "choices": [
+      "<TIME 00:02:38.246 video 1> to <TIME 00:02:45.079 video 1> (video 1), <TIME 00:02:53.800 video 1> to <TIME 00:02:55.270 video 1> (video 1), <TIME 00:03:28.899 video 1> to <TIME 00:03:52.969 video 1> (video 1), <TIME 00:07:43.063 video 1> to <TIME 00:07:43.947 video 1> (video 1), <TIME 00:07:47.203 video 1> to <TIME 00:07:47.858 video 1> (video 1), <TIME 00:08:00.363 video 1> to <TIME 00:08:01.725 video 1> (video 1), <TIME 00:08:04.432 video 1> to <TIME 00:08:12.818 video 1> (video 1), <TIME 00:11:44.924 video 1> to <TIME 00:11:46.549 video 1> (video 1), <TIME 00:11:57.591 video 1> to <TIME 00:12:09.118 video 1> (video 1)",
+      "<TIME 00:00:08.903 video 1> to <TIME 00:00:12.461 video 1> (video 1), <TIME 00:00:23.275 video 1> to <TIME 00:00:28.917 video 1> (video 1), <TIME 00:00:30.992 video 1> to <TIME 00:00:35.373 video 1> (video 1), <TIME 00:01:15.226 video 1> to <TIME 00:01:38.050 video 1> (video 1), <TIME 00:08:46.178 video 1> to <TIME 00:09:23.896 video 1> (video 1), <TIME 00:12:46.028 video 1> to <TIME 00:12:50.210 video 1> (video 1), <TIME 00:12:51.876 video 1> to <TIME 00:13:03.006 video 1> (video 1), <TIME 00:13:04.142 video 1> to <TIME 00:13:23.972 video 1> (video 1)",
+      "<TIME 00:00:08.917 video 1> to <TIME 00:00:12.476 video 1> (video 1), <TIME 00:04:47.787 video 1> to <TIME 00:04:49.507 video 1> (video 1), <TIME 00:05:56.103 video 1> to <TIME 00:06:28.373 video 1> (video 1), <TIME 00:06:39.229 video 1> to <TIME 00:06:41.949 video 1> (video 1)",
+      "<TIME 00:02:16.387 video 1> to <TIME 00:02:23.344 video 1> (video 1), <TIME 00:02:25.680 video 1> to <TIME 00:02:31.888 video 1> (video 1)",
+      "<TIME 00:13:33.380 video 1> to <TIME 00:13:36.108 video 1> (video 1), <TIME 00:14:47.759 video 1> to <TIME 00:14:56.667 video 1> (video 1)"
+    ],
+    "correct_idx": 3
+  },
+  "recipe_prep_localization_33": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for Put in the oven and bake for 10 to 11 minutes or until the edges are set and the cookies have puffed up, but the middles are still underbaked from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:34:07.807 video 1> to <TIME 00:34:10.649 video 1> (video 1)",
+      "<TIME 00:06:26.930 video 1> to <TIME 00:06:31.989 video 1> (video 1), <TIME 00:06:50.825 video 1> to <TIME 00:07:29.774 video 1> (video 1), <TIME 00:07:43.435 video 1> to <TIME 00:07:46.078 video 1> (video 1)",
+      "<TIME 00:08:24.795 video 1> to <TIME 00:08:27.471 video 1> (video 1)",
+      "<TIME 00:23:19.995 video 1> to <TIME 00:23:35.739 video 1> (video 1), <TIME 00:30:45.006 video 1> to <TIME 00:30:56.542 video 1> (video 1)",
+      "<TIME 00:04:01.645 video 1> to <TIME 00:04:54.471 video 1> (video 1), <TIME 00:05:11.257 video 1> to <TIME 00:05:21.880 video 1> (video 1), <TIME 00:05:57.480 video 1> to <TIME 00:05:58.703 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_35": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "When did the participant perform prep for Add the pieces of cottage cheese in the mixture and cook it for 5-10 minutes on a low flame. Cover the pan or kadai with a lid and cook for 5 to 6 minutes on medium heat from recipe Kadhai Paneer?",
+    "choices": [
+      "<TIME 00:27:36.969 video 1> to <TIME 00:27:41.923 video 1> (video 1)",
+      "<TIME 00:00:15.821 video 1> to <TIME 00:00:52.562 video 1> (video 1), <TIME 00:01:56.825 video 1> to <TIME 00:02:03.290 video 1> (video 1), <TIME 00:13:40.283 video 1> to <TIME 00:13:43.525 video 1> (video 1), <TIME 00:14:23.546 video 1> to <TIME 00:14:46.896 video 1> (video 1), <TIME 00:14:52.582 video 1> to <TIME 00:15:08.353 video 1> (video 1), <TIME 00:15:19.592 video 1> to <TIME 00:15:21.896 video 1> (video 1), <TIME 00:15:30.795 video 1> to <TIME 00:15:32.496 video 1> (video 1), <TIME 00:16:01.782 video 1> to <TIME 00:16:44.896 video 1> (video 1)",
+      "<TIME 00:00:20.699 video 1> to <TIME 00:00:53.375 video 1> (video 1), <TIME 00:00:57.925 video 1> to <TIME 00:00:59.525 video 1> (video 1), <TIME 00:01:50.244 video 1> to <TIME 00:02:04.039 video 1> (video 1), <TIME 00:02:16.060 video 1> to <TIME 00:02:24.024 video 1> (video 1), <TIME 00:02:49.943 video 1> to <TIME 00:03:12.296 video 1> (video 1), <TIME 00:03:13.950 video 1> to <TIME 00:03:20.525 video 1> (video 1), <TIME 00:03:31.039 video 1> to <TIME 00:03:35.496 video 1> (video 1), <TIME 00:05:44.893 video 1> to <TIME 00:06:00.067 video 1> (video 1), <TIME 00:06:00.033 video 1> to <TIME 00:06:03.744 video 1> (video 1), <TIME 00:06:05.081 video 1> to <TIME 00:06:08.211 video 1> (video 1), <TIME 00:06:12.839 video 1> to <TIME 00:06:23.725 video 1> (video 1), <TIME 00:06:30.680 video 1> to <TIME 00:06:33.153 video 1> (video 1), <TIME 00:06:50.948 video 1> to <TIME 00:07:12.725 video 1> (video 1), <TIME 00:07:42.267 video 1> to <TIME 00:07:49.896 video 1> (video 1), <TIME 00:09:41.721 video 1> to <TIME 00:09:46.125 video 1> (video 1), <TIME 00:09:48.518 video 1> to <TIME 00:10:10.439 video 1> (video 1), <TIME 00:10:21.525 video 1> to <TIME 00:10:24.753 video 1> (video 1), <TIME 00:10:43.096 video 1> to <TIME 00:10:50.239 video 1> (video 1), <TIME 00:11:02.639 video 1> to <TIME 00:11:15.268 video 1> (video 1), <TIME 00:11:21.125 video 1> to <TIME 00:11:36.411 video 1> (video 1), <TIME 00:11:56.696 video 1> to <TIME 00:12:06.239 video 1> (video 1), <TIME 00:12:12.047 video 1> to <TIME 00:12:29.525 video 1> (video 1), <TIME 00:12:46.439 video 1> to <TIME 00:12:51.268 video 1> (video 1), <TIME 00:12:56.718 video 1> to <TIME 00:13:12.439 video 1> (video 1), <TIME 00:13:32.299 video 1> to <TIME 00:13:56.153 video 1> (video 1), <TIME 00:14:04.496 video 1> to <TIME 00:14:07.811 video 1> (video 1), <TIME 00:14:16.068 video 1> to <TIME 00:14:18.753 video 1> (video 1)",
+      "<TIME 00:00:41.374 video 1> to <TIME 00:00:51.392 video 1> (video 1), <TIME 00:17:18.737 video 1> to <TIME 00:17:23.048 video 1> (video 1), <TIME 00:20:54.603 video 1> to <TIME 00:20:55.866 video 1> (video 1), <TIME 00:25:33.674 video 1> to <TIME 00:25:48.007 video 1> (video 1), <TIME 00:26:17.026 video 1> to <TIME 00:26:18.369 video 1> (video 1), <TIME 00:26:21.719 video 1> to <TIME 00:26:31.719 video 1> (video 1), <TIME 00:26:37.064 video 1> to <TIME 00:26:38.419 video 1> (video 1)",
+      "<TIME 00:00:18.426 video 1> to <TIME 00:00:54.517 video 1> (video 1), <TIME 00:17:36.737 video 1> to <TIME 00:17:39.296 video 1> (video 1), <TIME 00:18:44.614 video 1> to <TIME 00:18:48.325 video 1> (video 1), <TIME 00:18:55.292 video 1> to <TIME 00:18:56.611 video 1> (video 1), <TIME 00:18:58.530 video 1> to <TIME 00:19:06.239 video 1> (video 1), <TIME 00:19:26.223 video 1> to <TIME 00:19:27.982 video 1> (video 1), <TIME 00:19:38.783 video 1> to <TIME 00:19:39.633 video 1> (video 1), <TIME 00:19:47.790 video 1> to <TIME 00:20:29.279 video 1> (video 1), <TIME 00:20:30.423 video 1> to <TIME 00:20:33.362 video 1> (video 1), <TIME 00:20:40.856 video 1> to <TIME 00:20:45.904 video 1> (video 1), <TIME 00:20:49.097 video 1> to <TIME 00:20:50.273 video 1> (video 1)"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_prep_localization_40": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform prep for Heat the oil in a pan, season it with salt, and add the potatoes in batches from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:00:55.799 video 1> to <TIME 00:01:03.650 video 1> (video 1), <TIME 00:01:55.007 video 1> to <TIME 00:01:58.346 video 1> (video 1), <TIME 00:05:02.489 video 1> to <TIME 00:05:03.774 video 1> (video 1), <TIME 00:05:47.033 video 1> to <TIME 00:05:48.257 video 1> (video 1), <TIME 00:06:41.897 video 1> to <TIME 00:06:44.310 video 1> (video 1), <TIME 00:07:00.957 video 1> to <TIME 00:07:10.924 video 1> (video 1), <TIME 00:07:45.598 video 1> to <TIME 00:07:46.489 video 1> (video 1), <TIME 00:09:18.838 video 1> to <TIME 00:09:24.810 video 1> (video 1), <TIME 00:09:42.148 video 1> to <TIME 00:09:51.453 video 1> (video 1), <TIME 00:09:54.198 video 1> to <TIME 00:09:59.453 video 1> (video 1)",
+      "<TIME 00:10:12.042 video 1> to <TIME 00:10:15.180 video 1> (video 1), <TIME 00:10:31.753 video 1> to <TIME 00:10:39.067 video 1> (video 1), <TIME 00:10:39.033 video 1> to <TIME 00:10:40.029 video 1> (video 1)",
+      "<TIME 00:01:08.570 video 1> to <TIME 00:01:12.237 video 1> (video 1), <TIME 00:03:30.375 video 1> to <TIME 00:03:34.417 video 1> (video 1)",
+      "<TIME 00:00:58.265 video 1> to <TIME 00:01:03.650 video 1> (video 1), <TIME 00:02:00.340 video 1> to <TIME 00:02:02.917 video 1> (video 1), <TIME 00:02:09.078 video 1> to <TIME 00:02:21.471 video 1> (video 1), <TIME 00:02:48.704 video 1> to <TIME 00:02:59.346 video 1> (video 1), <TIME 00:04:05.759 video 1> to <TIME 00:04:09.846 video 1> (video 1), <TIME 00:04:15.596 video 1> to <TIME 00:04:48.453 video 1> (video 1), <TIME 00:07:32.589 video 1> to <TIME 00:07:38.953 video 1> (video 1)",
+      "<TIME 00:12:55.305 video 1> to <TIME 00:13:06.632 video 1> (video 1), <TIME 00:13:17.277 video 1> to <TIME 00:13:25.828 video 1> (video 1), <TIME 00:19:29.742 video 1> to <TIME 00:19:33.346 video 1> (video 1), <TIME 00:19:48.973 video 1> to <TIME 00:19:51.399 video 1> (video 1), <TIME 00:24:41.033 video 1> to <TIME 00:24:45.597 video 1> (video 1), <TIME 00:24:41.440 video 1> to <TIME 00:24:41.767 video 1> (video 1), <TIME 00:25:57.816 video 1> to <TIME 00:25:59.167 video 1> (video 1), <TIME 00:30:31.060 video 1> to <TIME 00:30:36.067 video 1> (video 1), <TIME 00:30:35.033 video 1> to <TIME 00:30:39.940 video 1> (video 1), <TIME 00:30:45.976 video 1> to <TIME 00:30:50.007 video 1> (video 1), <TIME 00:31:02.199 video 1> to <TIME 00:31:05.703 video 1> (video 1), <TIME 00:02:03.389 video 2> to <TIME 00:02:07.114 video 2> (video 2)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_prep_localization_43": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "When did the participant perform prep for Add the sweetcorn and beans to the bowl. Chop the rest of the avocado and add from recipe Southwestern Salad?",
+    "choices": [
+      "<TIME 00:09:39.895 video 1> to <TIME 00:09:42.435 video 1> (video 1), <TIME 00:15:18.096 video 1> to <TIME 00:15:21.578 video 1> (video 1), <TIME 00:17:13.485 video 1> to <TIME 00:17:38.673 video 1> (video 1), <TIME 00:17:48.552 video 1> to <TIME 00:17:50.206 video 1> (video 1), <TIME 00:17:55.535 video 1> to <TIME 00:17:57.399 video 1> (video 1), <TIME 00:18:01.040 video 1> to <TIME 00:19:24.173 video 1> (video 1), <TIME 00:19:32.974 video 1> to <TIME 00:19:34.757 video 1> (video 1), <TIME 00:19:40.309 video 1> to <TIME 00:20:02.640 video 1> (video 1)",
+      "<TIME 00:09:32.255 video 1> to <TIME 00:09:42.578 video 1> (video 1), <TIME 00:09:51.132 video 1> to <TIME 00:10:46.685 video 1> (video 1), <TIME 00:11:00.000 video 1> to <TIME 00:11:46.990 video 1> (video 1), <TIME 00:11:05.731 video 1> to <TIME 00:11:44.423 video 1> (video 1), <TIME 00:12:03.935 video 1> to <TIME 00:12:12.490 video 1> (video 1), <TIME 00:12:05.000 video 1> to <TIME 00:12:09.990 video 1> (video 1), <TIME 00:12:22.000 video 1> to <TIME 00:12:33.990 video 1> (video 1), <TIME 00:12:23.221 video 1> to <TIME 00:12:37.596 video 1> (video 1), <TIME 00:12:47.262 video 1> to <TIME 00:12:57.435 video 1> (video 1), <TIME 00:12:48.000 video 1> to <TIME 00:13:02.990 video 1> (video 1), <TIME 00:13:11.025 video 1> to <TIME 00:14:08.103 video 1> (video 1), <TIME 00:13:21.000 video 1> to <TIME 00:14:04.990 video 1> (video 1), <TIME 00:14:15.000 video 1> to <TIME 00:14:18.990 video 1> (video 1), <TIME 00:14:15.596 video 1> to <TIME 00:14:20.667 video 1> (video 1), <TIME 00:14:29.169 video 1> to <TIME 00:14:49.540 video 1> (video 1)",
+      "<TIME 00:20:43.695 video 1> to <TIME 00:20:49.149 video 1> (video 1)",
+      "<TIME 00:21:32.073 video 1> to <TIME 00:21:41.954 video 1> (video 1)",
+      "<TIME 00:23:05.653 video 1> to <TIME 00:23:11.435 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_44": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for Separate an egg yolk and add from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:10:35.083 video 1> to <TIME 00:10:53.203 video 1> (video 1)",
+      "<TIME 00:09:19.650 video 1> to <TIME 00:09:20.614 video 1> (video 1)",
+      "<TIME 00:23:19.995 video 1> to <TIME 00:23:35.739 video 1> (video 1), <TIME 00:30:45.006 video 1> to <TIME 00:30:56.542 video 1> (video 1)",
+      "<TIME 00:13:44.167 video 1> to <TIME 00:14:04.596 video 1> (video 1), <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1> (video 1), <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1> (video 1)",
+      "<TIME 00:04:01.645 video 1> to <TIME 00:04:54.471 video 1> (video 1), <TIME 00:05:11.257 video 1> to <TIME 00:05:21.880 video 1> (video 1), <TIME 00:05:57.480 video 1> to <TIME 00:05:58.703 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_60": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      },
+      "video 2": {
+        "id": "P06-20240510-115307"
+      },
+      "video 3": {
+        "id": "P06-20240510-121619"
+      },
+      "video 4": {
+        "id": "P06-20240510-135423"
+      }
+    },
+    "question": "When did the participant perform prep for Add chopped onions to the pan. Cook the onion for around 6 to 7 minutes or until it turns light golden brown. Keep stirring it continuously so that it doesn't burn and keep heat on medium. Add chopped tomato to the pan and saute them with onions from recipe Dal Makhani with Rice?",
+    "choices": [
+      "<TIME 00:03:35.432 video 4> to <TIME 00:03:40.295 video 4> (video 4), <TIME 00:04:03.786 video 4> to <TIME 00:04:08.134 video 4> (video 4), <TIME 00:04:45.521 video 4> to <TIME 00:04:51.166 video 4> (video 4), <TIME 00:05:03.801 video 4> to <TIME 00:05:05.747 video 4> (video 4), <TIME 00:05:18.444 video 4> to <TIME 00:06:15.418 video 4> (video 4)",
+      "<TIME 00:11:07.164 video 2> to <TIME 00:11:27.140 video 2> (video 2), <TIME 00:11:40.198 video 2> to <TIME 00:11:54.140 video 2> (video 2), <TIME 00:11:57.103 video 2> to <TIME 00:11:59.335 video 2> (video 2)",
+      "<TIME 00:00:35.743 video 2> to <TIME 00:00:46.145 video 2> (video 2), <TIME 00:00:49.458 video 2> to <TIME 00:00:52.223 video 2> (video 2), <TIME 00:00:53.519 video 2> to <TIME 00:00:54.067 video 2> (video 2), <TIME 00:00:54.033 video 2> to <TIME 00:00:57.038 video 2> (video 2), <TIME 00:01:15.416 video 2> to <TIME 00:01:31.537 video 2> (video 2), <TIME 00:01:54.537 video 2> to <TIME 00:01:56.262 video 2> (video 2), <TIME 00:02:06.131 video 2> to <TIME 00:02:08.792 video 2> (video 2), <TIME 00:02:11.151 video 2> to <TIME 00:02:35.596 video 2> (video 2), <TIME 00:02:43.986 video 2> to <TIME 00:02:45.007 video 2> (video 2), <TIME 00:02:52.614 video 2> to <TIME 00:05:29.497 video 2> (video 2), <TIME 00:10:05.887 video 2> to <TIME 00:10:08.567 video 2> (video 2)",
+      "<TIME 00:15:34.757 video 2> to <TIME 00:15:36.935 video 2> (video 2), <TIME 00:15:47.230 video 2> to <TIME 00:15:54.020 video 2> (video 2), <TIME 00:16:01.612 video 2> to <TIME 00:16:13.756 video 2> (video 2), <TIME 00:16:18.651 video 2> to <TIME 00:16:24.177 video 2> (video 2), <TIME 00:16:28.388 video 2> to <TIME 00:16:33.651 video 2> (video 2), <TIME 00:03:18.325 video 3> to <TIME 00:03:35.272 video 3> (video 3)",
+      "<TIME 00:01:46.981 video 4> to <TIME 00:01:51.166 video 4> (video 4), <TIME 00:02:42.028 video 4> to <TIME 00:02:45.360 video 4> (video 4)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_63": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for Use a cookie scoop or a spoon to scoop out about 1 inch dough balls. Place 2 inches apart on the prepared cookie sheet from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:27:55.636 video 1> to <TIME 00:28:03.649 video 1> (video 1)",
+      "<TIME 00:04:01.645 video 1> to <TIME 00:04:54.471 video 1> (video 1), <TIME 00:05:11.257 video 1> to <TIME 00:05:21.880 video 1> (video 1), <TIME 00:05:57.480 video 1> to <TIME 00:05:58.703 video 1> (video 1)",
+      "<TIME 00:12:12.615 video 1> to <TIME 00:12:39.721 video 1> (video 1)",
+      "<TIME 00:13:44.167 video 1> to <TIME 00:14:04.596 video 1> (video 1), <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1> (video 1), <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1> (video 1)",
+      "<TIME 00:06:26.930 video 1> to <TIME 00:06:31.989 video 1> (video 1), <TIME 00:06:50.825 video 1> to <TIME 00:07:29.774 video 1> (video 1), <TIME 00:07:43.435 video 1> to <TIME 00:07:46.078 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_66": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "When did the participant perform prep for Add the tomato puree to the mixture in the pan and mix it thoroughly. Cook the puree for about 5 minutes on a low flame or until the butter separates out from the mixture from recipe Kadhai Paneer?",
+    "choices": [
+      "<TIME 00:00:20.699 video 1> to <TIME 00:00:53.375 video 1> (video 1), <TIME 00:00:57.925 video 1> to <TIME 00:00:59.525 video 1> (video 1), <TIME 00:01:50.244 video 1> to <TIME 00:02:04.039 video 1> (video 1), <TIME 00:02:16.060 video 1> to <TIME 00:02:24.024 video 1> (video 1), <TIME 00:02:49.943 video 1> to <TIME 00:03:12.296 video 1> (video 1), <TIME 00:03:13.950 video 1> to <TIME 00:03:20.525 video 1> (video 1), <TIME 00:03:31.039 video 1> to <TIME 00:03:35.496 video 1> (video 1), <TIME 00:05:44.893 video 1> to <TIME 00:06:00.067 video 1> (video 1), <TIME 00:06:00.033 video 1> to <TIME 00:06:03.744 video 1> (video 1), <TIME 00:06:05.081 video 1> to <TIME 00:06:08.211 video 1> (video 1), <TIME 00:06:12.839 video 1> to <TIME 00:06:23.725 video 1> (video 1), <TIME 00:06:30.680 video 1> to <TIME 00:06:33.153 video 1> (video 1), <TIME 00:06:50.948 video 1> to <TIME 00:07:12.725 video 1> (video 1), <TIME 00:07:42.267 video 1> to <TIME 00:07:49.896 video 1> (video 1), <TIME 00:09:41.721 video 1> to <TIME 00:09:46.125 video 1> (video 1), <TIME 00:09:48.518 video 1> to <TIME 00:10:10.439 video 1> (video 1), <TIME 00:10:21.525 video 1> to <TIME 00:10:24.753 video 1> (video 1), <TIME 00:10:43.096 video 1> to <TIME 00:10:50.239 video 1> (video 1), <TIME 00:11:02.639 video 1> to <TIME 00:11:15.268 video 1> (video 1), <TIME 00:11:21.125 video 1> to <TIME 00:11:36.411 video 1> (video 1), <TIME 00:11:56.696 video 1> to <TIME 00:12:06.239 video 1> (video 1), <TIME 00:12:12.047 video 1> to <TIME 00:12:29.525 video 1> (video 1), <TIME 00:12:46.439 video 1> to <TIME 00:12:51.268 video 1> (video 1), <TIME 00:12:56.718 video 1> to <TIME 00:13:12.439 video 1> (video 1), <TIME 00:13:32.299 video 1> to <TIME 00:13:56.153 video 1> (video 1), <TIME 00:14:04.496 video 1> to <TIME 00:14:07.811 video 1> (video 1), <TIME 00:14:16.068 video 1> to <TIME 00:14:18.753 video 1> (video 1)",
+      "<TIME 00:00:18.426 video 1> to <TIME 00:00:54.517 video 1> (video 1), <TIME 00:17:36.737 video 1> to <TIME 00:17:39.296 video 1> (video 1), <TIME 00:18:44.614 video 1> to <TIME 00:18:48.325 video 1> (video 1), <TIME 00:18:55.292 video 1> to <TIME 00:18:56.611 video 1> (video 1), <TIME 00:18:58.530 video 1> to <TIME 00:19:06.239 video 1> (video 1), <TIME 00:19:26.223 video 1> to <TIME 00:19:27.982 video 1> (video 1), <TIME 00:19:38.783 video 1> to <TIME 00:19:39.633 video 1> (video 1), <TIME 00:19:47.790 video 1> to <TIME 00:20:29.279 video 1> (video 1), <TIME 00:20:30.423 video 1> to <TIME 00:20:33.362 video 1> (video 1), <TIME 00:20:40.856 video 1> to <TIME 00:20:45.904 video 1> (video 1), <TIME 00:20:49.097 video 1> to <TIME 00:20:50.273 video 1> (video 1)",
+      "<TIME 00:27:36.969 video 1> to <TIME 00:27:41.923 video 1> (video 1)",
+      "<TIME 00:17:42.125 video 1> to <TIME 00:17:54.639 video 1> (video 1), <TIME 00:21:30.521 video 1> to <TIME 00:23:12.434 video 1> (video 1), <TIME 00:23:22.452 video 1> to <TIME 00:23:30.965 video 1> (video 1)",
+      "<TIME 00:00:15.821 video 1> to <TIME 00:00:52.562 video 1> (video 1), <TIME 00:01:56.825 video 1> to <TIME 00:02:03.290 video 1> (video 1), <TIME 00:13:40.283 video 1> to <TIME 00:13:43.525 video 1> (video 1), <TIME 00:14:23.546 video 1> to <TIME 00:14:46.896 video 1> (video 1), <TIME 00:14:52.582 video 1> to <TIME 00:15:08.353 video 1> (video 1), <TIME 00:15:19.592 video 1> to <TIME 00:15:21.896 video 1> (video 1), <TIME 00:15:30.795 video 1> to <TIME 00:15:32.496 video 1> (video 1), <TIME 00:16:01.782 video 1> to <TIME 00:16:44.896 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_68": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform prep for Peel the potatoes and cut them onto strips from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:01:08.570 video 1> to <TIME 00:01:12.237 video 1> (video 1), <TIME 00:03:30.375 video 1> to <TIME 00:03:34.417 video 1> (video 1)",
+      "<TIME 00:01:13.160 video 1> to <TIME 00:01:55.007 video 1> (video 1), <TIME 00:03:06.774 video 1> to <TIME 00:03:22.924 video 1> (video 1)",
+      "<TIME 00:13:36.685 video 1> to <TIME 00:13:44.133 video 1> (video 1), <TIME 00:13:49.033 video 1> to <TIME 00:13:59.070 video 1> (video 1), <TIME 00:14:33.129 video 1> to <TIME 00:14:38.739 video 1> (video 1), <TIME 00:17:54.091 video 1> to <TIME 00:17:55.864 video 1> (video 1), <TIME 00:19:10.295 video 1> to <TIME 00:19:11.828 video 1> (video 1), <TIME 00:20:11.946 video 1> to <TIME 00:20:12.864 video 1> (video 1), <TIME 00:21:16.768 video 1> to <TIME 00:21:21.471 video 1> (video 1), <TIME 00:21:29.775 video 1> to <TIME 00:21:31.132 video 1> (video 1), <TIME 00:03:56.846 video 2> to <TIME 00:03:58.185 video 2> (video 2)",
+      "<TIME 00:14:28.156 video 1> to <TIME 00:14:30.953 video 1> (video 1), <TIME 00:15:37.632 video 1> to <TIME 00:15:39.399 video 1> (video 1), <TIME 00:15:52.897 video 1> to <TIME 00:15:55.346 video 1> (video 1), <TIME 00:16:14.906 video 1> to <TIME 00:16:29.203 video 1> (video 1), <TIME 00:16:41.507 video 1> to <TIME 00:16:51.300 video 1> (video 1), <TIME 00:16:51.033 video 1> to <TIME 00:17:33.885 video 1> (video 1), <TIME 00:17:47.412 video 1> to <TIME 00:17:51.400 video 1> (video 1), <TIME 00:17:51.033 video 1> to <TIME 00:17:51.473 video 1> (video 1), <TIME 00:24:06.161 video 1> to <TIME 00:24:13.471 video 1> (video 1), <TIME 00:25:01.888 video 1> to <TIME 00:25:03.096 video 1> (video 1), <TIME 00:25:32.023 video 1> to <TIME 00:25:37.489 video 1> (video 1), <TIME 00:28:37.188 video 1> to <TIME 00:28:40.000 video 1> (video 1), <TIME 00:28:43.033 video 1> to <TIME 00:28:43.239 video 1> (video 1), <TIME 00:29:31.096 video 1> to <TIME 00:29:33.417 video 1> (video 1), <TIME 00:29:41.569 video 1> to <TIME 00:29:43.774 video 1> (video 1), <TIME 00:04:29.240 video 2> to <TIME 00:04:29.828 video 2> (video 2), <TIME 00:08:05.645 video 2> to <TIME 00:08:07.114 video 2> (video 2), <TIME 00:09:30.537 video 2> to <TIME 00:09:31.364 video 2> (video 2), <TIME 00:09:54.882 video 2> to <TIME 00:09:56.399 video 2> (video 2), <TIME 00:10:30.460 video 2> to <TIME 00:10:32.185 video 2> (video 2), <TIME 00:10:56.193 video 2> to <TIME 00:10:57.542 video 2> (video 2)",
+      "<TIME 00:00:55.799 video 1> to <TIME 00:01:03.650 video 1> (video 1), <TIME 00:01:55.007 video 1> to <TIME 00:01:58.346 video 1> (video 1), <TIME 00:05:02.489 video 1> to <TIME 00:05:03.774 video 1> (video 1), <TIME 00:05:47.033 video 1> to <TIME 00:05:48.257 video 1> (video 1), <TIME 00:06:41.897 video 1> to <TIME 00:06:44.310 video 1> (video 1), <TIME 00:07:00.957 video 1> to <TIME 00:07:10.924 video 1> (video 1), <TIME 00:07:45.598 video 1> to <TIME 00:07:46.489 video 1> (video 1), <TIME 00:09:18.838 video 1> to <TIME 00:09:24.810 video 1> (video 1), <TIME 00:09:42.148 video 1> to <TIME 00:09:51.453 video 1> (video 1), <TIME 00:09:54.198 video 1> to <TIME 00:09:59.453 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_74": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      },
+      "video 2": {
+        "id": "P06-20240510-115307"
+      },
+      "video 3": {
+        "id": "P06-20240510-121619"
+      },
+      "video 4": {
+        "id": "P06-20240510-135423"
+      }
+    },
+    "question": "When did the participant perform prep for Wash and rinse urad dal (whole black lentil) and rajma (kidney beans) in a large bowl. Soak in 3 cups water overnight from recipe Dal Makhani with Rice?",
+    "choices": [
+      "<TIME 00:31:56.389 video 1> to <TIME 00:31:58.038 video 1> (video 1), <TIME 00:32:04.074 video 1> to <TIME 00:32:10.968 video 1> (video 1)",
+      "<TIME 00:29:04.085 video 1> to <TIME 00:29:34.147 video 1> (video 1), <TIME 00:29:57.371 video 1> to <TIME 00:30:30.830 video 1> (video 1)",
+      "<TIME 00:01:46.981 video 4> to <TIME 00:01:51.166 video 4> (video 4), <TIME 00:02:42.028 video 4> to <TIME 00:02:45.360 video 4> (video 4)",
+      "<TIME 00:03:35.432 video 4> to <TIME 00:03:40.295 video 4> (video 4), <TIME 00:04:03.786 video 4> to <TIME 00:04:08.134 video 4> (video 4), <TIME 00:04:45.521 video 4> to <TIME 00:04:51.166 video 4> (video 4), <TIME 00:05:03.801 video 4> to <TIME 00:05:05.747 video 4> (video 4), <TIME 00:05:18.444 video 4> to <TIME 00:06:15.418 video 4> (video 4)",
+      "<TIME 00:11:07.164 video 2> to <TIME 00:11:27.140 video 2> (video 2), <TIME 00:11:40.198 video 2> to <TIME 00:11:54.140 video 2> (video 2), <TIME 00:11:57.103 video 2> to <TIME 00:11:59.335 video 2> (video 2)"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_prep_localization_76": {
+    "inputs": {
+      "video 1": {
+        "id": "P08-20240614-184945"
+      }
+    },
+    "question": "When did the participant perform prep for Place broccoli in air fryer and roast for 15 minutes. Season with oil, salt, pepper, oregano, and garlic granules half-way through from recipe Salmon Teriyaki Skewers with Vegetables?",
+    "choices": [
+      "<TIME 00:00:08.917 video 1> to <TIME 00:00:12.476 video 1> (video 1), <TIME 00:04:47.787 video 1> to <TIME 00:04:49.507 video 1> (video 1), <TIME 00:05:56.103 video 1> to <TIME 00:06:28.373 video 1> (video 1), <TIME 00:06:39.229 video 1> to <TIME 00:06:41.949 video 1> (video 1)",
+      "<TIME 00:02:38.246 video 1> to <TIME 00:02:45.079 video 1> (video 1), <TIME 00:02:53.800 video 1> to <TIME 00:02:55.270 video 1> (video 1), <TIME 00:03:28.899 video 1> to <TIME 00:03:52.969 video 1> (video 1), <TIME 00:07:43.063 video 1> to <TIME 00:07:43.947 video 1> (video 1), <TIME 00:07:47.203 video 1> to <TIME 00:07:47.858 video 1> (video 1), <TIME 00:08:00.363 video 1> to <TIME 00:08:01.725 video 1> (video 1), <TIME 00:08:04.432 video 1> to <TIME 00:08:12.818 video 1> (video 1), <TIME 00:11:44.924 video 1> to <TIME 00:11:46.549 video 1> (video 1), <TIME 00:11:57.591 video 1> to <TIME 00:12:09.118 video 1> (video 1)",
+      "<TIME 00:00:08.903 video 1> to <TIME 00:00:12.461 video 1> (video 1), <TIME 00:00:23.275 video 1> to <TIME 00:00:28.917 video 1> (video 1), <TIME 00:00:30.992 video 1> to <TIME 00:00:35.373 video 1> (video 1), <TIME 00:01:15.226 video 1> to <TIME 00:01:38.050 video 1> (video 1), <TIME 00:08:46.178 video 1> to <TIME 00:09:23.896 video 1> (video 1), <TIME 00:12:46.028 video 1> to <TIME 00:12:50.210 video 1> (video 1), <TIME 00:12:51.876 video 1> to <TIME 00:13:03.006 video 1> (video 1), <TIME 00:13:04.142 video 1> to <TIME 00:13:23.972 video 1> (video 1)",
+      "<TIME 00:13:33.380 video 1> to <TIME 00:13:36.108 video 1> (video 1), <TIME 00:14:47.759 video 1> to <TIME 00:14:56.667 video 1> (video 1)",
+      "<TIME 00:02:16.387 video 1> to <TIME 00:02:23.344 video 1> (video 1), <TIME 00:02:25.680 video 1> to <TIME 00:02:31.888 video 1> (video 1)"
+    ],
+    "correct_idx": 1
+  },
+  "recipe_prep_localization_78": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform prep for Thread the beef and sliced vegetables (onion, tomato and scotch bonnet chilli) onto skewers and arrange them on a baking tray from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:00:55.799 video 1> to <TIME 00:01:03.650 video 1> (video 1), <TIME 00:01:55.007 video 1> to <TIME 00:01:58.346 video 1> (video 1), <TIME 00:05:02.489 video 1> to <TIME 00:05:03.774 video 1> (video 1), <TIME 00:05:47.033 video 1> to <TIME 00:05:48.257 video 1> (video 1), <TIME 00:06:41.897 video 1> to <TIME 00:06:44.310 video 1> (video 1), <TIME 00:07:00.957 video 1> to <TIME 00:07:10.924 video 1> (video 1), <TIME 00:07:45.598 video 1> to <TIME 00:07:46.489 video 1> (video 1), <TIME 00:09:18.838 video 1> to <TIME 00:09:24.810 video 1> (video 1), <TIME 00:09:42.148 video 1> to <TIME 00:09:51.453 video 1> (video 1), <TIME 00:09:54.198 video 1> to <TIME 00:09:59.453 video 1> (video 1)",
+      "<TIME 00:01:13.160 video 1> to <TIME 00:01:55.007 video 1> (video 1), <TIME 00:03:06.774 video 1> to <TIME 00:03:22.924 video 1> (video 1)",
+      "<TIME 00:12:55.305 video 1> to <TIME 00:13:06.632 video 1> (video 1), <TIME 00:13:17.277 video 1> to <TIME 00:13:25.828 video 1> (video 1), <TIME 00:19:29.742 video 1> to <TIME 00:19:33.346 video 1> (video 1), <TIME 00:19:48.973 video 1> to <TIME 00:19:51.399 video 1> (video 1), <TIME 00:24:41.033 video 1> to <TIME 00:24:45.597 video 1> (video 1), <TIME 00:24:41.440 video 1> to <TIME 00:24:41.767 video 1> (video 1), <TIME 00:25:57.816 video 1> to <TIME 00:25:59.167 video 1> (video 1), <TIME 00:30:31.060 video 1> to <TIME 00:30:36.067 video 1> (video 1), <TIME 00:30:35.033 video 1> to <TIME 00:30:39.940 video 1> (video 1), <TIME 00:30:45.976 video 1> to <TIME 00:30:50.007 video 1> (video 1), <TIME 00:31:02.199 video 1> to <TIME 00:31:05.703 video 1> (video 1), <TIME 00:02:03.389 video 2> to <TIME 00:02:07.114 video 2> (video 2)",
+      "<TIME 00:01:08.570 video 1> to <TIME 00:01:12.237 video 1> (video 1), <TIME 00:03:30.375 video 1> to <TIME 00:03:34.417 video 1> (video 1)",
+      "<TIME 00:03:43.556 video 1> to <TIME 00:03:47.935 video 1> (video 1), <TIME 00:10:40.855 video 1> to <TIME 00:10:42.739 video 1> (video 1)"
+    ],
+    "correct_idx": 0
+  },
+  "recipe_prep_localization_80": {
+    "inputs": {
+      "video 1": {
+        "id": "P06-20240510-104642"
+      }
+    },
+    "question": "When did the participant perform prep for Add turmeric powder, coriander powder, garam masala powder, red chilli powder, and salt to the mixture and saute the mixture uniformly. Then add 1/2 cup water and stir. Wait for the whole mixture to homogenise from recipe Kadhai Paneer?",
+    "choices": [
+      "<TIME 00:00:41.374 video 1> to <TIME 00:00:51.392 video 1> (video 1), <TIME 00:17:18.737 video 1> to <TIME 00:17:23.048 video 1> (video 1), <TIME 00:20:54.603 video 1> to <TIME 00:20:55.866 video 1> (video 1), <TIME 00:25:33.674 video 1> to <TIME 00:25:48.007 video 1> (video 1), <TIME 00:26:17.026 video 1> to <TIME 00:26:18.369 video 1> (video 1), <TIME 00:26:21.719 video 1> to <TIME 00:26:31.719 video 1> (video 1), <TIME 00:26:37.064 video 1> to <TIME 00:26:38.419 video 1> (video 1)",
+      "<TIME 00:00:20.699 video 1> to <TIME 00:00:53.375 video 1> (video 1), <TIME 00:00:57.925 video 1> to <TIME 00:00:59.525 video 1> (video 1), <TIME 00:01:50.244 video 1> to <TIME 00:02:04.039 video 1> (video 1), <TIME 00:02:16.060 video 1> to <TIME 00:02:24.024 video 1> (video 1), <TIME 00:02:49.943 video 1> to <TIME 00:03:12.296 video 1> (video 1), <TIME 00:03:13.950 video 1> to <TIME 00:03:20.525 video 1> (video 1), <TIME 00:03:31.039 video 1> to <TIME 00:03:35.496 video 1> (video 1), <TIME 00:05:44.893 video 1> to <TIME 00:06:00.067 video 1> (video 1), <TIME 00:06:00.033 video 1> to <TIME 00:06:03.744 video 1> (video 1), <TIME 00:06:05.081 video 1> to <TIME 00:06:08.211 video 1> (video 1), <TIME 00:06:12.839 video 1> to <TIME 00:06:23.725 video 1> (video 1), <TIME 00:06:30.680 video 1> to <TIME 00:06:33.153 video 1> (video 1), <TIME 00:06:50.948 video 1> to <TIME 00:07:12.725 video 1> (video 1), <TIME 00:07:42.267 video 1> to <TIME 00:07:49.896 video 1> (video 1), <TIME 00:09:41.721 video 1> to <TIME 00:09:46.125 video 1> (video 1), <TIME 00:09:48.518 video 1> to <TIME 00:10:10.439 video 1> (video 1), <TIME 00:10:21.525 video 1> to <TIME 00:10:24.753 video 1> (video 1), <TIME 00:10:43.096 video 1> to <TIME 00:10:50.239 video 1> (video 1), <TIME 00:11:02.639 video 1> to <TIME 00:11:15.268 video 1> (video 1), <TIME 00:11:21.125 video 1> to <TIME 00:11:36.411 video 1> (video 1), <TIME 00:11:56.696 video 1> to <TIME 00:12:06.239 video 1> (video 1), <TIME 00:12:12.047 video 1> to <TIME 00:12:29.525 video 1> (video 1), <TIME 00:12:46.439 video 1> to <TIME 00:12:51.268 video 1> (video 1), <TIME 00:12:56.718 video 1> to <TIME 00:13:12.439 video 1> (video 1), <TIME 00:13:32.299 video 1> to <TIME 00:13:56.153 video 1> (video 1), <TIME 00:14:04.496 video 1> to <TIME 00:14:07.811 video 1> (video 1), <TIME 00:14:16.068 video 1> to <TIME 00:14:18.753 video 1> (video 1)",
+      "<TIME 00:17:42.125 video 1> to <TIME 00:17:54.639 video 1> (video 1), <TIME 00:21:30.521 video 1> to <TIME 00:23:12.434 video 1> (video 1), <TIME 00:23:22.452 video 1> to <TIME 00:23:30.965 video 1> (video 1)",
+      "<TIME 00:27:36.969 video 1> to <TIME 00:27:41.923 video 1> (video 1)",
+      "<TIME 00:00:15.821 video 1> to <TIME 00:00:52.562 video 1> (video 1), <TIME 00:01:56.825 video 1> to <TIME 00:02:03.290 video 1> (video 1), <TIME 00:13:40.283 video 1> to <TIME 00:13:43.525 video 1> (video 1), <TIME 00:14:23.546 video 1> to <TIME 00:14:46.896 video 1> (video 1), <TIME 00:14:52.582 video 1> to <TIME 00:15:08.353 video 1> (video 1), <TIME 00:15:19.592 video 1> to <TIME 00:15:21.896 video 1> (video 1), <TIME 00:15:30.795 video 1> to <TIME 00:15:32.496 video 1> (video 1), <TIME 00:16:01.782 video 1> to <TIME 00:16:44.896 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_83": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240530-102543"
+      },
+      "video 2": {
+        "id": "P07-20240530-111344"
+      }
+    },
+    "question": "When did the participant perform prep for Line a cookie sheet with parchment paper from recipe Banana Bread Chocolate Chip Cookies?",
+    "choices": [
+      "<TIME 00:08:24.795 video 1> to <TIME 00:08:27.471 video 1> (video 1)",
+      "<TIME 00:10:35.083 video 1> to <TIME 00:10:53.203 video 1> (video 1)",
+      "<TIME 00:23:19.995 video 1> to <TIME 00:23:35.739 video 1> (video 1), <TIME 00:30:45.006 video 1> to <TIME 00:30:56.542 video 1> (video 1)",
+      "<TIME 00:13:44.167 video 1> to <TIME 00:14:04.596 video 1> (video 1), <TIME 00:14:35.216 video 1> to <TIME 00:14:47.792 video 1> (video 1), <TIME 00:14:54.700 video 1> to <TIME 00:15:09.614 video 1> (video 1)",
+      "<TIME 00:09:19.650 video 1> to <TIME 00:09:20.614 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  },
+  "recipe_prep_localization_90": {
+    "inputs": {
+      "video 1": {
+        "id": "P07-20240531-201703"
+      }
+    },
+    "question": "When did the participant perform prep for Stir the salad and add the dressing. Stir again from recipe Southwestern Salad?",
+    "choices": [
+      "<TIME 00:15:21.899 video 1> to <TIME 00:15:38.423 video 1> (video 1)",
+      "<TIME 00:00:14.829 video 1> to <TIME 00:00:31.456 video 1> (video 1), <TIME 00:01:20.993 video 1> to <TIME 00:01:29.606 video 1> (video 1), <TIME 00:04:30.531 video 1> to <TIME 00:04:33.757 video 1> (video 1), <TIME 00:05:11.483 video 1> to <TIME 00:05:16.971 video 1> (video 1), <TIME 00:05:36.202 video 1> to <TIME 00:06:05.757 video 1> (video 1), <TIME 00:06:55.643 video 1> to <TIME 00:07:12.973 video 1> (video 1), <TIME 00:07:16.324 video 1> to <TIME 00:07:20.490 video 1> (video 1), <TIME 00:07:33.505 video 1> to <TIME 00:07:34.774 video 1> (video 1)",
+      "<TIME 00:09:39.895 video 1> to <TIME 00:09:42.435 video 1> (video 1), <TIME 00:15:18.096 video 1> to <TIME 00:15:21.578 video 1> (video 1), <TIME 00:17:13.485 video 1> to <TIME 00:17:38.673 video 1> (video 1), <TIME 00:17:48.552 video 1> to <TIME 00:17:50.206 video 1> (video 1), <TIME 00:17:55.535 video 1> to <TIME 00:17:57.399 video 1> (video 1), <TIME 00:18:01.040 video 1> to <TIME 00:19:24.173 video 1> (video 1), <TIME 00:19:32.974 video 1> to <TIME 00:19:34.757 video 1> (video 1), <TIME 00:19:40.309 video 1> to <TIME 00:20:02.640 video 1> (video 1)",
+      "<TIME 00:20:43.695 video 1> to <TIME 00:20:49.149 video 1> (video 1)",
+      "<TIME 00:21:32.073 video 1> to <TIME 00:21:41.954 video 1> (video 1)"
+    ],
+    "correct_idx": 4
+  },
+  "recipe_prep_localization_92": {
+    "inputs": {
+      "video 1": {
+        "id": "P09-20240624-160737"
+      },
+      "video 2": {
+        "id": "P09-20240624-165332"
+      }
+    },
+    "question": "When did the participant perform prep for Marinate beef in ginger and garlic paste from recipe French Fries and Beef Skewers?",
+    "choices": [
+      "<TIME 00:13:36.685 video 1> to <TIME 00:13:44.133 video 1> (video 1), <TIME 00:13:49.033 video 1> to <TIME 00:13:59.070 video 1> (video 1), <TIME 00:14:33.129 video 1> to <TIME 00:14:38.739 video 1> (video 1), <TIME 00:17:54.091 video 1> to <TIME 00:17:55.864 video 1> (video 1), <TIME 00:19:10.295 video 1> to <TIME 00:19:11.828 video 1> (video 1), <TIME 00:20:11.946 video 1> to <TIME 00:20:12.864 video 1> (video 1), <TIME 00:21:16.768 video 1> to <TIME 00:21:21.471 video 1> (video 1), <TIME 00:21:29.775 video 1> to <TIME 00:21:31.132 video 1> (video 1), <TIME 00:03:56.846 video 2> to <TIME 00:03:58.185 video 2> (video 2)",
+      "<TIME 00:14:28.156 video 1> to <TIME 00:14:30.953 video 1> (video 1), <TIME 00:15:37.632 video 1> to <TIME 00:15:39.399 video 1> (video 1), <TIME 00:15:52.897 video 1> to <TIME 00:15:55.346 video 1> (video 1), <TIME 00:16:14.906 video 1> to <TIME 00:16:29.203 video 1> (video 1), <TIME 00:16:41.507 video 1> to <TIME 00:16:51.300 video 1> (video 1), <TIME 00:16:51.033 video 1> to <TIME 00:17:33.885 video 1> (video 1), <TIME 00:17:47.412 video 1> to <TIME 00:17:51.400 video 1> (video 1), <TIME 00:17:51.033 video 1> to <TIME 00:17:51.473 video 1> (video 1), <TIME 00:24:06.161 video 1> to <TIME 00:24:13.471 video 1> (video 1), <TIME 00:25:01.888 video 1> to <TIME 00:25:03.096 video 1> (video 1), <TIME 00:25:32.023 video 1> to <TIME 00:25:37.489 video 1> (video 1), <TIME 00:28:37.188 video 1> to <TIME 00:28:40.000 video 1> (video 1), <TIME 00:28:43.033 video 1> to <TIME 00:28:43.239 video 1> (video 1), <TIME 00:29:31.096 video 1> to <TIME 00:29:33.417 video 1> (video 1), <TIME 00:29:41.569 video 1> to <TIME 00:29:43.774 video 1> (video 1), <TIME 00:04:29.240 video 2> to <TIME 00:04:29.828 video 2> (video 2), <TIME 00:08:05.645 video 2> to <TIME 00:08:07.114 video 2> (video 2), <TIME 00:09:30.537 video 2> to <TIME 00:09:31.364 video 2> (video 2), <TIME 00:09:54.882 video 2> to <TIME 00:09:56.399 video 2> (video 2), <TIME 00:10:30.460 video 2> to <TIME 00:10:32.185 video 2> (video 2), <TIME 00:10:56.193 video 2> to <TIME 00:10:57.542 video 2> (video 2)",
+      "<TIME 00:01:08.570 video 1> to <TIME 00:01:12.237 video 1> (video 1), <TIME 00:03:30.375 video 1> to <TIME 00:03:34.417 video 1> (video 1)",
+      "<TIME 00:01:13.160 video 1> to <TIME 00:01:55.007 video 1> (video 1), <TIME 00:03:06.774 video 1> to <TIME 00:03:22.924 video 1> (video 1)",
+      "<TIME 00:10:12.042 video 1> to <TIME 00:10:15.180 video 1> (video 1), <TIME 00:10:31.753 video 1> to <TIME 00:10:39.067 video 1> (video 1), <TIME 00:10:39.033 video 1> to <TIME 00:10:40.029 video 1> (video 1)"
+    ],
+    "correct_idx": 2
+  }
+}

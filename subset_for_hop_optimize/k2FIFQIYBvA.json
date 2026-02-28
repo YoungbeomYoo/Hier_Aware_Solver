@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "798",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Magic Show",
+    "url": "https://www.youtube.com/watch?v=k2FIFQIYBvA",
+    "videoID": "k2FIFQIYBvA",
+    "question_id": "798-3",
+    "task_type": "Object Reasoning",
+    "question": "What is the relationship between the magician and the audience with striped shirts and brown hair?",
+    "options": [
+      "A. The audience is a volunteer for the magician's performance.",
+      "B. The audience is the magician's trust.",
+      "C. The audience is the magician's specially invited guest, a very good friend of his and a magic lover.",
+      "D. The audience is another highly skilled magician, which enhances the magic's incredulity."
+    ],
+    "answer": "A"
+  }
+]

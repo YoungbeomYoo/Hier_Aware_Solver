@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "834",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Food",
+    "url": "https://www.youtube.com/watch?v=aqFfjJrLkBA",
+    "videoID": "aqFfjJrLkBA",
+    "question_id": "834-2",
+    "task_type": "Action Reasoning",
+    "question": "Why does Sadie have a countdown?",
+    "options": [
+      "A. The food preparer is prepared to restrict her diet.",
+      "B. The food preparer thinks she is better at choosing her food than other children.",
+      "C. Sadie loves to challenge herself.",
+      "D. Because Sadie is the oldest child."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "834",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Food",
+    "url": "https://www.youtube.com/watch?v=aqFfjJrLkBA",
+    "videoID": "aqFfjJrLkBA",
+    "question_id": "834-3",
+    "task_type": "Temporal Reasoning",
+    "question": "Could you please specify the order for food preparation as shown in the video? Which of the following sequences is accurate?",
+    "options": [
+      "A. Rice balls, cheese slices, bread slices.",
+      "B. Sliced bread, sliced cheese, rice balls.",
+      "C. Rice balls, bread slices, cheese slices.",
+      "D. Cheese slices, rice balls, bread slices."
+    ],
+    "answer": "A"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "800",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Magic Show",
+    "url": "https://www.youtube.com/watch?v=Cb91B0wZYLE",
+    "videoID": "Cb91B0wZYLE",
+    "question_id": "800-1",
+    "task_type": "Temporal Reasoning",
+    "question": "What is the sequence in which the following magic tricks are performed in this video?\n(a) Joker inside the black Jacks sandwich is mysteriously replaced with the randomly chosen card.\n(b) The positions of Aces and random cards are swapped.\n(c) After a full circle of mixing up, the piles go back to where they started.\n(d) The order of cards is recovered from chaos.",
+    "options": [
+      "A. (c)(b)(a)(d).",
+      "B. (b)(a)(d)(c).",
+      "C. (d)(a)(c)(b).",
+      "D. (a)(c)(d)(b)."
+    ],
+    "answer": "D"
+  }
+]

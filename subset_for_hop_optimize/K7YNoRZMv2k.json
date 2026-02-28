@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "844",
+    "duration": "long",
+    "domain": "Life Record",
+    "sub_category": "Fashion",
+    "url": "https://www.youtube.com/watch?v=K7YNoRZMv2k",
+    "videoID": "K7YNoRZMv2k",
+    "question_id": "844-2",
+    "task_type": "Action Recognition",
+    "question": "What would happen if the daughter didn't assume control of Prada?",
+    "options": [
+      "A. The company would merge with a competitor and become a dominant force in the fashion industry.",
+      "B. The company would transition into a non-profit organization and focus on philanthropic endeavors.",
+      "C. The company would go bankrupt.",
+      "D. The company would experience a significant increase in profits and expansion."
+    ],
+    "answer": "C"
+  }
+]

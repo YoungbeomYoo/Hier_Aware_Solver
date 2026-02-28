@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "676",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Life Tip",
+    "url": "https://www.youtube.com/watch?v=YPzzGPXW8fs",
+    "videoID": "YPzzGPXW8fs",
+    "question_id": "676-2",
+    "task_type": "Temporal Reasoning",
+    "question": "In which order are the following steps introduced in this video?\n(a) Solving the middle layer.\n(b) Matching corner pieces with the center.\n(c) Solving the yellow.\n(d) Solving the white.\n(e) Solving the cube.",
+    "options": [
+      "A. (b)(c)(a)(d)(d).",
+      "B. (d)(a)(c)(b)(e).",
+      "C. (a)(c)(b)(d)(e).",
+      "D. (b)(d)(a)(c)(e)."
+    ],
+    "answer": "B"
+  },
+  {
+    "video_id": "676",
+    "duration": "long",
+    "domain": "Knowledge",
+    "sub_category": "Life Tip",
+    "url": "https://www.youtube.com/watch?v=YPzzGPXW8fs",
+    "videoID": "YPzzGPXW8fs",
+    "question_id": "676-3",
+    "task_type": "Object Reasoning",
+    "question": "Which of the following steps has the most scenarios during the demonstration according to the video?",
+    "options": [
+      "A. Solving the White Corners.",
+      "B. Solving the Corners.",
+      "C. Solving the Middle Layer.",
+      "D. Solving the Yellow."
+    ],
+    "answer": "D"
+  }
+]

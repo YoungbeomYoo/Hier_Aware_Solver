@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "747",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=4qYqPmIO0v0",
+    "videoID": "4qYqPmIO0v0",
+    "question_id": "747-1",
+    "task_type": "Action Recognition",
+    "question": "What happened to the team on the counterattack after Sabonis' first steal?",
+    "options": [
+      "A. Sabonis finishes the pick-and-roll.",
+      "B. A teammate hit a three.",
+      "C. Sabonis pass is broken up.",
+      "D. Teammate singles and fails."
+    ],
+    "answer": "D"
+  },
+  {
+    "video_id": "747",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=4qYqPmIO0v0",
+    "videoID": "4qYqPmIO0v0",
+    "question_id": "747-2",
+    "task_type": "Counting Problem",
+    "question": "How many athletic goals did LIT score from the last technical statistic on shooting percentage before halftime to the end of the half?",
+    "options": [
+      "A. 4.",
+      "B. 2.",
+      "C. 1.",
+      "D. 6."
+    ],
+    "answer": "A"
+  }
+]

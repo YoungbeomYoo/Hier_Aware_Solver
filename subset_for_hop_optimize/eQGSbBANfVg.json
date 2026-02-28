@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "803",
+    "duration": "long",
+    "domain": "Artistic Performance",
+    "sub_category": "Variety Show",
+    "url": "https://www.youtube.com/watch?v=eQGSbBANfVg",
+    "videoID": "eQGSbBANfVg",
+    "question_id": "803-3",
+    "task_type": "Object Reasoning",
+    "question": "In the latter part of the video, when Luke says, \"We probably have no time.\", what does this statement express about Luke's thoughts?",
+    "options": [
+      "A. Luke wants to save time.",
+      "B. Luke didn't have time to finish what he wanted to do.",
+      "C. Luke wants to showcase a shorter video.",
+      "D. Luke doesn't want to play the upcoming video."
+    ],
+    "answer": "D"
+  }
+]

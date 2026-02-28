@@ -1,0 +1,39 @@
+# Tree Search: filtered tree traversal + judge + history compaction
+# Flow: decompose → build filtered tree → budget context → judge loop → visual fallback
+dataset: hd_epic
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/HD-EPIC/stage2_v8_sync_30sec_no_window-hd-epic-tuned
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/HD-EPIC/hd-epic-annotations/vqa-benchmark
+  video_root: /scratch2/youngbeom/datasets/HD-EPIC
+  output_dir: ./output/hd_epic_tree_search
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge: {}
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 20000
+  history_compactor:
+    max_observation_tokens: 8000
+    max_state_tokens: 800
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 20000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 20000

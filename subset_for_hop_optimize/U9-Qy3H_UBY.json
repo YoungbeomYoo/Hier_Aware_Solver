@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "741",
+    "duration": "long",
+    "domain": "Sports Competition",
+    "sub_category": "Basketball",
+    "url": "https://www.youtube.com/watch?v=U9-Qy3H_UBY",
+    "videoID": "U9-Qy3H_UBY",
+    "question_id": "741-3",
+    "task_type": "Counting Problem",
+    "question": "How many 3-pointers does the college freshman protagonist in the video hit in a practice game?",
+    "options": [
+      "A. 3.",
+      "B. 4.",
+      "C. 2.",
+      "D. 1."
+    ],
+    "answer": "C"
+  }
+]
