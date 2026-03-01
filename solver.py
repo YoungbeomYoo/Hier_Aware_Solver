@@ -281,6 +281,29 @@ def create_components(config: dict, model, processor, dry_run: bool = False) -> 
         answer_judge=jc.get("answer_judge", False),
     )
 
+    # --- Vgent-style Structured Reasoning Components ---
+    if config.get("pipeline") == "vgent_style":
+        from components.sub_question_generator import SubQuestionGenerator
+        from components.sub_question_verifier import SubQuestionVerifier
+        from components.info_aggregator import InfoAggregator
+        from prompts import get_prompt as _get_prompt
+
+        sq_gen_prompt = _get_prompt("sub_question", "generate")
+        components["sub_question_generator"] = SubQuestionGenerator(
+            judge_llm_fn, sq_gen_prompt,
+        )
+
+        sq_ans_prompt = _get_prompt("sub_question", "answer")
+        components["sub_question_verifier"] = SubQuestionVerifier(
+            llm_fn=judge_llm_fn,
+            prompt_template=sq_ans_prompt,
+        )
+
+        agg_prompt = _get_prompt("aggregate", "info")
+        components["info_aggregator"] = InfoAggregator(
+            judge_llm_fn, agg_prompt,
+        )
+
     # --- VisualJudge (judge + query-aware captioning, assembled after frame_loader) ---
     # Only create if judge_visual is explicitly in config (not for text-only mode)
     if "judge_visual" in comp_config:
@@ -397,6 +420,13 @@ def create_components(config: dict, model, processor, dry_run: bool = False) -> 
             max_regions=tp_config.get("max_regions", 10),
         )
 
+    # --- Vgent-style: attach VLM/frame_loader to verifier for visual mode ---
+    if "sub_question_verifier" in components and vision_vlm and frame_loader:
+        from prompts.sub_question_answer import PROMPT_VISUAL
+        components["sub_question_verifier"].vision_vlm = vision_vlm
+        components["sub_question_verifier"].frame_loader = frame_loader
+        components["sub_question_verifier"].visual_prompt_template = PROMPT_VISUAL
+
     # --- SemanticMatcher (optional, for embedding-based key_elements matching) ---
     sm_config = comp_config.get("semantic_matcher", {})
     if sm_config:
@@ -451,8 +481,17 @@ def create_pipeline(config: dict, components: dict, adapter):
     elif pipeline_name == "tree_search":
         from pipelines.tree_search import TreeSearchPipeline
         return TreeSearchPipeline(components, adapter, pipe_config)
+    elif pipeline_name == "videolucy_style":
+        from pipelines.videolucy_style import VideoLucyStylePipeline
+        return VideoLucyStylePipeline(components, adapter, pipe_config)
+    elif pipeline_name == "tree_visual":
+        from pipelines.tree_visual import TreeVisualPipeline
+        return TreeVisualPipeline(components, adapter, pipe_config)
+    elif pipeline_name == "vgent_style":
+        from pipelines.vgent_style import VgentStylePipeline
+        return VgentStylePipeline(components, adapter, pipe_config)
     else:
-        raise ValueError(f"Unknown pipeline: {pipeline_name}. Supported: memory_only, routed, agentic, cognitive, composable, tree_search")
+        raise ValueError(f"Unknown pipeline: {pipeline_name}. Supported: memory_only, routed, agentic, cognitive, composable, tree_search, videolucy_style, tree_visual, vgent_style")
 
 
 def _gpu_worker(gpu_id: int, video_ids: list[str], config: dict, output_dir: str):

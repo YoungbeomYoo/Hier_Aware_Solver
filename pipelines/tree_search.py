@@ -87,13 +87,39 @@ class TreeSearchPipeline(BasePipeline):
         # ============================================================
         # STAGE 1: Decompose
         # ============================================================
-        analysis = analyzer.analyze(question, options, time_ref)
+        sam_cycle = self.config.get("sam_cycle", False)
+        structured_a1 = self.config.get("structured_a1", False)
+        structured_s2 = self.config.get("structured_s2", False)
+        structured_cues = None
+
+        if sam_cycle or structured_a1 or structured_s2:
+            analysis = analyzer.analyze_structured(question, options, time_ref)
+            structured_cues = analysis.get("structured_cues")
+        else:
+            analysis = analyzer.analyze(question, options, time_ref)
+
         cues = analysis["cues"]
         target_fields = analysis.get("target_fields", ["summary"])
         has_time = analysis.get("has_explicit_time", False)
         all_time_ranges = analysis.get("all_time_ranges", [])
 
-        print(f"    [TreeSearch] cues={cues[:4]} | has_time={has_time}")
+        # structured_a1: structured cues → flatten → flat cues로 override
+        if structured_a1 and not sam_cycle and structured_cues:
+            flat_from_sc = []
+            for cat in ("persons", "actions", "objects",
+                        "locations", "text_ocr", "attributes"):
+                flat_from_sc.extend(structured_cues.get(cat, []))
+            if flat_from_sc:
+                cues = flat_from_sc
+                print(f"    [StructA1] Flattened structured cues: {cues[:6]}")
+
+        if sam_cycle and structured_cues:
+            n_sc = sum(len(v) for k, v in structured_cues.items()
+                       if k in ("persons", "actions", "objects",
+                                "locations", "text_ocr", "attributes"))
+            print(f"    [TreeSearch] SAM cues={n_sc} | "
+                  f"strategy={structured_cues.get('strategy', '')[:60]}")
+        print(f"    [TreeSearch] flat cues={cues[:4]} | has_time={has_time}")
 
         # ============================================================
         # STAGE 1.5: Semantic matching (optional)
@@ -118,10 +144,26 @@ class TreeSearchPipeline(BasePipeline):
         # ============================================================
         # STAGE 2: Build filtered tree
         # ============================================================
-        filtered = tree_filter.build(
-            tree, cues, target_fields,
-            semantic_scores=semantic_scores,
-        )
+        if (sam_cycle or structured_s2) and structured_cues:
+            tag = "SAM" if sam_cycle else "StructS2"
+            filtered = tree_filter.build_structured(
+                tree, structured_cues,
+                min_category_matches=self.config.get("sam_min_categories", 2),
+            )
+            # Fallback: structured filter가 너무 적으면 flat build로
+            if len(filtered.get("priority_leaves", [])) < 5:
+                print(f"    [{tag}] Structured filter too few "
+                      f"({len(filtered.get('priority_leaves', []))}), "
+                      f"fallback to flat build")
+                filtered = tree_filter.build(
+                    tree, cues, target_fields,
+                    semantic_scores=semantic_scores,
+                )
+        else:
+            filtered = tree_filter.build(
+                tree, cues, target_fields,
+                semantic_scores=semantic_scores,
+            )
 
         n_active = len(filtered["priority_leaves"])
         n_total = len(filtered["all_leaves"])
@@ -131,6 +173,7 @@ class TreeSearchPipeline(BasePipeline):
         # STAGE 2.5: Phase 0 — Coarse overview answer attempt
         # ============================================================
         phase0_verdict = None
+        coarse_ctx = ""
         if self.config.get("coarse_first", False) and tree:
             phase0_verdict, coarse_ctx = self._phase0_coarse_answer(
                 tree, question, options, judge,
@@ -212,12 +255,35 @@ class TreeSearchPipeline(BasePipeline):
         # ============================================================
         recovery_info = None
         recovery_targets = []
-        if (self.config.get("recovery_cue", False)
+
+        if (sam_cycle
                 and phase0_verdict is not None
                 and phase0_verdict.get("confidence") != "high"
                 and tree):
+            # SAM recovery: failure analysis → new cues → re-filter
+            sam_result = self._sam_recovery_cue(
+                coarse_ctx, question, options, phase0_verdict,
+                structured_cues or {}, judge, tree_filter, tree,
+                seen_ids=set(),
+            )
+            if sam_result and sam_result.get("recovery_targets"):
+                recovery_targets = sam_result["recovery_targets"]
+                recovery_info = sam_result
+                print(f"    [SAM-A2] Recovery: {len(recovery_targets)} new targets | "
+                      f"analysis={sam_result.get('failure_analysis', '')[:80]}")
+
+        elif (self.config.get("recovery_cue", False)
+                and phase0_verdict is not None
+                and phase0_verdict.get("confidence") != "high"
+                and tree):
+            # Original A2: time-period based recovery
+            rc_ctx_mode = self.config.get("recovery_cue_context", "leaf")
+            if rc_ctx_mode == "leaf":
+                rc_ctx = self._flat_baseline_context(tree)
+            else:
+                rc_ctx = coarse_ctx  # Level_N~1 with individual time ranges
             recovery_info = self._recovery_cue(
-                coarse_ctx, question, options, phase0_verdict, judge,
+                rc_ctx, question, options, phase0_verdict, judge,
             )
             if recovery_info and recovery_info.get("time_periods"):
                 # Re-select targets based on recovery cue time periods
@@ -626,7 +692,7 @@ class TreeSearchPipeline(BasePipeline):
                     for s in semantic_scores["scores"][:10]
                 ],
             } if semantic_scores else None,
-            "recovery_info": recovery_info,
+            "recovery_info": self._sanitize_for_json(recovery_info),
         }
 
     # ==================== Target Selection ====================
@@ -973,6 +1039,14 @@ Please output ONLY valid JSON in a strictly standardized format:
                 segs = node.get("time_segments", [])
                 start, end = self._get_time_range(segs)
 
+                # Build individual time ranges string
+                # e.g. [[30,60],[60,90],[2340,2370]] → "[30s-60s, 60s-90s, 2340s-2370s]"
+                seg_strs = []
+                for s in segs:
+                    if isinstance(s, (list, tuple)) and len(s) >= 2:
+                        seg_strs.append("%.0fs-%.0fs" % (float(s[0]), float(s[1])))
+                time_range_str = ", ".join(seg_strs) if seg_strs else "%.0fs-%.0fs" % (start, end)
+
                 ke = node.get("key_elements", {})
                 ke_brief = ""
                 for field in ["actions", "objects", "persons"]:
@@ -986,8 +1060,8 @@ Please output ONLY valid JSON in a strictly standardized format:
                     "level": level_name,
                     "start": start,
                     "end": end,
-                    "text": "[%s] [%.0fs-%.0fs] %s%s" % (
-                        level_name, start, end, summary, ke_brief,
+                    "text": "[%s] [%s] %s%s" % (
+                        level_name, time_range_str, summary, ke_brief,
                     ),
                 })
 
@@ -1123,6 +1197,159 @@ Rules:
         print(f"      [A2] Recovery cue: {len(parsed_periods)} time periods, "
               f"focus={info['focus_points'][:80]}")
         return info
+
+    # ==================== SAM Cycle: Recovery with new cues ====================
+
+    SAM_RECOVERY_PROMPT = """You are analyzing why a video QA system failed to answer a question confidently.
+
+### Question
+{question}
+
+### Choices
+{options_text}
+
+### Video Overview
+{context}
+
+### Previous Attempt
+Confidence: {prev_confidence}
+Reasoning: {prev_reasoning}
+Missing info: {prev_missing}
+
+### Original Search Cues (what was searched for)
+{original_cues_json}
+
+### Task
+1. Analyze WHY the previous attempt failed. What specific information is missing?
+2. Generate NEW search cues that are DIFFERENT from the original ones, targeting the missing information.
+3. Think about alternative descriptions, synonyms, or related concepts that might appear in the video captions.
+
+For example, if searching "give check" failed, the video might describe it as "hand over document", "pass paper", or "present envelope".
+
+Output ONLY valid JSON:
+{{
+    "failure_analysis": "Brief explanation of what information is missing",
+    "persons": ["alternative person descriptions"],
+    "actions": ["alternative action descriptions"],
+    "objects": ["alternative object descriptions"],
+    "locations": ["alternative location descriptions"],
+    "text_ocr": ["text to look for"],
+    "attributes": ["visual attributes to look for"]
+}}
+
+Rules:
+- Each category: 0-3 entries. Empty list [] if not relevant.
+- Generate DIFFERENT cues from the originals — synonyms, related concepts, alternative descriptions.
+- Focus on what was MISSING, not what was already found."""
+
+    def _sam_recovery_cue(
+        self, coarse_context, question, options, phase0_verdict,
+        original_structured_cues, judge, tree_filter, tree, seen_ids,
+    ):
+        """SAM cycle: 실패 원인 분석 → 새 structured cues → tree 재필터 → 새 targets.
+
+        Returns:
+            dict with new_structured_cues, recovery_targets, failure_analysis
+            or None on failure
+        """
+        import json as _json
+
+        opt_text = "\n".join(
+            "%s. %s" % (chr(65 + i), o) for i, o in enumerate(options)
+        )
+        prev_reasoning = (phase0_verdict.get("reasoning") or "No reasoning")[:300]
+        prev_missing = (phase0_verdict.get("missing_info") or "unknown")[:200]
+        prev_confidence = phase0_verdict.get("confidence", "low")
+
+        # Format original cues for the prompt
+        orig_cues_clean = {
+            k: v for k, v in (original_structured_cues or {}).items()
+            if k in ("persons", "actions", "objects", "locations",
+                     "text_ocr", "attributes", "strategy")
+            and v
+        }
+        try:
+            orig_json = _json.dumps(orig_cues_clean, ensure_ascii=False)
+        except Exception:
+            orig_json = str(orig_cues_clean)
+
+        prompt = self.SAM_RECOVERY_PROMPT.format(
+            question=question,
+            options_text=opt_text,
+            context=coarse_context[:8000],
+            prev_confidence=prev_confidence,
+            prev_reasoning=prev_reasoning,
+            prev_missing=prev_missing,
+            original_cues_json=orig_json,
+        )
+
+        try:
+            result = judge.llm_fn(prompt, max_tokens=400)
+        except Exception as e:
+            print(f"      [SAM] Recovery error: {e}")
+            return None
+
+        if not isinstance(result, dict):
+            print(f"      [SAM] Recovery: non-dict result")
+            return None
+
+        # Extract new structured cues
+        new_cues = {}
+        for cat in ("persons", "actions", "objects",
+                     "locations", "text_ocr", "attributes"):
+            vals = result.get(cat, [])
+            if isinstance(vals, list):
+                new_cues[cat] = [str(v) for v in vals if v]
+            elif isinstance(vals, str) and vals:
+                new_cues[cat] = [vals]
+            else:
+                new_cues[cat] = []
+
+        failure_analysis = result.get("failure_analysis", "")
+
+        # Re-filter tree with new cues (relaxed: min_category_matches=1)
+        new_filtered = tree_filter.build_structured(
+            tree, new_cues, min_category_matches=1,
+        )
+        new_priority = new_filtered.get("priority_leaves", [])
+
+        # Select unseen targets
+        recovery_targets = []
+        for leaf in new_priority:
+            key = (leaf["start_time"], leaf["end_time"])
+            if key not in seen_ids:
+                recovery_targets.append(leaf)
+                if len(recovery_targets) >= 10:
+                    break
+
+        n_new_cues = sum(len(v) for v in new_cues.values())
+        print(f"      [SAM] Recovery: {n_new_cues} new cues, "
+              f"{len(new_priority)} priority, "
+              f"{len(recovery_targets)} unseen targets")
+        if failure_analysis:
+            print(f"      [SAM] Failure: {failure_analysis[:80]}")
+
+        return {
+            "new_structured_cues": new_cues,
+            "recovery_targets": recovery_targets,
+            "failure_analysis": failure_analysis,
+            "n_new_priority": len(new_priority),
+        }
+
+    # ==================== Utilities ====================
+
+    @staticmethod
+    def _sanitize_for_json(obj):
+        """Convert non-JSON-serializable types (tuples as keys, etc.) recursively."""
+        if obj is None:
+            return None
+        if isinstance(obj, dict):
+            return {str(k): TreeSearchPipeline._sanitize_for_json(v) for k, v in obj.items()}
+        if isinstance(obj, (list, tuple)):
+            return [TreeSearchPipeline._sanitize_for_json(v) for v in obj]
+        if isinstance(obj, (int, float, str, bool)):
+            return obj
+        return str(obj)
 
     # ==================== R10a: Flat Baseline ====================
 

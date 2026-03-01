@@ -1,0 +1,45 @@
+# Structured A1 ablation — KE-aligned cue extraction only
+# A2 v3 baseline + structured_a1 (STAGE 1만 변경, STAGE 2/2.7은 동일)
+# A1-structured (LLM structured cues → flatten) + A2 (recovery cue, coarse) + B1 + C3 + D0 + F1 + G1
+dataset: video_mme
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
+  question_path: /lustre/youngbeom/find_solver_please/subset_for_hop_optimize
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/structured_a1
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge:
+    prompt: videolucy
+    answer_judge: true
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history:
+    mode: compact
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000
+  coarse_first: true
+  structured_a1: true
+  recovery_cue: true
+  recovery_cue_context: coarse

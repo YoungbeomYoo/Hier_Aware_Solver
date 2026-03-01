@@ -12,7 +12,7 @@ model:
   attn_impl: flash_attention_2
 
 paths:
-  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
   question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
   video_root: /scratch2/youngbeom/datasets/Video-MME/all
   output_dir: ./output/ablation_strict_always_visual

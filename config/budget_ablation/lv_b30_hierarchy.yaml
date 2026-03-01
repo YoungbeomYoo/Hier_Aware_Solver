@@ -1,0 +1,38 @@
+# LVBench Budget Ablation: K=30, strategy=hierarchy
+dataset: lvbench
+pipeline: tree_visual
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_v9
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/LVBench/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/budget_lv_b30_hierarchy
+
+components:
+  query_analyzer:
+    prompt: detailed
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 32
+  tree_filter:
+    match_threshold: 1
+
+pipeline_params:
+  coarse_mode: flat
+  localize_mode: key_elements
+  vlm_mode: direct
+  max_visual_iterations: 0
+  max_frames: 16
+  max_intervals: 3
+  confidence_threshold: low
+  leaf_budget: 30
+  budget_strategy: hierarchy

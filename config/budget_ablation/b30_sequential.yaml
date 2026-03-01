@@ -1,0 +1,38 @@
+# Budget Ablation: K=30, strategy=sequential
+dataset: video_mme
+pipeline: tree_visual
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/budget_b30_sequential
+
+components:
+  query_analyzer:
+    prompt: detailed
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 32
+  tree_filter:
+    match_threshold: 1
+
+pipeline_params:
+  coarse_mode: flat
+  localize_mode: llm_index
+  vlm_mode: caption
+  max_visual_iterations: 5
+  max_frames: 16
+  max_intervals: 3
+  confidence_threshold: high
+  leaf_budget: 30
+  budget_strategy: sequential

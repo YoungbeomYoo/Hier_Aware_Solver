@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Base Pipeline — 파이프라인 추상 클래스
 

@@ -11,7 +11,7 @@ model:
   attn_impl: flash_attention_2
 
 paths:
-  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_30sec_no_window
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
   question_path: /lustre/youngbeom/find_solver_please/subset_for_hop_optimize
   video_root: /scratch2/youngbeom/datasets/Video-MME/all
   output_dir: ./output/a2_recovery_cue

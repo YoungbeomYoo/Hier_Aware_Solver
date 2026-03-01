@@ -683,9 +683,9 @@ Phase 0과 Flat의 차이로 **hierarchical blending의 가치** vs **단순 sum
 
 ---
 
-## 7. A2 Recovery Cue — Hop Loop 개선 실험
+## 9. A2 Recovery Cue — Hop Loop 개선 실험
 
-### 7.1 문제 진단
+### 9.1 문제 진단
 
 Phase 0(G1)이 전체 성능의 핵심 (806/900 = 89.6% early return). 나머지 94개가 hop loop에 진입하지만, hop loop 정확도는 39.4% (37/94)에 불과.
 
@@ -694,7 +694,7 @@ Phase 0(G1)이 전체 성능의 핵심 (806/900 = 89.6% early return). 나머지
 - 고정 10개 leaf = 9~16% 커버리지 → 너무 적음
 - cues는 최초 1회 추출 후 hop loop 내에서 갱신/전달 안 됨
 
-### 7.2 인지과학적 근거
+### 9.2 인지과학적 근거
 
 | 이론 | 핵심 | 현재 구현 | 갭 |
 |------|------|-----------|-----|
@@ -704,7 +704,7 @@ Phase 0(G1)이 전체 성능의 핵심 (806/900 = 89.6% early return). 나머지
 
 **핵심 갭**: cue와 retrieval 사이에 **추론(상상) 단계**가 없음. 사람은 키워드 하나로 연상해가며 시간 구간을 특정하지만, 현재 시스템은 keyword → exact match → 끝.
 
-### 7.3 A2 설계: Recovery Cue
+### 9.3 A2 설계: Recovery Cue
 
 **SAM의 "Sampling → Recovery → 새 Cue" 사이클을 1회 구현**
 
@@ -734,17 +734,17 @@ Previous reasoning: {phase0_reasoning}
 → focus_points: "해당 구간에서 무엇을 확인해야 하는지"
 ```
 
-### 7.4 구현 내역
+### 9.4 구현 내역
 
 | 파일 | 변경 | 설명 |
 |------|------|------|
 | `pipelines/tree_search.py` | STAGE 2.7 추가 (Phase 0 이후) | `_recovery_cue()` 메서드 + `RECOVERY_CUE_PROMPT` |
 | `pipelines/tree_search.py` | STAGE 3 수정 | recovery_targets가 있으면 그것을 initial targets로 사용 |
-| `config/full_run/a2_recovery_cue.yaml` | 신규 | `recovery_cue: true` 추가 |
+| `config/full_run/a2_recovery_cue.yaml` | 신규 | `recovery_cue: true` 추가, `question_path: subset_for_hop_optimize/` |
 | `output/a2_subset_qid_list.tsv` | 신규 | 94개 hop loop 질문 목록 |
 | `run_a2_subset.sh` | 신규 | subset 실행 스크립트 |
 
-### 7.5 파이프라인 흐름 변화
+### 9.5 파이프라인 흐름 변화
 
 ```
 [기존 Best]
@@ -757,25 +757,686 @@ Previous reasoning: {phase0_reasoning}
   → confidence high → early return (806개)
   → confidence low → A2: LLM이 coarse memory 보고 시간대 추론
                    → 시간대 기반 leaf 재선정
-                   → hop loop with LLM-guided leaves (94개, ?%)
+                   → hop loop with LLM-guided leaves (94개)
 ```
 
-### 7.6 실험 설계
+### 9.6 실험 설계
 
 - **데이터**: 94개 hop loop 진입 질문 (75 videos)
 - **비교 대상**: Best config의 hop loop 결과 (37/94 = 39.4%)
-- **측정**: 전체 정확도 + 카테고리별 (Action Reasoning 30개, Object Reasoning 25개 등)
+- **측정**: 전체 정확도 + recovery cue 효과 분석
 - **비용**: LLM 콜 1회 추가 (Phase 0 이후 recovery cue 생성)
 
-### 7.7 향후 확장 계획
+### 9.7 A2 v1 결과 (94/94 완료)
 
-A2 1회가 효과 있으면:
-- **A2 매 hop**: 매 hop마다 "지금까지 본 것 + 남은 의문 → 새 cue → 재탐색" (full SAM cycle)
-- **Focus points를 judge에 전달**: recovery cue의 focus_points를 hop loop judge에게 넘겨서 "이것에 집중해서 판단하라" 지시
+**Overall:**
 
-### 7.8 결과
+| Method | N | Correct | Accuracy | vs Best |
+|--------|---|---------|----------|---------|
+| Best (hop loop) | 94 | 37 | 39.4% | — |
+| **A2 v1 Recovery Cue** | 94 | 34 | **36.2%** | **-3.2%p** |
 
-| Method | N | Accuracy | vs Best Hop | Status |
-|--------|---|----------|-------------|--------|
-| Best (hop loop only) | 94 | 39.4% (37/94) | — | Baseline |
-| **A2 Recovery Cue** | 94 | **TBD** | TBD | 대기 |
+**A2가 Best보다 -3.2%p 하락.** Recovery cue가 오히려 성능을 떨어뜨림.
+
+**변동 분석:**
+
+| | N |
+|--|---|
+| 둘 다 정답 | 31 |
+| 둘 다 오답 | 54 |
+| Best✗ → A2✓ (A2 gain) | 3 |
+| Best✓ → A2✗ (A2 loss) | 6 |
+| **Net** | **-3** |
+
+**Recovery Cue 효과 분석:**
+
+| 구분 | N | Correct | Accuracy |
+|------|---|---------|----------|
+| Recovery cue 생성됨 | 47 | 16 | 34.0% |
+| Recovery cue 없음 (fallback) | 47 | 18 | 38.3% |
+| └─ 넓은 범위 (>1000s) | 27 | 8 | 29.6% |
+| └─ 좁은 범위 (≤1000s) | 20 | 8 | 40.0% |
+
+**핵심 발견:**
+- Recovery cue가 **생성된 경우(34.0%)가 없는 경우(38.3%)보다 오히려 낮음**
+- 47/94에서 recovery cue 자체가 안 생김 (Phase 0의 prev_reasoning이 비어있어 LLM이 시간대를 추론 못함)
+- 27/47에서 >1000s 범위 선택 (29.6%) → **Level_1 기반 coarse context의 한계**
+- 좁은 범위(≤1000s) 선택 시 40.0%로 Best(39.4%)과 유사 → **정밀한 시간대 선택이 되면 가능성 있음**
+
+### 9.8 A2 v1 실패 원인 분석
+
+| 원인 | 상세 | 영향 |
+|------|------|------|
+| **Coarse context 문제** | A2에 입력되는 coarse_ctx에 Level_1 시간 범위만 있음 (~500s 단위). LLM이 30초 단위 leaf를 선택할 수 없음 | 27/45에서 >1000s 범위 선택 → 사실상 "전부 봐라" |
+| **Phase 0 reasoning 부재** | Phase 0에서 `answerable=False`일 때 prev_reasoning이 빈 문자열 | 47/94에서 recovery cue 미생성 |
+| **A2 입력 = Phase 0 입력** | A2 프롬프트에 Phase 0과 동일한 coarse_ctx를 넣음. 같은 입력으로 다른 결과를 기대 | 실질적으로 Phase 0의 재실행에 불과 |
+
+### 9.9 A2 v2 결과 (leaf_ctx, 94/94 완료)
+
+**변경**: A2에 Level_0 leaf summary를 투입 (`_flat_baseline_context()` 형태, 30초 단위)
+
+| 실험 | 정답 | 정답률 | vs Best |
+|------|------|--------|---------|
+| **Best baseline** | 37/94 | 39.4% | — |
+| **A2 v1** (coarse, merged time) | 34/94 | 36.2% | -3.2%p |
+| **A2 v2** (leaf_ctx) | **40/94** | **42.6%** | **+3.2%p** |
+
+**Recovery Cue 효과:**
+| 구분 | 정답 | 정답률 |
+|------|------|--------|
+| With cue (53건) | 25 | **47.2%** |
+| Without cue (41건) | 15 | 36.6% |
+
+**Method 분포:**
+| method | 정답/전체 | 비율 |
+|--------|----------|------|
+| phase0_coarse | 4/10 | 40.0% |
+| hop2 | 2/2 | 100.0% |
+| hop3 | 0/1 | 0.0% |
+| hop4 | 2/6 | 33.3% |
+| hop5 | 31/71 | 43.7% |
+| fallback | 1/4 | 25.0% |
+
+**v1→v2 변화**: gained +9, lost -3, net **+6문제**
+
+**핵심 발견**:
+- leaf_ctx로 바꾸니 recovery cue가 53건에서 생성 (v1: 47건) — 30초 단위로 정확한 시간 지목 가능해짐
+- With cue(47.2%) vs Without cue(36.6%) = **+10.6%p** — recovery cue 자체의 효과 확인
+- **Best(39.4%) 대비 +3.2%p 개선** — A2가 hop loop 성능을 실제로 올림
+- 여전히 hop5 71건 = 대부분 max hop 도달 → navigate 개선 여지 큼
+
+### 9.10 A2 v3 결과 (coarse_ctx + 개별 시간, 94/94 완료)
+
+**변경**: A2 context를 coarse_ctx로 쓰되, 시간 범위를 `[30s-2370s]` 대신 `[30s-60s, 60s-90s, ..., 2340s-2370s]`로 개별 표시
+
+| 버전 | context | 시간 표현 | 정답률 | vs v1 |
+|------|---------|-----------|--------|-------|
+| **v1** | coarse | 합침 | 36.2% | — |
+| **v3** | coarse | 개별 | **41.5%** | +5.3%p |
+| **v2** | leaf | 개별(자동) | **42.6%** | +6.4%p |
+
+- v3 recovery cue: 15건 생성 (v2: 53건) — coarse context에선 cue 생성률 낮음
+- v3 vs v2 차이 = 1.1%p — **시간 granularity가 핵심**, context 종류 차이는 미미
+- v1→v3: gained +8, lost -3, net **+5**
+
+**결론**: v1 실패의 주 원인은 "coarse여서"가 아니라 **"시간을 합쳐서"**. 시간만 개별 표기하면 coarse든 leaf든 유사한 성능
+
+### 9.11 Structured A1 Ablation (STAGE 1만 변경)
+
+**변경**: STAGE 1에서 `analyze_structured()` 호출 → 카테고리별 phrase-level cues 추출 → flatten → 기존 flat `build()`에 사용
+나머지 (STAGE 2 flat filter, A2 v3 recovery, Phase 0 등) 전부 동일.
+
+**Config**: `structured_a1: true`, `recovery_cue: true`, `recovery_cue_context: coarse`
+
+| Config | 정답률 | vs A2v3 |
+|--------|--------|---------|
+| A2 v3 baseline | 39/94 = 41.5% | — |
+| **Structured A1** | **40/94 = 42.6%** | **+1.1%p** |
+
+**Flip 분석** (94문제):
+- Both correct: 37
+- SA1 gained: 3 (691-2, 705-1, 859-1)
+- SA1 lost: 2 (745-1, 806-2)
+- Both wrong: 52
+- **Net flip: +1**
+
+**Active leaves**: SA1 36.1 (42.3%) vs A2v3 48.3 (56.6%) — **structured cues가 활성화 비율 14.3%p 줄임**
+
+**Recovery**: 동일하게 15/94 questions에서 recovery hop 사용 (완전히 동일한 15문제)
+
+**Hop target source 비교**:
+| Source | SA1 | A2v3 |
+|--------|-----|------|
+| priority (filtered) | 58 | 64 |
+| navigation | 322 | 322 |
+| recovery_cue | 15 | 15 |
+| all_fallback | 11 | 5 |
+
+**분석**:
+1. Structured cues가 active leaves를 57%→42%로 **의미있게 줄임** (더 정밀한 필터링)
+2. 하지만 정답률 차이는 미미 (+1.1%p, net +1문제)
+3. 5개 flip 전부 recovery 미사용, max hop(5) 도달 — **hop loop의 navigation 경로가 달라진 결과**
+4. Cue가 달라진 39/94 문제 중 5개만 flip → cue 차이가 navigation에 미치는 영향 제한적
+5. **priority source가 줄고 all_fallback이 늘음** — stricter filter가 일부 문제에서 over-filtering
+
+**결론**: Structured A1 cue 추출은 필터를 개선하지만, 현재 파이프라인에서 hop loop이 어차피 navigation으로 탐색하므로 최종 정답률 영향은 미미. **STAGE 2 filter 자체를 structured로 바꾸거나, SAM recovery와 결합해야 효과가 나타날 것.**
+
+### 9.12 Structured S2 + SAM Full Cycle (STAGE 2 filter + 전체 변경)
+
+**Structured S2**: STAGE 2에서 `build_structured(min_cat=2)` 사용, A2는 기존 recovery_cue
+**SAM Full Cycle**: structured A1 + structured S2 filter + SAM recovery (전부 변경)
+
+| Config | 정답률 | vs A2v3 | Net flip |
+|--------|--------|---------|----------|
+| A2 v3 baseline | 39/94 = 41.5% | — | — |
+| Structured A1 | 40/94 = 42.6% | +1.1%p | +1 |
+| **Structured S2** | **39/94 = 41.5%** | **0** | **0** |
+| **SAM full cycle** | **36/94 = 38.3%** | **-3.2%p** | **-3** |
+
+**SAM Flip**: gained 3 (660-2, 742-2, 774-2), lost 6 (644-3, 710-2, 722-3, 745-1, 775-1, 800-1)
+
+**SAM Target Source 비교**:
+| Source | A2v3 | SAM |
+|--------|------|-----|
+| priority | 64 | 17 |
+| navigation | 322 | 324 |
+| recovery_cue | 15 | **66** |
+| all_fallback | 5 | 1 |
+
+**핵심 발견**:
+1. **Structured S2 = A2v3 와 완전 동일** (0 flips) — filter 변경만으로는 효과 없음
+2. **SAM full = -3.2%p 하락** — recovery가 66/94에서 발동 (A2v3: 15/94), 과도한 recovery가 오히려 해로움
+3. SAM recovery가 structured cues로 tree를 재필터 → 잘못된 구간으로 유도하는 경우 많음
+4. 시간 기반 A2v3 recovery(15건만 발동)가 SAM recovery(66건 발동)보다 정밀
+
+**결론**: Text-based cue 검색 방향의 개선은 한계 도달. Phase 0 + navigation 지배 구조에서 cue/filter/recovery 변경은 모두 미미하거나 역효과. **Visual 정보 활용으로 방향 전환 필요.**
+
+### 9.13 VideoLucy Merged Baseline 업데이트
+
+원래 VideoLucy 53개 에러/실패 재실행 결과:
+| | Correct | Total | Accuracy |
+|--|---------|-------|----------|
+| Original | 467 | 900 | 51.89% |
+| **Merged** | **489** | **900** | **54.33%** |
+
++22개 개선, 0개 degraded. **새 baseline = 54.33%**
+→ Best tree search(53.2%)가 baseline보다 **낮아짐**
+→ R10a flat(54.8%)도 baseline 대비 +0.47%p (noise 수준)
+
+---
+
+## 10. Tree-Guided Visual Search (TGVS) — Visual 정보 활용 실험
+
+### 10.1 배경 및 핵심 발견
+
+**문제 진단**: 기존 실험에서 leaf raw_caption(평균 3000자)을 답변 context에 거의 사용하지 않았음.
+- Phase 0 (`_phase0_coarse_answer`): **summary만** 사용 (주석: "Leaf caption은 제외")
+- R10a Flat (`_flat_baseline_context`): **summary만** (`child.get("summary", "")`)
+- Hop loop (`context_assembler`): caption 포함 (`use_captions=True` 기본값), 하지만 localization 실패로 효과 없음
+- **Summary 160자 vs Caption 3000자** — 가장 정보량 풍부한 데이터를 1/20 압축본만 사용
+
+**핵심 인사이트**:
+1. 쉬운 문제: summary만으로 충분 (Phase 0 = 54.8%)
+2. 어려운 문제: **정확한 localization + raw caption** 이 필요
+3. Hop loop 실패 원인: caption이 없어서가 아니라 **잘못된 구간의 caption**을 보여줌
+4. 우리 강점: tree 기반 time localization (key_elements, 계층 구조)
+
+### 10.2 TGVS 파이프라인 설계
+
+```
+Phase 1 (Text Coarse)
+  └─ Hierarchical/Flat summary → forced answer
+  └─ confidence ≥ medium → 종료
+
+Phase 2 (Tree-Guided Visual Search, max N iterations)
+  ├─ [Localize] 관련 구간 찾기
+  │   ├─ key_elements: TreeFilter 매칭
+  │   ├─ llm_select: LLM이 coarse context에서 시간대 선택
+  │   └─ combined: key_elements → fallback llm_select
+  ├─ [Leaf Caption] 선택 구간 leaf raw_caption 추출 (3000자급)
+  ├─ [VLM Observe] TargetedFrameLoader + VisionVLM 프레임 관찰
+  ├─ [Re-judge] coarse + leaf captions + VLM observations → 재판단
+  └─ confidence high → 종료
+
+Phase 3 (Forced Answer)
+  └─ 모든 축적 context → 강제 답변
+```
+
+**구현**: `pipelines/tree_visual.py` (신규), `solver.py` tree_visual 분기 추가
+
+### 10.3 버그 발견 및 수정
+
+**Config 전달 버그**: `solver.py`가 `pipe_config = {**pipeline_params, ...}`로 flatten하여 전달하는데, `TreeVisualPipeline.__init__`에서 `config.get("pipeline_params", {})`로 다시 찾아서 항상 빈 dict → **모든 설정이 기본값**으로 실행됨.
+
+결과: E1~E6 전부 동일 설정(key_elements, hierarchical, direct, 1 iteration)으로 실행됨.
+수정: `config.get("pipeline_params", {})` → `config.get(...)` 직접 접근으로 변경.
+
+### 10.4 E1 결과 (유일한 유효 결과, key_elements + VLM direct)
+
+| Metric | Value |
+|--------|-------|
+| **정확도** | **34/94 = 36.2%** |
+| Phase 1 (coarse) | 13/35 = 37.1% (35개 confident) |
+| Phase 2 (visual) | 21/54 = 38.9% (54개 visual search) |
+| Phase 3 (forced) | 0/5 = 0% |
+
+**비교 (94Q hop-hard subset)**:
+
+| 실험 | 정답률 |
+|------|--------|
+| Flat Baseline (R10a) | 30/94 = 31.9% |
+| VLS (VideoLucy-style, text only) | 31/94 = 33.0% |
+| VideoLucy (원본) | 34/94 = 36.2% |
+| **TGVS E1** | **34/94 = 36.2%** |
+| VideoLucy (merged) | 36/94 = 38.3% |
+| Best Hop (G1) | 37/94 = 39.4% |
+
+**주의**: E1은 leaf caption 코드 추가 전에 실행되어 caption 미포함 상태의 결과.
+
+### 10.5 E1~E6 최종 결과
+
+Config 버그 수정 + leaf caption 추가 후 전체 결과 (94Q hop-hard subset):
+
+| # | Coarse | Localize | VLM | Frames | Iter | **정답률** |
+|---|--------|----------|-----|--------|------|------------|
+| E1 | hierarchical | key_elements | direct | 16 | 1 | 34/94 = 36.2% |
+| E2 | **flat** | key_elements | direct | 16 | 1 | 31/94 = 33.0% |
+| E3 | hierarchical | **llm_select** | direct | 16 | 1 | 14/94 = 14.9% ⚠️ |
+| **E4** | hierarchical | key_elements | **caption** | 16 | 1 | **38/94 = 40.4%** ✓ |
+| E5 | hierarchical | **combined** | direct | 16 | **2** | 35/94 = 37.2% |
+| E6 | hierarchical | **combined** | **caption** | **32** | **3** | 32/94 = 34.0% |
+
+**Phase별 상세**:
+
+| Exp | Phase1 (coarse) | Phase2 (visual) | Phase3 (forced) |
+|-----|-----------------|-----------------|-----------------|
+| E1 | 13/35 = 37.1% | 21/54 = 38.9% | 0/5 = 0% |
+| E2 | 21/59 = 35.6% | 10/30 = 33.3% | 0/5 = 0% |
+| E3 | 13/35 = 37.1% | 0/1 = 0% | 1/58 = 1.7% |
+| **E4** | 13/35 = 37.1% | **25/54 = 46.3%** | 0/5 = 0% |
+| E5 | 13/35 = 37.1% | 22/56 = 39.3% | 0/3 = 0% |
+| E6 | 13/35 = 37.1% | 19/59 = 32.2% | 0/1 = 0% |
+
+**비교 (94Q hop-hard subset 전체)**:
+
+| 실험 | 정답률 |
+|------|--------|
+| E3 llm_select (버그) | 14/94 = 14.9% |
+| Flat Baseline (R10a) | 30/94 = 31.9% |
+| E2 flat_coarse | 31/94 = 33.0% |
+| VLS text-only | 31/94 = 33.0% |
+| E6 heavy | 32/94 = 34.0% |
+| E1 key_elements+direct | 34/94 = 36.2% |
+| VideoLucy (원본) | 34/94 = 36.2% |
+| E5 multi_hop | 35/94 = 37.2% |
+| VideoLucy (merged) | 36/94 = 38.3% |
+| Best Hop (G1) | 37/94 = 39.4% |
+| **E4 key_elements+caption** | **38/94 = 40.4%** |
+
+### 10.6 핵심 발견 — VLM B-Bias 문제
+
+**VLM Direct 모드의 치명적 position bias**:
+- Qwen3-VL-8B가 프레임을 보고 직접 답변할 때, **88.1% (52/59)가 "B"를 선택**
+- GT에서 B 비율은 33% (31/94)
+- 원인: `components/vlm.py` line 90의 prompt 예시가 `"answer": "B"`로 하드코딩
+
+| 모드 | A | B | C | D | B% |
+|------|---|---|---|---|-----|
+| Ground Truth | 28 | 31 | 20 | 15 | 33.0% |
+| E1 VLM Direct | 2 | **52** | 2 | 3 | **88.1%** |
+| E1 Re-judge | 2 | **45** | 3 | 3 | **84.9%** |
+| E4 Re-judge | 5 | 36 | 7 | 5 | **61.0%** |
+
+→ Caption 모드는 VLM이 답변 없이 설명만 → LLM 재판단 시 B-bias 85%→61%로 감소
+→ 그래도 여전히 61%로 bias 존재 (GT 33%)
+
+### 10.7 E4 (Caption) 성공 분석
+
+**E4 vs E1 Flip 분석** (동일 Phase1, 차이는 Phase2에서만):
+
+| QID | E1 Pred | E4 Pred | GT | 유형 |
+|-----|---------|---------|-----|------|
+| 631-2 | B ❌ | **A** ✓ | A | Counting |
+| 719-3 | B ❌ | **A** ✓ | A | Information |
+| 742-2 | B ❌ | **C** ✓ | C | Object Reasoning |
+| 839-1 | B ❌ | **C** ✓ | C | OCR |
+| 884-1 | None ❌ | **C** ✓ | C | Counting |
+| 894-1 | B ❌ | **C** ✓ | C | Information |
+
+6개 gain 모두 **E1이 B-bias로 틀린 것을 E4 caption이 교정**한 케이스.
+
+| QID | E1 Pred | E4 Pred | GT | 유형 |
+|-----|---------|---------|-----|------|
+| 676-2 | B ✓ | D ❌ | B | Temporal |
+| 779-1 | B ✓ | A ❌ | B | Temporal |
+
+2개 loss는 GT가 B여서 **E1의 B-bias가 우연히 맞았던** 케이스.
+
+**핵심 메커니즘**: Caption 모드는 관찰(VLM)과 판단(LLM)을 분리 → B-bias 차단 → net +4 (+4.3%p)
+
+### 10.8 E3 (llm_select) 실패 분석
+
+**근본 원인: Job 덮어쓰기 버그**
+- SLURM Job 1074257 → 34/94 = 36.2% (먼저 완료)
+- SLURM Job 1074686 → 14/94 = 14.9% (나중에 완료, 결과 덮어씀)
+- `process_question()`에 caching guard 없음 (`run_video()`에는 있음)
+
+**Job2 실패 원인**: 58/94에서 `_localize_llm_select()`가 빈 interval 반환
+- LLM `reason()` 응답이 유효한 JSON 미생성 또는 `"periods"` 키 없음
+- GPU 하드웨어 차이(4종 A6000)로 `do_sample=False`에도 비결정적 결과
+- intervals=[] → VLM 미호출 → Phase 3 forced → 55/58이 pred=null
+
+**수정 필요**: `process_question()`에 caching guard 추가, llm_select에 fallback 로직
+
+### 10.9 E6 (Heavy) 기대 이하 분석
+
+3가지 설계가 복합적으로 해로움:
+
+1. **Multiple iterations 역효과**: 5개 multi-iter 중 1개만 정답 (20%)
+   - 반복할수록 무관한 구간 탐색 → 노이즈 축적 → 오답 확신
+   - E4가 iter1에서 맞춘 2개를 E6가 추가 iter에서 틀림
+
+2. **32 frames > 16 frames 역효과**: VLM 캡션이 산만해짐
+   - 더 많은 프레임 = 초점 분산, 핵심 디테일 누락
+
+3. **Caption 정보 손실 누적**: Visual → Text 변환의 bottleneck이 반복마다 누적
+
+**교훈**: "더 많이 보기"보다 "정확한 곳을 한번 잘 보기"가 중요
+
+### 10.10 결론 및 Next Steps
+
+**성과**:
+- **E4 = 40.4%**: 94Q subset 역대 최고 (Best Hop 39.4%, VL merged 38.3% 초과)
+- Caption 모드의 관찰/판단 분리가 VLM B-bias 문제를 효과적으로 완화
+- Tree 기반 localization (key_elements)이 llm_select보다 안정적
+
+**한계**:
+- B-bias가 여전히 61% (GT 33%) — prompt 수정으로 추가 개선 가능
+- Phase3 forced가 항상 0% — fallback 메커니즘 개선 필요
+- E1은 leaf caption 미포함 상태 — 재실행 시 추가 개선 가능
+
+**즉시 실행 가능 액션**:
+1. VLM prompt의 `"answer": "B"` 예시 → 랜덤/제거하여 B-bias 수정
+2. `process_question()` caching guard 추가
+3. E4 config + B-bias 수정 후 재실험 → 40.4%+ 기대
+4. llm_select에 key_elements fallback 추가
+
+### 10.11 Full 900Q 실행 결과 (B-bias 수정 포함)
+
+**코드 변경**: `vlm.py` 예시 `"answer": "B"` → `"answer": "<A, B, C, or D>"` (B-bias 수정)
+
+| 실험 | Memory | 정답률 |
+|------|--------|--------|
+| TGVS Caption (old memory) | stage2_30sec_no_window | 483/900 = **53.67%** |
+| TGVS Caption v9 | stage2_v9 | 468/900 = **52.00%** |
+
+Phase별 (v9):
+| Phase | 정답 | 비율 |
+|-------|------|------|
+| Phase 1 (coarse) | 441/834 | 52.9% |
+| Phase 2 (visual) | 27/61 | 44.3% |
+| Phase 3 (forced) | 0/5 | 0.0% |
+
+v9 메모리(3레벨, Level_1 노드 많음)가 old memory(4레벨)보다 coarse context 품질이 다소 낮음.
+
+### 10.12 LVBench Full Best 결과 (stage2_v9)
+
+| Phase | 정답 | 비율 |
+|-------|------|------|
+| Phase 0 (coarse) | 547/1229 | 44.5% |
+| Hop 1-2 | 12/14 | 85.7% |
+| Hop 3-5 | 85/288 | 29.5% |
+| **전체** | **644/1535** | **41.95%** |
+
+14개 missing (GPU error/timeout). Hop 5까지 간 271개가 29.5%로 역시 deep hop 성능 저하.
+
+---
+
+## 11. Visual V2 — 대규모 Visual Search 실험 (Full 900Q, stage2_v9)
+
+### 11.1 배경
+
+E4 (caption) 접근법이 94Q subset에서 40.4%로 최고였으나, full 900Q에서는 52%로 기대 이하.
+방향 전환: **VideoLucy/VideoTree 스타일 벤치마킹** — 더 많은 hop, 단일 구간 선택, agentic tool 선택 등 다양한 조합을 대규모로 실험.
+
+### 11.2 코드 변경 (`pipelines/tree_visual.py` v2)
+
+1. **`confidence_threshold: none`** — Phase 1 early return 없이 모든 문제를 Phase 2로
+2. **`max_intervals: N`** — hop당 선택 구간 수 (1 = VideoLucy 스타일 단일 구간)
+3. **`search_hint` 전달** — Phase 1의 `search_direction`/`missing_info`를 Phase 2 localization에 활용
+4. **Agentic mode (`localize_mode: agentic`)** — LLM이 tool 선택:
+   - `scene_browse`: 트리 계층 summary 탐색
+   - `caption_search`: leaf raw caption 키워드 검색
+   - `visual_inspect`: VLM으로 특정 구간 프레임 관찰
+   - `answer`: 최종 답변 결정
+   - Think-Act-Observe 루프 (최대 N steps)
+
+### 11.3 실험 설계 (12개)
+
+| # | 실험명 | Coarse | Localize | VLM | Hop | Intervals | Threshold | 핵심 가설 |
+|---|--------|--------|----------|-----|-----|-----------|-----------|----------|
+| V1 | direct_5hop | hier | key_elements | direct | 5 | 5 | low | B-bias 수정된 direct가 어떤지 |
+| V2 | caption_5hop | hier | key_elements | caption | 5 | 5 | low | 5 hop caption 누적 효과 |
+| V3 | caption_no_early | hier | key_elements | caption | 5 | 5 | none | 전부 Phase2로 보내면? |
+| V4 | single_seg_caption | hier | key_elements | caption | 5 | **1** | low | VideoLucy 스타일 단일 구간 |
+| V5 | single_seg_direct | hier | key_elements | direct | 5 | **1** | low | 단일 구간 + direct |
+| V6 | llm_select_caption | hier | **llm_select** | caption | 5 | 3 | low | LLM 구간 선택 + caption |
+| V7 | combined_caption | hier | **combined** | caption | 5 | 3 | low | key_elements→llm fallback |
+| V8 | flat_caption_5hop | **flat** | key_elements | caption | 5 | 5 | low | flat coarse + visual |
+| V9 | agentic | hier | **agentic** | caption | 5 | 3 | low | LLM tool 선택 |
+| V10 | agentic_no_early | hier | **agentic** | caption | 5 | 3 | none | agentic 전체 |
+| V11 | caption_32fr | hier | key_elements | caption | 5 | 5 | low | 32 frames |
+| V12 | direct_no_early_single | hier | key_elements | direct | 5 | **1** | none | direct 전체 + 단일 구간 |
+
+**공통**: stage2_v9 메모리, query_analyzer 사용, B-bias 수정된 VLM
+
+### 11.4 V1-V12 결과 (Full 900Q)
+
+| # | 실험명 | Accuracy | Phase Distribution | 비고 |
+|---|--------|----------|-------------------|------|
+| **V8** | flat_caption_5hop | **54.8%** | P1: 900 (100%) | **Best** — flat coarse가 최고 |
+| V1 | direct_5hop | 51.4% | P1: 900 (100%) | threshold=low → Phase2 미진입 |
+| V2 | caption_5hop | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V4 | single_seg_caption | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V5 | single_seg_direct | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V6 | llm_select_caption | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V7 | combined_caption | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V9 | agentic | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V11 | caption_32fr | 51.4% | P1: 900 (100%) | V1과 동일 |
+| V12 | direct_no_early_single | 49.9% | P3: 900 (100%) | Phase2 전체 투입 → 약간 하락 |
+| V3 | caption_no_early | 47.4% | P3: 900 (100%) | Phase2 전체 → 큰 하락 |
+| V10 | agentic_no_early | 28.6% | Agent: 487, Crash: 413 | **치명적 — 413/900 crash** |
+
+### 11.5 핵심 발견
+
+**1. `confidence_threshold: low`는 사실상 early return 100%**
+- 모든 confidence level(high/medium/low)이 threshold를 통과 → Phase 2가 **한 번도** 실행 안 됨
+- V1-V7, V9, V11이 완전히 동일한 결과 (463/900 = 51.4%)
+- 실험 차이(localize_mode, vlm_mode 등)가 전혀 발현되지 않음
+
+**2. Phase 1 Confidence 분포 (hierarchical coarse)**
+- high: 739 (53.9% acc) | medium: 24 (45.8%) | low: 137 (39.4%)
+- Flat coarse (V8): high: 778 (56.8%) | medium: 15 | low: 107 (39.3%)
+
+**3. Visual search는 양날의 검 (V3, V12 기반 분석)**
+- Low-conf 질문: text 39.4% → visual 41.6% (+2.2%p) — **도움됨**
+- High-conf 질문: text 53.9% → caption 49.0% / direct 52.1% — **오히려 악화**
+- Net effect: V3은 -36문제, V12는 -14문제
+
+**4. Oracle upper bound = 67.0%** (V8+V12 per-question best)
+- Visual search가 text-only와 다른 문제를 맞추므로, 선택적 적용 시 +12.2%p 잠재력
+
+**5. Agentic mode (V10) crash 원인**
+- 413/900 crash: `time_range` 파싱 실패 (string/None → TypeError/IndexError)
+- 정상 동작한 487건 중 step2-3은 56-62%로 양호, step4-5는 46-49%로 하락
+- 원인: LLM이 tool+query+time_range를 동시에 JSON 출력 → 파싱 불안정
+
+### 11.6 V13-V22 실험 추가 설계
+
+| # | 실험명 | Coarse | Localize | VLM | Intervals | Threshold | 핵심 가설 |
+|---|--------|--------|----------|-----|-----------|-----------|----------|
+| V13 | llm_select_direct | hier | llm_select | direct | 3 | low | llm_select + direct |
+| V14 | llm_select_single | hier | llm_select | caption | 1 | low | llm_select + 단일 구간 |
+| V15 | llm_select_no_early | hier | llm_select | caption | 3 | none | llm_select 전체 |
+| V16 | combined_single | hier | combined | caption | 1 | low | combined + 단일 구간 |
+| V17 | combined_direct | hier | combined | direct | 3 | low | combined + direct |
+| V18 | agentic_3step | hier | agentic | caption | 3 | low | agentic 3 step |
+| V19 | agentic_7step | hier | agentic | caption | 3 | low | agentic 7 step |
+| V20 | agentic_no_early_7step | hier | agentic | caption | 3 | none | agentic 7 step 전체 |
+| V21 | agentic_flat | flat | agentic | caption | 3 | low | flat + agentic |
+| V22 | agentic_32fr | hier | agentic | caption | 3 | low | agentic + 32fr |
+
+- V13-V17: llm_select, combined 변형
+- V18-V22: agentic 변형 (step수, flat, 32fr)
+- **주의**: V13-V17은 threshold=low이므로 V1과 동일한 결과가 될 가능성이 높음
+
+### 11.7 V23-V34 실험 추가 설계 (핵심: medium/high threshold)
+
+분석 결과, `threshold: medium` 또는 `high`를 써야 Phase 2가 실제로 실행됨. 또한 `llm_index` 모드 추가 — LLM에게 시간 값 대신 segment 인덱스를 골라서 파싱 오류 방지.
+
+| # | 실험명 | Coarse | Localize | VLM | Intervals | Threshold | 핵심 가설 |
+|---|--------|--------|----------|-----|-----------|-----------|----------|
+| V23 | flat_keyelm_caption_med | flat | key_elements | caption | 3 | **medium** | flat P1 + low만 Phase2 |
+| V24 | flat_keyelm_direct_med | flat | key_elements | direct | 3 | **medium** | flat + direct selective |
+| V25 | flat_llmidx_caption_med | flat | **llm_index** | caption | 3 | **medium** | index 기반 localize |
+| V26 | flat_llmidx_direct_med | flat | **llm_index** | direct | 3 | **medium** | index + direct |
+| V27 | hier_keyelm_caption_med | hier | key_elements | caption | 3 | **medium** | hier + medium |
+| V28 | hier_llmidx_caption_med | hier | **llm_index** | caption | 3 | **medium** | hier + index + medium |
+| V29 | flat_keyelm_caption_high | flat | key_elements | caption | 3 | **high** | low+med → Phase2 |
+| V30 | flat_llmidx_caption_high | flat | **llm_index** | caption | 3 | **high** | index + high threshold |
+| V31 | hier_keyelm_caption_high | hier | key_elements | caption | 3 | **high** | hier + high |
+| V32 | hier_llmidx_caption_high | hier | **llm_index** | caption | 3 | **high** | hier + index + high |
+| V33 | flat_llmidx_caption_med_s1 | flat | llm_index | caption | **1** | **medium** | VideoLucy 스타일 |
+| V34 | flat_llmidx_caption_high_s1 | flat | llm_index | caption | **1** | **high** | VideoLucy + 더 많은 Phase2 |
+
+**`llm_index` mode**: Leaf segment에 번호를 매겨서 LLM이 인덱스를 선택 → free-form 시간 값보다 파싱 안정적
+
+### 11.8 코드 개선 (v2 → v2.1)
+
+1. **Agentic crash 수정**: `_safe_time_range()` 헬퍼 추가 → time_range 타입 검증 및 정규화
+2. **`_agentic_execute()` try/except**: tool 실행 중 crash 시 에러 메시지 반환 (propagation 차단)
+3. **`llm_index` 모드 추가**: `_localize_llm_index()` — numbered segment list → LLM이 index 선택
+
+### 11.9 실험 가설 정리
+
+- **threshold=medium**: Phase 1 low-conf (~107-137문제)만 Phase 2로 → 소규모 선택적 visual
+- **threshold=high**: low+medium-conf (~122-161문제)도 Phase 2 → 더 많은 질문에 visual 적용
+- **flat vs hier coarse**: flat이 Phase 1에서 +3.4%p 유리 (54.8% vs 51.4%)
+- **llm_index vs llm_select vs key_elements**: localization 안정성 및 정확도 비교
+- **caption vs direct**: caption이 B-bias를 피하지만, re-judge 단계에서 노이즈 추가 가능
+- **Oracle gap = 12.2%p**: 선택적 routing만 잘 해도 ~55-60% 도달 가능
+
+### 11.10 V23-V34 최종 결과
+
+| # | 실험명 | Acc | P1 | P2 | P3 | 비고 |
+|---|--------|-----|----|----|----|----- |
+| **V25** | flat+llmidx+caption+med | **55.8%** (502/900) | 793 | 67 | 40 | **New Best!** |
+| V30 | flat+llmidx+caption+high | 55.4% (499/900) | 778 | 81 | 41 | high → 약간 하락 |
+| V33 | flat+llmidx+caption+med+s1 | 55.3% (498/900) | 793 | 61 | 46 | 단일 구간, 거의 동일 |
+| V23 | flat+keyelm+caption+med | 53.4% (481/900) | 793 | 99 | 8 | key_elements 하락 |
+| V29 | flat+keyelm+caption+high | 53.4% (481/900) | 778 | 113 | 9 | key_elements 하락 |
+
+### 11.11 V25 상세 분석 (Best Config)
+
+**V25 vs V8 (text-only baseline) per-question 비교:**
+- Both correct: 479
+- V25 only (visual 덕분): **23문제** gained
+- V8 only (visual 방해): **14문제** lost
+- Both wrong: 384
+- **Net: +9문제 (+1.0%p)**
+
+**Phase 2 (low-conf 107문제) 정확도:**
+- Phase 2 진입: 107/900 (11.9%)
+- Phase 2 정답: 51/107 = **47.7%** (vs V8의 같은 질문들 42/107 = 39.3%)
+- Phase 2만으로 **+8.4%p** 향상 (이 107문제 한정)
+
+**Phase 2 해결 단계:**
+- iter1에서 해결: 63/107 (59%) — 첫 visual observation으로 confident
+- iter2-4: 4/107 (4%)
+- forced (iter 소진): 40/107 (37%)
+
+### 11.12 핵심 결론
+
+1. **`llm_index` >> `key_elements`**: 동일 조건에서 +2.4%p (V25 55.8% vs V23 53.4%). LLM이 계층 맥락을 보고 번호를 고르는 것이 키워드 매칭보다 정확.
+2. **`key_elements` localization은 오히려 해로움**: V23/V29 (53.4%) < V8 text-only (54.8%). 잘못된 구간 선택 → visual noise.
+3. **threshold=medium 최적**: low-conf만 Phase 2로 보내는 게 가장 효율적.
+4. **Visual search는 선택적으로 쓸 때만 유효**: 전체 투입(V3 47.4%) < text-only(V8 54.8%) < 선택적(V25 55.8%).
+5. **Oracle gap 여전히 큼**: V8+V12 oracle = 67.0%. 현재 55.8%이므로 ~11%p 잠재력 잔존.
+
+### 11.13 코드 개선 (v2 → v2.2)
+
+1. **Agentic crash 수정**: `_safe_time_range()` 헬퍼 → time_range 타입 검증/정규화
+2. **`_agentic_execute()` try/except**: tool crash 시 에러 메시지 반환
+3. **`llm_index` 모드 추가**: numbered segment list + 계층 구조 헤더 → LLM이 index 선택
+4. **Interval merge**: 인접/겹치는 구간 자동 병합, 분리 구간은 유지
+
+### 11.14 실험 상태
+
+```
+완료:  V1-V12, V23, V25, V28, V29, V30, V33
+미제출: V13-V22 (threshold=low → V1 동일 예상), V24, V26-V27, V31-V32, V34
+Best:  V25 = 55.8% (flat + llm_index + caption + medium threshold)
+```
+
+### 11.15 V28 (hier + llm_index + caption + medium) 결과
+
+V25(flat)와 동일 설정에서 coarse만 hierarchical로 변경.
+
+| 실험 | Coarse | Acc | Phase1 |
+|------|--------|-----|--------|
+| **V25** | **flat** | **55.8%** (502/900) | 793 |
+| V28 | hier | 52.7% (474/900) | — |
+
+→ flat이 **+3.1%p** 우위. Per-question: V25만 정답 91건 vs V28만 정답 63건. net V25 +28.
+→ Phase 1에서 flat(56.9%) > hier(53.6%). Hierarchical coarse가 Phase 1 정확도를 깎음.
+
+### 11.16 LVBench V25 결과 (1549Q)
+
+V25 config(flat + llm_index + caption + medium)을 LVBench 전체 1549문제에 적용.
+
+| Phase | 정답 | 비율 |
+|-------|------|------|
+| Phase 1 (coarse) | 525/1073 | 48.9% |
+| Phase 2 iter1 | 108/270 | 40.0% |
+| Phase 3 forced | 39/182 | 21.4% |
+| **전체** | **686/1549** | **44.3%** |
+
+기존 LVBench best(41.95%) 대비 **+2.3%p** 개선.
+
+**Localization validation** (time_reference 활용):
+- Hit (정답 구간 포함): 86/308 = 27.9% → accuracy 48.8%
+- Miss (정답 구간 미포함): 222/308 = 72.1% → accuracy 37.4%
+- Hit vs Miss gap: **+11.4%p** — localization이 맞으면 정답률 확 오름
+
+---
+
+## 12. Budget-Constrained Leaf Selection Ablation (LVBench 1549Q)
+
+### 12.1 배경
+
+리뷰어 질문: "leaf summary를 flat dump하면 되는데, 왜 multi-level hierarchy를 만드냐?"
+→ **Budget constraint 하에서 hierarchy 기반 selection이 uniform보다 효율적이라는 가설 검증**
+
+### 12.2 실험 설계
+
+leaf summary 중 K개만 선택 가능할 때, 3가지 전략 비교:
+- **uniform**: 전체 leaf에서 K개 균등 샘플링
+- **sequential**: 앞에서부터 K개 순차 선택
+- **hierarchy**: Level_3 → Level_2 → Level_1 재귀적 top-down 선택 (LLM이 각 레벨에서 budget 배분)
+
+Settings: `confidence_threshold: low` (Phase 2 미진입, text-only 비교), LVBench 1549Q
+
+### 12.3 B50 결과 (K=50)
+
+| Strategy | Accuracy | Progress |
+|----------|----------|----------|
+| **b50_uniform** | **580/1549 = 37.4%** | ✅ |
+| b50_sequential | 567/1549 = 36.6% | ✅ |
+| b50_hierarchy (summary only) | 512/1549 = 33.1% | ✅ |
+| b50_hierarchy+KE (key_elements 추가) | ~300/969 ≈ 31.0% | 중단 (경향 확인) |
+
+### 12.4 핵심 발견
+
+1. **Hierarchy 기반 top-down selection이 가장 나쁨** (33.1% < uniform 37.4%)
+2. **Key_elements 추가해도 개선 안 됨** (31.0% — 오히려 악화)
+3. **Uniform이 가장 안전한 전략**: 전체 영상을 균등하게 커버
+4. **Sequential도 uniform보다 살짝 나쁨** (-0.8%p): 앞쪽 편향
+
+### 12.5 실패 원인 분석
+
+- **상위 summary 추상성**: Level_3 "Men bond across urban settings..." → 구체적 질문의 답 위치 판단 불가
+- **잘못된 배제의 비가역성**: Level_3에서 한 branch에 budget 0을 주면 그 아래 모든 leaf가 영구 탈락
+- **Key_elements 노이즈**: 상위 레벨 KE가 너무 많고 범위가 넓어 오히려 LLM 판단 방해
+- **Uniform의 안전성**: 편향 없이 전체 커버 → 정답 구간이 어디에 있든 일정 확률로 포함
+
+### 12.6 Structured Memory 장점이 드러나는 곳 vs 안 드러나는 곳
+
+| 역할 | 효과 | 근거 |
+|------|------|------|
+| Stage 2가 summary/caption **생성** | **필수** | Flat Baseline = 54.8%, 이것 없이는 아무것도 안 됨 |
+| 계층 구조를 **참고 맥락으로 제공** (llm_index) | **+2.4%p** | V25(55.8%) vs V23(53.4%), hier header가 LLM에 맥락 제공 |
+| Counting/Temporal **focused search** | **+2~6%p** | Best vs Flat, 특정 카테고리 한정 |
+| hierarchy **top-down selection** (budget 실험) | **역효과** | hierarchy 33.1% < uniform 37.4% |
+| key_elements **retrieval** | **~0** | R10b(-KE)=53.4% ≈ Best 53.2% |
+
+**결론**: Structured memory의 가치는 **정보 생성**(Stage 2 tree building)과 **맥락 제공**(llm_index의 hier header)에 있음. **Selection/Navigation 도구**로서의 hierarchy는 일관되게 실패.

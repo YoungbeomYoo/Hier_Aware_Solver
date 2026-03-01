@@ -1,0 +1,35 @@
+# Vgent-Style Structured Reasoning — Text-only
+# Phase 0 coarse → Sub-question decomposition → Per-leaf text verification → Aggregation → Final answer
+dataset: video_mme
+pipeline: vgent_style
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
+  question_path: /lustre/youngbeom/DyHiStreamMem/vqa/video-mme/split_per_duration/long
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/vgent_style_text
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge:
+    prompt: videolucy
+    answer_judge: true
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+
+pipeline_params:
+  coarse_first: true
+  n_retrieval: 20
+  n_refine: 5
+  verify_mode: text
+  max_text_budget: 100000

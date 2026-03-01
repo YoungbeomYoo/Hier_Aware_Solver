@@ -1,0 +1,25 @@
+# VideoLucy-style Pipeline — VideoLucy prompts + our memory tree
+# Phase 1: Hierarchical coarse → Phase 2: Fine search (max 2) → Phase 3: Forced
+dataset: video_mme
+pipeline: videolucy_style
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/Video-MME/stage2_v9
+  question_path: /lustre/youngbeom/find_solver_please/subset_for_hop_optimize
+  video_root: /scratch2/youngbeom/datasets/Video-MME/all
+  output_dir: ./output/videolucy_style
+
+components:
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+
+pipeline_params:
+  max_fine_iterations: 2

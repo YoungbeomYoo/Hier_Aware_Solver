@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
 CONFIG="config/full_run/a2_recovery_cue.yaml"
-OUTPUT_DIR="./output/a2_recovery_cue/v1"
+OUTPUT_DIR="./output/a2_recovery_cue/v2"
 QID_LIST="output/a2_subset_qid_list.tsv"
 SIMG="/scratch2/youngbeom/simg/acl2026.simg"
 

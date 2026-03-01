@@ -1,0 +1,43 @@
+# LVBench — Best config (Video-MME best와 동일 세팅)
+# A1 + B1 + C3 + D0 + F1 + G1 + A2 v3 (recovery_cue coarse)
+dataset: lvbench
+pipeline: tree_search
+cached: true
+
+model:
+  path: /scratch2/youngbeom/ckpt/Qwen3-VL-8B-Instruct
+  type: qwen3vl
+  dtype: bfloat16
+  attn_impl: flash_attention_2
+
+paths:
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_v9
+  question_path: /lustre/youngbeom/DyHiStreamMem/datasets/LVBench/video_info.meta.jsonl
+  video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
+  output_dir: ./output/lvbench_best
+
+components:
+  query_analyzer:
+    prompt: detailed
+  judge:
+    prompt: videolucy
+    answer_judge: true
+  tree_filter:
+    match_threshold: 1
+  context_assembler:
+    max_text_budget: 100000
+  history:
+    mode: compact
+  vlm_inference:
+    image_token_size: 512
+    memory_budget: 100000
+  frame_loader:
+    max_frames: 30
+
+pipeline_params:
+  max_hops: 5
+  max_frames: 30
+  max_text_budget: 100000
+  coarse_first: true
+  recovery_cue: true
+  recovery_cue_context: coarse

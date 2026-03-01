@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Query Analyzer — 1단계: 질의 분해 및 시간 범위 획득
 
@@ -247,6 +249,85 @@ Output ONLY valid JSON:
             question=question, choices_str=choices_str
         )
         return self.llm_fn(prompt, max_tokens=200)
+
+    # ============================================================
+    # SAM Cycle: Structured cue extraction
+    # ============================================================
+
+    STRUCTURED_CUE_PROMPT = """You are a video QA search strategist. Given a question and choices about a video, extract structured search cues aligned with the memory tree's key_elements categories.
+
+[Question]
+{question}
+
+[Choices]
+{choices_str}
+
+Extract search cues into the EXACT categories that the video memory uses. Each cue should be a phrase (1-4 words) that would literally appear in a video description.
+
+Output ONLY valid JSON:
+{{
+    "strategy": "Brief description of what scene/information to find",
+    "persons": ["person name or description as in caption"],
+    "actions": ["verb+object phrases as in caption"],
+    "objects": ["visible objects or items"],
+    "locations": ["settings or places"],
+    "text_ocr": ["on-screen text to look for"],
+    "attributes": ["visual attributes like colors, clothing"]
+}}
+
+Rules:
+- Each category: 0-3 entries. Empty list [] if not relevant.
+- Use natural language PHRASES, not single keywords.
+- persons: full names or descriptions ("Mike Ross", "woman in blue dress")
+- actions: verb+object ("gives check", "walks into room")
+- objects: noun phrases ("check", "red envelope")
+- Prefer SPECIFIC phrases over generic ones."""
+
+    def analyze_structured(self, question, choices, time_reference=""):
+        """SAM cycle용: 카테고리별 structured cues 추출.
+
+        기존 analyze() 결과에 structured_cues를 추가.
+        LLM 실패 시 rule-based cues를 wrapping하여 fallback.
+        """
+        # 기존 분석 결과 먼저
+        base = self.analyze(question, choices, time_reference)
+
+        structured_cues = None
+        if self.llm_fn:
+            try:
+                choices_str = "\n".join(
+                    f"{chr(65+i)}. {c}" for i, c in enumerate(choices)
+                )
+                prompt = self.STRUCTURED_CUE_PROMPT.format(
+                    question=question, choices_str=choices_str,
+                )
+                result = self.llm_fn(prompt, max_tokens=300)
+                if isinstance(result, dict) and any(
+                    result.get(k) for k in
+                    ["persons", "actions", "objects", "locations",
+                     "text_ocr", "attributes"]
+                ):
+                    structured_cues = result
+            except Exception:
+                pass
+
+        # Fallback: flat cues → structured 형태로 wrapping
+        if not structured_cues:
+            structured_cues = {
+                "strategy": "",
+                "persons": [], "actions": [], "objects": [],
+                "locations": [], "text_ocr": [], "attributes": [],
+            }
+            # flat cues를 target_fields 기반으로 분배
+            for cue in base.get("cues", []):
+                primary = base.get("target_fields", ["summary"])
+                if primary and primary[0] in structured_cues:
+                    structured_cues[primary[0]].append(cue)
+                else:
+                    structured_cues["objects"].append(cue)
+
+        base["structured_cues"] = structured_cues
+        return base
 
     def _extract_cues_rule_based(self, question: str, choices: list[str]) -> list[str]:
         """Rule-based cue extraction (fallback)."""

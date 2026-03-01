@@ -12,7 +12,7 @@ model:
   attn_impl: flash_attention_2
 
 paths:
-  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_30sec_no_window
+  memory_dir: /lustre/youngbeom/DyHiStreamMem/poc/results/LVBench/stage2_v9
   question_path: /lustre/youngbeom/DyHiStreamMem/datasets/LVBench/video_info.meta.jsonl
   video_root: /scratch2/youngbeom/datasets/LVBench/all_videos
   output_dir: ./output/lvbench_full_visual

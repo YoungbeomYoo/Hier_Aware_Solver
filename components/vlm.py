@@ -87,7 +87,7 @@ Options:
 {options_text}
 
 Select the best answer. Output ONLY valid JSON:
-{{"answer": "B", "confidence": "high", "observation": "Key visual details that support the answer"}}
+{{"answer": "<A, B, C, or D>", "confidence": "high", "observation": "Key visual details that support the answer"}}
 - "high": Clear visual/textual evidence supports your answer.
 - "low": Uncertain, describe what additional information would help."""
 

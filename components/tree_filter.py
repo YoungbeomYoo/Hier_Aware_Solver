@@ -554,3 +554,162 @@ class FilteredTreeBuilder:
             if overlap > 0:
                 total += overlap
         return total
+
+    # ============================================================
+    # SAM Cycle: Structured (category-aligned) matching
+    # ============================================================
+
+    _KE_CATEGORIES = ("actions", "objects", "persons",
+                      "attributes", "locations", "text_ocr")
+
+    def _match_node_structured(self, node, structured_cues):
+        """카테고리별 매칭. persons cue → persons KE, actions cue → actions KE.
+
+        Returns:
+            (total_score, matched_categories, all_matched_cues)
+            matched_categories = {"persons": ["Mike Ross"], "actions": ["give check"]}
+        """
+        ke = node.get("key_elements", {})
+        summary_lower = node.get("summary", "").lower()
+        caption_lower = node.get("caption", "").lower()
+        combined = summary_lower + " " + caption_lower
+
+        matched_categories = {}
+        all_matched = []
+
+        for category in self._KE_CATEGORIES:
+            cues = structured_cues.get(category, [])
+            if not cues:
+                continue
+
+            node_values = ke.get(category, [])
+            node_values_lower = [str(v).lower() for v in node_values]
+
+            cat_matches = []
+            for cue in cues:
+                cue_lower = cue.lower()
+                found = False
+                # Category-specific KE match (bidirectional substring)
+                for val in node_values_lower:
+                    if cue_lower in val or val in cue_lower:
+                        found = True
+                        break
+                # Fallback: summary/caption
+                if not found and cue_lower in combined:
+                    found = True
+                if found:
+                    cat_matches.append(cue)
+
+            if cat_matches:
+                matched_categories[category] = cat_matches
+                all_matched.extend(cat_matches)
+
+        total_score = sum(len(v) for v in matched_categories.values())
+        return total_score, matched_categories, all_matched
+
+    def build_structured(self, tree, structured_cues, min_category_matches=2):
+        """Structured cue 기반 tree filtering.
+
+        기존 build()와 동일한 반환 형식이지만, 활성화 조건이
+        '2개+ 카테고리에서 매칭' → precision 향상.
+
+        Args:
+            tree: streaming_memory_tree dict
+            structured_cues: {persons: [...], actions: [...], ...}
+            min_category_matches: 활성화에 필요한 최소 매칭 카테고리 수
+
+        Returns:
+            기존 build()와 동일한 dict 구조
+        """
+        empty = {
+            "activated_nodes": {}, "paths": [], "time_index": {},
+            "priority_leaves": [], "all_leaves": [],
+        }
+        if not tree or not structured_cues:
+            return empty
+
+        # Check if any cues exist
+        has_cues = any(
+            structured_cues.get(cat)
+            for cat in self._KE_CATEGORIES
+        )
+        if not has_cues:
+            return empty
+
+        # Discover all levels
+        levels = sorted(
+            [k for k in tree.keys() if k.startswith("Level_")],
+            key=lambda x: int(x.split("_")[1]),
+            reverse=True,
+        )
+
+        # Score all non-leaf nodes
+        activated = {}
+        for level_name in levels:
+            level_nodes = []
+            for idx, node in enumerate(tree.get(level_name, [])):
+                score, matched_cats, matched_cues = (
+                    self._match_node_structured(node, structured_cues)
+                )
+                level_nodes.append({
+                    "node": node,
+                    "idx": idx,
+                    "level": level_name,
+                    "score": score,
+                    "matched_cues": matched_cues,
+                    "matched_categories": matched_cats,
+                    "on": len(matched_cats) >= min_category_matches,
+                    "time_segments": node.get("time_segments", []),
+                })
+            activated[level_name] = level_nodes
+
+        # Score leaves (Level_1 children)
+        leaf_entries = []
+        if "Level_1" in tree:
+            for l1_idx, l1_node in enumerate(tree["Level_1"]):
+                for child_idx, child in enumerate(
+                    l1_node.get("children", [])
+                ):
+                    if "start_time" not in child:
+                        continue
+                    score, matched_cats, matched_cues = (
+                        self._match_node_structured(child, structured_cues)
+                    )
+                    leaf_entries.append({
+                        "node": child,
+                        "idx": child_idx,
+                        "level": "Level_0",
+                        "score": score,
+                        "matched_cues": matched_cues,
+                        "matched_categories": matched_cats,
+                        "on": len(matched_cats) >= min_category_matches,
+                        "parent_l1_idx": l1_idx,
+                        "parent_l1_summary": l1_node.get("summary", ""),
+                        "start_time": float(child["start_time"]),
+                        "end_time": float(child["end_time"]),
+                    })
+
+        activated["Level_0"] = leaf_entries
+
+        # Time index
+        time_index = {}
+        for entry in leaf_entries:
+            key = (entry["start_time"], entry["end_time"])
+            time_index[key] = entry
+
+        # Priority leaves: activated, sorted by (n_categories desc, score desc)
+        priority = sorted(
+            [e for e in leaf_entries if e["on"]],
+            key=lambda x: (-len(x.get("matched_categories", {})), -x["score"]),
+        )
+
+        # Build paths (reuse existing method)
+        paths = self._build_paths(tree, levels, activated, leaf_entries)
+
+        return {
+            "activated_nodes": activated,
+            "paths": paths,
+            "time_index": time_index,
+            "priority_leaves": priority,
+            "all_leaves": leaf_entries,
+        }

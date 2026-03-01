@@ -40,6 +40,10 @@ _REGISTRY = {
     ("focus_select", "default"): "prompts.focus_select",
     ("focus_caption", "default"): "prompts.focus_caption",
     ("focus_caption", "videolucy_style"): "prompts.focus_caption",
+    # Vgent-style structured reasoning prompts
+    ("sub_question", "generate"): "prompts.sub_question_generate",
+    ("sub_question", "answer"): "prompts.sub_question_answer",
+    ("aggregate", "info"): "prompts.aggregate_info",
 }
 
 
